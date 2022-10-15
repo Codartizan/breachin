@@ -11,8 +11,8 @@ ignores_ext = ('.js', '.mo', '.po', '.css', '.md', '.svg', '.html', '.txt', '.gz
                , '.fits', '.pxr', '.wal', '.fpx', '.blp', '.icc', '.ttf', '.otf', '.pcf', '.enc', '.pdf', '.npz', '.dat'
                , 'npy', '.xdy')
 
-old_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.3.0/'
-new_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.8.0/'
+old_base_dir = '/Users/tshi/researchProjs/django/django-2.2/'
+new_base_dir = '/Users/tshi/researchProjs/django/django-3.2/'
 
 # old_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.3.0/'
 # new_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.8.0/'

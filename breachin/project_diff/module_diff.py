@@ -49,9 +49,9 @@ if __name__ == '__main__':
                 if clas_p:
                     removed_class.append((rf, line.removesuffix('\n')))
 
-    print('Removed functions {} and classes {}:'.format(len(removed_func), len(removed_class)))
-    print(removed_func)
-    print(removed_class)
+    # print('Removed functions {} and classes {}:'.format(len(removed_func), len(removed_class)))
+    # print(removed_func)
+    # print(removed_class)
 
     moved_func = []
     moved_clas = []
@@ -64,9 +64,9 @@ if __name__ == '__main__':
         if len(search_fun_dir(new_base_dir, rcl[1])) > 0:
             moved_clas.append(rcl)
 
-    print('Moved functions {} and classes {}:'.format(len(moved_func), len(moved_clas)))
-    print(moved_func)
-    print(moved_clas)
+    # print('Moved functions {} and classes {}:'.format(len(moved_func), len(moved_clas)))
+    # print(moved_func)
+    # print(moved_clas)
 
     modified_func = []
     modified_clas = []
@@ -107,14 +107,31 @@ if __name__ == '__main__':
                     if len(search_fun_dir(old_base_dir, clazz_sig)) > 0:
                         added_class.append((af, line.removesuffix('\n')))
 
-    print('Added functions {} and classes {}'.format(len(added_func), len(added_class)))
-    print(added_func)
-    print(added_class)
+    # print('Added functions {} and classes {}'.format(len(added_func), len(added_class)))
+    # print(added_func)
+    # print(added_class)
 
-    print('In total: \n'
-          'Removed function {}, class {} \n'
-          'Moved function {}, class {} \n'
-          'Modified function {}, class {} \n'
-          'Added function {}, class {}'. format(len(removed_func)-len(moved_func)-len(modified_func), len(removed_class)-len(moved_clas)-len(modified_clas),
-                                                len(moved_func), len(moved_clas), len(modified_func), len(modified_clas),
-                                                len(added_func), len(added_class)))
+    # print('In total: \n'
+    #       'Removed function {}, class {} \n'
+    #       'Moved function {}, class {} \n'
+    #       'Modified function {}, class {} \n'
+    #       'Added function {}, class {}'. format(len(removed_func)-len(moved_func)-len(modified_func), len(removed_class)-len(moved_clas)-len(modified_clas),
+    #                                             len(moved_func), len(moved_clas), len(modified_func), len(modified_clas),
+    #                                             len(added_func), len(added_class)))
+    print('Function Removal')
+    print(removed_func)
+    print('Function Addition')
+    print(added_func)
+    print('Function modification')
+    print(modified_func)
+    print('Function moved')
+    print(moved_func)
+
+    print('Class Removal')
+    print(removed_class)
+    print('Class Addition')
+    print(added_class)
+    print('Class modification')
+    print(modified_clas)
+    print('Class moved')
+    print(moved_clas)

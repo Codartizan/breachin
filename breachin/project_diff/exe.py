@@ -66,7 +66,8 @@ if __name__ == '__main__':
     moved_module = list(set(added_filename).intersection(removed_filename))
 
     print('added module ' + str(len(added_module)))
-    # print(added_module)
+    print(added_module)
     print('removed module ' + str(len(removed_module)))
-    # print(removed_module)
+    print(removed_module)
     print('moved module ' + str(len(moved_module)))
+    print(moved_module)
