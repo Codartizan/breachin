@@ -1,0 +1,3030 @@
+('', 'pavement.py')
+-from __future__ import division, print_function
+
+('', 'pavement.py')
+-import subprocess
+
+('', 'pavement.py')
+-import re
+
+('', 'pavement.py')
++import textwrap
+
+('', 'pavement.py')
+-    setup_py = __import__("setup")
+
+('', 'pavement.py')
+-        from numpy.version import git_revision as GIT_REVISION
+
+('', 'pavement.py')
++    from setup import FULLVERSION
+
+('', 'azure-pipelines.yml')
+-      $pyversion = python -c "from __future__ import print_function; import sys; print(sys.version.split()[0])"
+
+('', 'azure-pipelines.yml')
+-      python -c "from tools import openblas_support; openblas_support.make_init('numpy')"
+
+('', 'azure-pipelines.yml')
+-      pushd . && cd .. && target=$(python -c "import numpy, os; print(os.path.abspath(os.path.join(os.path.dirname(numpy.__file__), '.libs')))") && popd
+
+('', 'azure-pipelines.yml')
+-  - script: pushd . && cd .. && python -c "from ctypes import windll; windll.kernel32.SetDefaultDllDirectories(0x00000800); import numpy" && popd
+
+('', 'azure-pipelines.yml')
++    # import doesn't work when in numpy src directory , so do a pip dev install of build lib to test
+
+('', 'azure-pipelines.yml')
++        python -c "import numpy as np" > test_output.log 2>&1
+
+('', 'azure-pipelines.yml')
++      displayName: "Check if numpy import fails with accelerate"
+
+('', 'setup.py')
++    python -c 'import numpy; numpy.test()'
+
+('', 'setup.py')
+-from __future__ import division, print_function
+
+('', 'setup.py')
++import warnings
+
+('', 'setup.py')
++import re
+
+('', 'setup.py')
++# Python supported version checks. Keep right after stdlib imports to ensure we
+
+('', 'setup.py')
++import versioneer
+
+('', 'setup.py')
++# BEFORE importing setuptools, remove MANIFEST. Otherwise it may not be
+
+('', 'setup.py')
++# We need to import setuptools here in order for it to persist in sys.modules.
+
+('', 'setup.py')
++# However, we need to run the distutils version of sdist, so import that first
+
+('', 'setup.py')
++import numpy.distutils.command.sdist
+
+('', 'setup.py')
++import setuptools
+
+('', 'setup.py')
++from numpy.distutils.core import numpy_cmdclass
+
+('', 'setup.py')
+-# BEFORE importing setuptools, remove MANIFEST. Otherwise it may not be
+
+('', 'setup.py')
+-    # otherwise the import of numpy.version messes up the build under Python 3.
+
+('', 'setup.py')
+-            from numpy.version import git_revision as GIT_REVISION
+
+('', 'setup.py')
+-            raise ImportError("Unable to import git_revision. Try removing " \
+
+('', 'setup.py')
+-from distutils.command.sdist import sdist
+
+('', 'setup.py')
++    from numpy.distutils.command.build_clib import build_clib
+
+('', 'setup.py')
++    from numpy.distutils.command.build_ext import build_ext
+
+('', 'setup.py')
++    from numpy.compat import _pep440
+
+('', 'setup.py')
++            from numpy.distutils.ccompiler_opt import NPY_CXX_FLAGS
+
+('', 'setup.py')
++    from numpy.compat import _pep440
+
+('', 'setup.py')
++        import Cython
+
+('', 'setup.py')
++        from Cython.Compiler.Version import version as cython_version
+
+('', 'setup.py')
+-    import warnings
+
+('', 'setup.py')
+-    from setuptools import setup
+
+('', 'setup.py')
++        #from setuptools import setup
+
+('', 'setup.py')
++        #from numpy.distutils.core import setup
+
+('', 'setup.py')
++        from setuptools import setup
+
+('', 'runtests.py')
+-from __future__ import division, print_function
+
+('', 'runtests.py')
+-import os
+
+('', 'runtests.py')
++import os, glob
+
+('', 'runtests.py')
+-        _temp = __import__(PROJECT_MODULE)
+
+('', 'runtests.py')
++            _temp = __import__(PROJECT_MODULE)
+
+('', 'runtests.py')
++            import mypy.api
+
+('', 'runtests.py')
+-    import distutils.sysconfig
+
+('', 'runtests.py')
++    import sysconfig
+
+('', 'runtests.py')
+-    from distutils.sysconfig import get_python_lib
+
+('', 'runtests.py')
+-    import builtins
+
+('', 'runtests.py')
++        from tools.linter import DiffLinter
+
+('tools', 'openblas_support.py')
+-from __future__ import division, absolute_import, print_function
+
+('tools', 'openblas_support.py')
++import glob
+
+('tools', 'openblas_support.py')
++import hashlib
+
+('tools', 'openblas_support.py')
++import platform
+
+('tools', 'openblas_support.py')
++import sysconfig
+
+('tools', 'openblas_support.py')
++import shutil
+
+('tools', 'openblas_support.py')
++import tarfile
+
+('tools', 'openblas_support.py')
+-import platform
+
+('tools', 'openblas_support.py')
+-    from urllib.request import urlopen
+
+('tools', 'openblas_support.py')
+-    from urllib.error import HTTPError
+
+('tools', 'openblas_support.py')
+-    from urllib2 import urlopen, HTTPError
+
+('tools', 'openblas_support.py')
++import zipfile
+
+('tools', 'openblas_support.py')
+-import zipfile
+
+('tools', 'openblas_support.py')
+-import tarfile
+
+('tools', 'openblas_support.py')
++from urllib.request import urlopen, Request
+
+('tools', 'openblas_support.py')
++from urllib.error import HTTPError
+
+('tools', 'openblas_support.py')
+-    import sysconfig
+
+('tools', 'openblas_support.py')
+-            from ctypes import WinDLL
+
+('tools', 'openblas_support.py')
++                    from ctypes import WinDLL
+
+('tools', 'openblas_support.py')
+-                    import warnings
+
+('tools', 'openblas_support.py')
++                        import warnings
+
+('tools', 'refguide_check.py')
+-from __future__ import print_function
+
+('tools', 'refguide_check.py')
+-import sys
+
+('tools', 'refguide_check.py')
++import copy
+
+('tools', 'refguide_check.py')
++import doctest
+
+('tools', 'refguide_check.py')
++import inspect
+
+('tools', 'refguide_check.py')
++import io
+
+('tools', 'refguide_check.py')
+-import copy
+
+('tools', 'refguide_check.py')
+-import inspect
+
+('tools', 'refguide_check.py')
++import shutil
+
+('tools', 'refguide_check.py')
++import sys
+
+('tools', 'refguide_check.py')
++import tempfile
+
+('tools', 'refguide_check.py')
+-import doctest
+
+('tools', 'refguide_check.py')
+-import tempfile
+
+('tools', 'refguide_check.py')
+-import io
+
+('tools', 'refguide_check.py')
++from argparse import ArgumentParser
+
+('tools', 'refguide_check.py')
++from contextlib import contextmanager, redirect_stderr
+
+('tools', 'refguide_check.py')
++from doctest import NORMALIZE_WHITESPACE, ELLIPSIS, IGNORE_EXCEPTION_DETAIL
+
+('tools', 'refguide_check.py')
+-import shutil
+
+('tools', 'refguide_check.py')
+-import glob
+
+('tools', 'refguide_check.py')
+-from doctest import NORMALIZE_WHITESPACE, ELLIPSIS, IGNORE_EXCEPTION_DETAIL
+
+('tools', 'refguide_check.py')
+-from argparse import ArgumentParser
+
+('tools', 'refguide_check.py')
+-    from sphinx.directives import SeeAlso, Only
+
+('tools', 'refguide_check.py')
++    from sphinx.directives.other import SeeAlso, Only
+
+('tools', 'refguide_check.py')
++    # cases where NumPy docstrings import things from other 3'rd party libs:
+
+('tools', 'cythonize.py')
+-from __future__ import division, print_function, absolute_import
+
+('tools', 'cythonize.py')
+-        from Cython.Compiler.Version import version as cython_version
+
+('tools', 'cythonize.py')
+-        from distutils.version import LooseVersion
+
+('tools', 'changelog.py')
+-from __future__ import print_function, division
+
+('tools', 'changelog.py')
+-import codecs
+
+('tools', 'commitstats.py')
+-from __future__ import division, absolute_import, print_function
+
+('tools', 'find_deprecated_escaped_characters.py')
+-from __future__ import division, absolute_import, print_function
+
+('tools', 'find_deprecated_escaped_characters.py')
+-import sys
+
+('tools/npy_tempita', '__init__.py')
+-from __future__ import absolute_import, division, print_function
+
+('tools/npy_tempita', '_looper.py')
+-from __future__ import absolute_import, division, print_function
+
+('tools/npy_tempita', 'compat3.py')
+-from __future__ import absolute_import, division, print_function
+
+('tools/c_coverage', 'c_coverage_report.py')
+-from __future__ import division, absolute_import, print_function
+
+('tools/c_coverage', 'c_coverage_report.py')
+-import optparse
+
+('tools/c_coverage', 'c_coverage_report.py')
++    import argparse
+
+('numpy', 'conftest.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', 'conftest.py')
++import os
+
+('numpy', 'conftest.py')
++import tempfile
+
+('numpy', 'conftest.py')
++import hypothesis
+
+('numpy', '_globals.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', '_globals.py')
++import enum
+
+('numpy', '__init__.py')
++    directly instead of importing them from `numpy.dual`.
+
+('numpy', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', '__init__.py')
+-from ._globals import ModuleDeprecationWarning, VisibleDeprecationWarning
+
+('numpy', '__init__.py')
+-from ._globals import _NoValue
+
+('numpy', '__init__.py')
++from ._globals import (
+
+('numpy', '__init__.py')
+-    from .version import git_revision as __git_revision__
+
+('numpy', '__init__.py')
+-    from .version import version as __version__
+
+('numpy', '__init__.py')
+-    from .compat import long
+
+('numpy', '__init__.py')
+-    # but not imported in from numpy import *
+
+('numpy', '__init__.py')
+-        from builtins import bool, int, float, complex, object, str
+
+('numpy', '__init__.py')
+-        from __builtin__ import bool, int, float, complex, object, unicode, str
+
+('numpy', '__init__.py')
++    import builtins as _builtins
+
+('numpy', '__init__.py')
++    # The list below will grow until the `from .lib import *` fixme above is
+
+('numpy', '__init__.py')
+-    from .testing import Tester
+
+('numpy', '__init__.py')
++        # Importing Tester requires importing all of UnitTest which is not a
+
+('numpy', '__init__.py')
++        # cheap import Since it is mainly used in test suits, we lazy import it
+
+('numpy', '__init__.py')
++        # here to save on the order of 10 ms of import time for most users
+
+('numpy', '__init__.py')
++        # The previous way Tester was imported also had a side effect of adding
+
+('numpy', '__init__.py')
++            import numpy.testing as testing
+
+('numpy', '__init__.py')
++            from .testing import Tester
+
+('numpy', '__init__.py')
++    import sys
+
+('numpy', '__init__.py')
++    import os
+
+('numpy', '__init__.py')
++        # will increase the import time. See: #16679 for related discussion.
+
+('numpy', '__init__.py')
++    # Give a warning if NumPy is reloaded or imported on a sub-interpreter
+
+('numpy', '__init__.py')
++        from pathlib import Path
+
+('numpy', '__init__.py')
++from .version import __version__, git_revision as __git_version__
+
+('numpy', 'dual.py')
++*This module is deprecated.  Instead of importing functions from*
+
+('numpy', 'dual.py')
++``numpy.dual``, *the functions should be imported directly from NumPy
+
+('numpy', 'dual.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', 'dual.py')
++import warnings
+
+('numpy', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy', 'ctypeslib.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', 'matlib.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', 'matlib.py')
++import warnings
+
+('numpy', 'matlib.py')
+-from numpy import *
+
+('numpy', 'matlib.py')
++from numpy import *  # noqa: F403
+
+('numpy', '_pytesttester.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy', '_pytesttester.py')
+-      from numpy.testing import PytestTester
+
+('numpy', '_pytesttester.py')
++      from numpy._pytesttester import PytestTester
+
+('numpy', '_pytesttester.py')
+-        #from . import utils
+
+('numpy', '_pytesttester.py')
+-        # distutils tests). ASV has problems with top level import,
+
+('numpy', '_pytesttester.py')
++            # distutils tests). ASV has problems with top level import,
+
+('numpy', '_pytesttester.py')
++            # Ignore the warning from importing the array_api submodule. This
+
+('numpy', '_pytesttester.py')
++            # warning is done on import, so it would break pytest collection,
+
+('numpy', '_pytesttester.py')
++            # but importing it early here prevents the warning from being
+
+('numpy', '_pytesttester.py')
++            # issued when it imported again.
+
+('numpy', '_pytesttester.py')
++            import numpy.array_api
+
+('numpy', '_pytesttester.py')
++            # not importing at the top level to avoid circular import of module
+
+('numpy', '_pytesttester.py')
++            from numpy.testing import IS_PYPY
+
+('numpy/distutils', 'unixccompiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'unixccompiler.py')
++import os
+
+('numpy/distutils', 'unixccompiler.py')
++import sys
+
+('numpy/distutils', 'unixccompiler.py')
++import subprocess
+
+('numpy/distutils', 'unixccompiler.py')
++import shlex
+
+('numpy/distutils', 'unixccompiler.py')
+-import os
+
+('numpy/distutils', 'unixccompiler.py')
+-from distutils.errors import DistutilsExecError, CompileError
+
+('numpy/distutils', 'unixccompiler.py')
+-from distutils.unixccompiler import *
+
+('numpy/distutils', 'unixccompiler.py')
++from distutils.errors import CompileError, DistutilsExecError, LibError
+
+('numpy/distutils', 'unixccompiler.py')
++from distutils.unixccompiler import UnixCCompiler
+
+('numpy/distutils', 'unixccompiler.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils', 'unixccompiler.py')
+-    from . import log
+
+('numpy/distutils', 'unixccompiler.py')
+-    from numpy.distutils import log
+
+('numpy/distutils', 'unixccompiler.py')
++from numpy.distutils import log
+
+('numpy/distutils', 'unixccompiler.py')
+-        from distutils.sysconfig import get_config_vars
+
+('numpy/distutils', 'unixccompiler.py')
++        from sysconfig import get_config_vars
+
+('numpy/distutils', 'numpy_distribution.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'conv_template.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'conv_template.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils', 'cpuinfo.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'cpuinfo.py')
+-import sys, re, types
+
+('numpy/distutils', 'cpuinfo.py')
+-    from subprocess import getstatusoutput
+
+('numpy/distutils', 'cpuinfo.py')
+-    from commands import getstatusoutput
+
+('numpy/distutils', 'cpuinfo.py')
++import platform
+
+('numpy/distutils', 'cpuinfo.py')
++import re
+
+('numpy/distutils', 'cpuinfo.py')
++import sys
+
+('numpy/distutils', 'cpuinfo.py')
++import types
+
+('numpy/distutils', 'cpuinfo.py')
+-import platform
+
+('numpy/distutils', 'cpuinfo.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils', 'cpuinfo.py')
++from subprocess import getstatusoutput
+
+('numpy/distutils', 'cpuinfo.py')
+-                import winreg
+
+('numpy/distutils', 'cpuinfo.py')
+-                import _winreg as winreg
+
+('numpy/distutils', 'cpuinfo.py')
++            import winreg
+
+('numpy/distutils', 'ccompiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'ccompiler.py')
+-import types
+
+('numpy/distutils', 'ccompiler.py')
+-from distutils.ccompiler import *
+
+('numpy/distutils', 'ccompiler.py')
+-from distutils.errors import DistutilsExecError, DistutilsModuleError, \
+
+('numpy/distutils', 'ccompiler.py')
++from distutils.ccompiler import (
+
+('numpy/distutils', 'ccompiler.py')
++from distutils.errors import (
+
+('numpy/distutils', 'ccompiler.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils', 'ccompiler.py')
+-    import threading
+
+('numpy/distutils', 'ccompiler.py')
+-    import dummy_threading as threading
+
+('numpy/distutils', 'ccompiler.py')
++import threading
+
+('numpy/distutils', 'ccompiler.py')
+-        from .fcompiler import FCompiler, is_f_file, has_f90_header
+
+('numpy/distutils', 'ccompiler.py')
+-        from numpy.distutils.fcompiler import (FCompiler, is_f_file,
+
+('numpy/distutils', 'ccompiler.py')
++    from numpy.distutils.fcompiler import (FCompiler, is_f_file,
+
+('numpy/distutils', 'ccompiler.py')
+-        import multiprocessing.pool
+
+('numpy/distutils', 'ccompiler.py')
++        from concurrent.futures import ThreadPoolExecutor
+
+('numpy/distutils', 'msvc9compiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'npy_pkg_config.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'npy_pkg_config.py')
+-    from ConfigParser import RawConfigParser
+
+('numpy/distutils', 'npy_pkg_config.py')
+-    from configparser import RawConfigParser
+
+('numpy/distutils', 'npy_pkg_config.py')
++from configparser import RawConfigParser
+
+('numpy/distutils', 'npy_pkg_config.py')
+-    import sys
+
+('numpy/distutils', 'misc_util.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'misc_util.py')
++import importlib.util
+
+('numpy/distutils', 'misc_util.py')
++from threading import local as tlocal
+
+('numpy/distutils', 'misc_util.py')
++from functools import reduce
+
+('numpy/distutils', 'misc_util.py')
+-    from threading import local as tlocal
+
+('numpy/distutils', 'misc_util.py')
+-    from dummy_threading import local as tlocal
+
+('numpy/distutils', 'misc_util.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils', 'misc_util.py')
+-from numpy.compat import basestring
+
+('numpy/distutils', 'misc_util.py')
+-from numpy.compat import npy_load_module
+
+('numpy/distutils', 'misc_util.py')
++    import warnings
+
+('numpy/distutils', 'misc_util.py')
+-    # XXX: import here for bootstrapping reasons
+
+('numpy/distutils', 'misc_util.py')
+-    import numpy
+
+('numpy/distutils', 'misc_util.py')
++    spec = importlib.util.find_spec('numpy')
+
+('numpy/distutils', 'misc_util.py')
+-        import builtins
+
+('numpy/distutils', 'misc_util.py')
+-        import __builtin__ as builtins
+
+('numpy/distutils', 'misc_util.py')
++    import builtins
+
+('numpy/distutils', 'misc_util.py')
++                >>> import numpy as np
+
+('numpy/distutils', 'misc_util.py')
++                from numpy.core._multiarray_umath import (
+
+('numpy/distutils', 'misc_util.py')
++    Use importlib machinery to import a module `modname` from the file
+
+('numpy/distutils', 'misc_util.py')
++    spec = importlib.util.spec_from_file_location(modname, modfile)
+
+('numpy/distutils', 'misc_util.py')
++    foo = importlib.util.module_from_spec(spec)
+
+('numpy/distutils', 'log.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'log.py')
+-from distutils.log import *
+
+('numpy/distutils', 'log.py')
++from distutils.log import *  # noqa: F403
+
+('numpy/distutils', 'log.py')
+-    from .misc_util import (red_text, default_text, cyan_text, green_text,
+
+('numpy/distutils', 'log.py')
+-    from numpy.distutils.misc_util import (red_text, default_text, cyan_text,
+
+('numpy/distutils', 'log.py')
++from numpy.distutils.misc_util import (red_text, default_text, cyan_text,
+
+('numpy/distutils', 'line_endings.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'line_endings.py')
++import os
+
+('numpy/distutils', 'line_endings.py')
++import re
+
+('numpy/distutils', 'line_endings.py')
++import sys
+
+('numpy/distutils', 'line_endings.py')
+-import sys, re, os
+
+('numpy/distutils', 'lib2def.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'pathccompiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'system_info.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'system_info.py')
+-    from ConfigParser import NoOptionError
+
+('numpy/distutils', 'system_info.py')
+-    from ConfigParser import RawConfigParser as ConfigParser
+
+('numpy/distutils', 'system_info.py')
+-    from configparser import NoOptionError
+
+('numpy/distutils', 'system_info.py')
+-    from configparser import RawConfigParser as ConfigParser
+
+('numpy/distutils', 'system_info.py')
++from configparser import NoOptionError
+
+('numpy/distutils', 'system_info.py')
++from configparser import RawConfigParser as ConfigParser
+
+('numpy/distutils', 'system_info.py')
+-import distutils.sysconfig
+
+('numpy/distutils', 'system_info.py')
+-from distutils import log
+
+('numpy/distutils', 'system_info.py')
++import sysconfig
+
+('numpy/distutils', 'system_info.py')
++from numpy.distutils import log
+
+('numpy/distutils', 'system_info.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils', 'system_info.py')
+-from numpy.distutils import customized_ccompiler
+
+('numpy/distutils', 'system_info.py')
++from numpy.distutils import customized_ccompiler as _customized_ccompiler
+
+('numpy/distutils', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', '__init__.py')
+-from .__version__ import version as __version__
+
+('numpy/distutils', '__init__.py')
++import warnings
+
+('numpy/distutils', '__init__.py')
+-from .info import __doc__
+
+('numpy/distutils', 'core.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'core.py')
+-from distutils.core import *
+
+('numpy/distutils', 'core.py')
++from distutils.core import Distribution
+
+('numpy/distutils', 'core.py')
+-from numpy.distutils.extension import Extension
+
+('numpy/distutils', 'core.py')
++from numpy.distutils.extension import Extension  # noqa: F401
+
+('numpy/distutils', 'core.py')
+-from numpy.distutils.misc_util import get_data_files, is_sequence, is_string
+
+('numpy/distutils', 'core.py')
++from numpy.distutils.misc_util import is_sequence, is_string
+
+('numpy/distutils', 'exec_command.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'from_template.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'mingw32ccompiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'mingw32ccompiler.py')
++import platform
+
+('numpy/distutils', 'mingw32ccompiler.py')
+-import numpy.distutils.ccompiler
+
+('numpy/distutils', 'mingw32ccompiler.py')
+-    from . import log
+
+('numpy/distutils', 'mingw32ccompiler.py')
+-    from numpy.distutils import log
+
+('numpy/distutils', 'mingw32ccompiler.py')
++import numpy.distutils.ccompiler  # noqa: F401
+
+('numpy/distutils', 'mingw32ccompiler.py')
++from numpy.distutils import log
+
+('numpy/distutils', 'mingw32ccompiler.py')
+-from distutils.version import StrictVersion
+
+('numpy/distutils', 'mingw32ccompiler.py')
+-from distutils.errors import (DistutilsExecError, CompileError,
+
+('numpy/distutils', 'mingw32ccompiler.py')
++from distutils.errors import UnknownFileError
+
+('numpy/distutils', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/distutils', 'extension.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'extension.py')
+-import sys
+
+('numpy/distutils', 'msvccompiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils', 'intelccompiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'gnu.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'gnu.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils/fcompiler', 'gnu.py')
+-from numpy.distutils.system_info import system_info
+
+('numpy/distutils/fcompiler', 'gnu.py')
++from distutils.version import LooseVersion
+
+('numpy/distutils/fcompiler', 'gnu.py')
+-                import distutils.sysconfig as sc
+
+('numpy/distutils/fcompiler', 'gnu.py')
++                import sysconfig
+
+('numpy/distutils/fcompiler', 'gnu.py')
+-        from distutils import sysconfig
+
+('numpy/distutils/fcompiler', 'gnu.py')
++        import sysconfig
+
+('numpy/distutils/fcompiler', 'compaq.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'compaq.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils/fcompiler', 'intel.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'none.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'nag.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'pg.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'pg.py')
+-from numpy.distutils.fcompiler import FCompiler, dummy_fortran_file
+
+('numpy/distutils/fcompiler', 'pg.py')
++from numpy.distutils.fcompiler import FCompiler
+
+('numpy/distutils/fcompiler', 'pg.py')
+-    import functools
+
+('numpy/distutils/fcompiler', 'pg.py')
++import functools
+
+('numpy/distutils/fcompiler', 'pg.py')
+-    from numpy.distutils.fcompiler import CompilerNotFound
+
+('numpy/distutils/fcompiler', 'ibm.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'sun.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'lahey.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', '__init__.py')
+-import types
+
+('numpy/distutils/fcompiler', '__init__.py')
+-from numpy.compat import open_latin1
+
+('numpy/distutils/fcompiler', '__init__.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils/fcompiler', 'g95.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'mips.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'hpux.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'environment.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'environment.py')
+-import warnings
+
+('numpy/distutils/fcompiler', 'pathf95.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'absoft.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/fcompiler', 'vast.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'config_compiler.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_ext.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_ext.py')
+-from numpy.distutils.system_info import combine_paths, system_info
+
+('numpy/distutils/command', 'build_ext.py')
+-from numpy.distutils.misc_util import filter_sources, has_f_sources, \
+
+('numpy/distutils/command', 'build_ext.py')
++from numpy.distutils.system_info import combine_paths
+
+('numpy/distutils/command', 'build_ext.py')
++from numpy.distutils.misc_util import (
+
+('numpy/distutils/command', 'build_ext.py')
++from numpy.distutils.ccompiler_opt import new_ccompiler_opt, CCompilerOpt
+
+('numpy/distutils/command', 'build_ext.py')
++            import atexit
+
+('numpy/distutils/command', 'config.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'config.py')
+-import os, signal
+
+('numpy/distutils/command', 'config.py')
++import os
+
+('numpy/distutils/command', 'config.py')
++import signal
+
+('numpy/distutils/command', 'config.py')
++import subprocess
+
+('numpy/distutils/command', 'config.py')
++import sys
+
+('numpy/distutils/command', 'config.py')
++import textwrap
+
+('numpy/distutils/command', 'config.py')
+-import sys
+
+('numpy/distutils/command', 'config.py')
+-import subprocess
+
+('numpy/distutils/command', 'config.py')
+-import textwrap
+
+('numpy/distutils/command', 'config.py')
+-from numpy.distutils.compat import get_exception
+
+('numpy/distutils/command', 'install_headers.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_py.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_src.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'sdist.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_scripts.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'bdist_rpm.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'install_clib.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_clib.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'build_clib.py')
+-from numpy.distutils.misc_util import filter_sources, has_f_sources,\
+
+('numpy/distutils/command', 'build_clib.py')
++from numpy.distutils.misc_util import (
+
+('numpy/distutils/command', 'build_clib.py')
++from numpy.distutils.ccompiler_opt import new_ccompiler_opt
+
+('numpy/distutils/command', 'build_clib.py')
++            import atexit
+
+('numpy/distutils/command', 'autodist.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'egg_info.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'install.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'develop.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/distutils/command', 'install_data.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/compat', 'py3k.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/compat', 'py3k.py')
++from pathlib import Path
+
+('numpy/compat', 'py3k.py')
++import io
+
+('numpy/compat', 'py3k.py')
+-    from pathlib import Path, PurePath
+
+('numpy/compat', 'py3k.py')
++    import pickle5 as pickle
+
+('numpy/compat', 'py3k.py')
++    import pickle
+
+('numpy/compat', 'py3k.py')
+-    import io
+
+('numpy/compat', 'py3k.py')
+-        import pickle5 as pickle
+
+('numpy/compat', 'py3k.py')
+-        import pickle
+
+('numpy/compat', 'py3k.py')
+-    import cpickle as pickle
+
+('numpy/compat', 'py3k.py')
+-        import importlib.machinery
+
+('numpy/compat', 'py3k.py')
+-        return importlib.machinery.SourceFileLoader(name, fn).load_module()
+
+('numpy/compat', 'py3k.py')
+-        import imp
+
+('numpy/compat', 'py3k.py')
+-import abc
+
+('numpy/compat', 'py3k.py')
++    # Explicitly lazy import this to avoid paying the cost
+
+('numpy/compat', 'py3k.py')
++    # of importing importlib at startup
+
+('numpy/compat', 'py3k.py')
++    from importlib.machinery import SourceFileLoader
+
+('numpy/compat', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/compat', '__init__.py')
++from . import _pep440
+
+('numpy/compat', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/compat', '_inspect.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'umath.py')
+-from numpy.core._multiarray_umath import *
+
+('numpy/core', 'umath.py')
+-from numpy.core._multiarray_umath import (
+
+('numpy/core', 'umath.py')
++from ._multiarray_umath import *  # noqa: F403
+
+('numpy/core', 'umath.py')
++# These imports are needed for backward compatibility,
+
+('numpy/core', 'umath.py')
++from ._multiarray_umath import _UFUNC_API, _add_newdoc_ufunc, _ones_like
+
+('numpy/core', 'fromnumeric.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'fromnumeric.py')
+-from .. import VisibleDeprecationWarning
+
+('numpy/core', 'fromnumeric.py')
+-from ._asarray import asarray, array, asanyarray
+
+('numpy/core', 'fromnumeric.py')
+-from .multiarray import concatenate
+
+('numpy/core', 'fromnumeric.py')
++from .multiarray import asarray, array, asanyarray, concatenate
+
+('numpy/core', '_dtype.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_dtype.py')
+-import sys
+
+('numpy/core', '_add_newdocs.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_add_newdocs.py')
+-import sys
+
+('numpy/core', '_add_newdocs.py')
+-from numpy.core import numerictypes as _numerictypes
+
+('numpy/core', '_add_newdocs.py')
+-from numpy.core import dtype
+
+('numpy/core', '_add_newdocs.py')
++from numpy.core.overrides import array_function_like_doc
+
+('numpy/core', '_add_newdocs.py')
++    >>> import torch
+
+('numpy/core', '_add_newdocs.py')
++    >>> from typing import Any
+
+('numpy/core', '_add_newdocs.py')
++    >>> import numpy as np
+
+('numpy/core', '_add_newdocs.py')
++    >>> import numpy as np
+
+('numpy/core', '_add_newdocs.py')
++    >>> from typing import Any
+
+('numpy/core', '_add_newdocs.py')
++    >>> import numpy as np
+
+('numpy/core', '_methods.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_methods.py')
++from contextlib import nullcontext
+
+('numpy/core', '_methods.py')
+-from numpy.core._asarray import asanyarray
+
+('numpy/core', '_methods.py')
++from numpy.core.multiarray import asanyarray
+
+('numpy/core', '_methods.py')
+-from numpy.compat import pickle, os_fspath, contextlib_nullcontext
+
+('numpy/core', '_methods.py')
++from numpy.compat import pickle, os_fspath
+
+('numpy/core', '_methods.py')
++        # guarded to protect circular imports
+
+('numpy/core', '_methods.py')
++        from numpy.lib.stride_tricks import broadcast_to
+
+('numpy/core', '_internal.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_internal.py')
++import ast
+
+('numpy/core', '_internal.py')
+-from numpy.compat import unicode
+
+('numpy/core', '_internal.py')
+-from .multiarray import dtype, array, ndarray
+
+('numpy/core', '_internal.py')
++import warnings
+
+('numpy/core', '_internal.py')
++from .multiarray import dtype, array, ndarray, promote_types
+
+('numpy/core', '_internal.py')
+-    import numpy as np
+
+('numpy/core', 'multiarray.py')
+-import sys
+
+('numpy/core', 'multiarray.py')
+-import warnings
+
+('numpy/core', 'multiarray.py')
+-import sys
+
+('numpy/core', 'multiarray.py')
+-import numpy as np
+
+('numpy/core', 'multiarray.py')
+-from numpy.core._multiarray_umath import *
+
+('numpy/core', 'multiarray.py')
+-from numpy.core._multiarray_umath import (
+
+('numpy/core', 'multiarray.py')
++from ._multiarray_umath import *  # noqa: F403
+
+('numpy/core', 'multiarray.py')
++# These imports are needed for backward compatibility,
+
+('numpy/core', 'multiarray.py')
++from ._multiarray_umath import (
+
+('numpy/core', 'multiarray.py')
++    >>> from numpy.lib.stride_tricks import as_strided
+
+('numpy/core', '_asarray.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_asarray.py')
+-from .overrides import set_module
+
+('numpy/core', '_asarray.py')
+-from .multiarray import array
+
+('numpy/core', '_asarray.py')
++from .overrides import (
+
+('numpy/core', '_asarray.py')
++from .multiarray import array, asanyarray
+
+('numpy/core', 'records.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'records.py')
+-import sys
+
+('numpy/core', 'records.py')
+-import os
+
+('numpy/core', 'records.py')
+-from collections import Counter, OrderedDict
+
+('numpy/core', 'records.py')
++from collections import Counter
+
+('numpy/core', 'records.py')
++from contextlib import nullcontext
+
+('numpy/core', 'records.py')
+-from numpy.compat import (
+
+('numpy/core', 'records.py')
++from numpy.compat import os_fspath
+
+('numpy/core', 'records.py')
+-from .arrayprint import get_printoptions
+
+('numpy/core', 'records.py')
++from .arrayprint import _get_legacy_print_mode
+
+('numpy/core', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '__init__.py')
+-from .info import __doc__
+
+('numpy/core', '__init__.py')
++import warnings
+
+('numpy/core', '__init__.py')
++    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+('numpy/core', '__init__.py')
+-from .records import *
+
+('numpy/core', '__init__.py')
++from .records import record, recarray, format_parser
+
+('numpy/core', '__init__.py')
+-from . import machar
+
+('numpy/core', '__init__.py')
+-from .machar import *
+
+('numpy/core', '__init__.py')
++from . import _machar
+
+('numpy/core', '__init__.py')
++from ._machar import *
+
+('numpy/core', '__init__.py')
++from . import _add_newdocs_scalars
+
+('numpy/core', '__init__.py')
+-    from pickle import whichmodule
+
+('numpy/core', '__init__.py')
+-import sys
+
+('numpy/core', '__init__.py')
+-    import copyreg
+
+('numpy/core', '__init__.py')
+-    import copy_reg as copyreg
+
+('numpy/core', '__init__.py')
++import copyreg
+
+('numpy/core', 'setup_common.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'setup_common.py')
++import copy
+
+('numpy/core', 'setup_common.py')
++import pathlib
+
+('numpy/core', 'setup_common.py')
++import textwrap
+
+('numpy/core', 'setup_common.py')
+-import copy
+
+('numpy/core', 'setup_common.py')
+-import binascii
+
+('numpy/core', 'setup_common.py')
+-    from distutils.version import LooseVersion
+
+('numpy/core', 'memmap.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'memmap.py')
++from contextlib import nullcontext
+
+('numpy/core', 'memmap.py')
+-from numpy.compat import (
+
+('numpy/core', 'memmap.py')
++from numpy.compat import os_fspath, is_pathlib_path
+
+('numpy/core', 'overrides.py')
+-import textwrap
+
+('numpy/core', 'getlimits.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'getlimits.py')
+-from .machar import MachAr
+
+('numpy/core', 'getlimits.py')
++from ._machar import MachAr
+
+('numpy/core', 'getlimits.py')
+-from .numeric import array, inf
+
+('numpy/core', 'getlimits.py')
+-from .umath import log10, exp2
+
+('numpy/core', 'getlimits.py')
+-from . import umath
+
+('numpy/core', 'getlimits.py')
++from .numeric import array, inf, NaN
+
+('numpy/core', 'getlimits.py')
++from .umath import log10, exp2, nextafter, isnan
+
+('numpy/core', '_dtype_ctypes.py')
+-import _ctypes
+
+('numpy/core', '_dtype_ctypes.py')
+-import ctypes
+
+('numpy/core', '_dtype_ctypes.py')
++# We delay-import ctypes for distributions that do not include it.
+
+('numpy/core', '_dtype_ctypes.py')
++# members, it is eagerly imported from numpy/core/__init__.py.
+
+('numpy/core', '_dtype_ctypes.py')
++        import ctypes
+
+('numpy/core', '_dtype_ctypes.py')
++    import ctypes
+
+('numpy/core', '_dtype_ctypes.py')
++    import _ctypes
+
+('numpy/core', 'defchararray.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'defchararray.py')
+-import sys
+
+('numpy/core', 'defchararray.py')
+-from .numerictypes import string_, unicode_, integer, object_, bool_, character
+
+('numpy/core', 'defchararray.py')
++from .numerictypes import (
+
+('numpy/core', 'defchararray.py')
+-from numpy.compat import asbytes, long
+
+('numpy/core', 'defchararray.py')
++from numpy.compat import asbytes
+
+('numpy/core', 'shape_base.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'shape_base.py')
++import itertools
+
+('numpy/core', 'shape_base.py')
+-from .numeric import array, asanyarray, newaxis
+
+('numpy/core', 'shape_base.py')
+-from .multiarray import normalize_axis_index
+
+('numpy/core', 'shape_base.py')
++from .multiarray import array, asanyarray, normalize_axis_index
+
+('numpy/core', 'shape_base.py')
++from . import fromnumeric as _from_nx
+
+('numpy/core', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/core', 'setup.py')
++import glob
+
+('numpy/core', 'setup.py')
+-from distutils.sysconfig import get_config_var
+
+('numpy/core', 'setup.py')
+-from numpy._build_utils.apple_accelerate import (
+
+('numpy/core', 'setup.py')
++from sysconfig import get_config_var
+
+('numpy/core', 'setup.py')
+-from setup_common import *
+
+('numpy/core', 'setup.py')
++from setup_common import *  # noqa: F403
+
+('numpy/core', 'setup.py')
+-    from numpy.distutils.misc_util import Configuration, dot_join
+
+('numpy/core', 'setup.py')
+-    from numpy.distutils.system_info import get_info
+
+('numpy/core', 'setup.py')
++    from numpy.distutils.misc_util import (Configuration, dot_join,
+
+('numpy/core', 'setup.py')
++    from numpy.distutils.system_info import (get_info, blas_opt_info,
+
+('numpy/core', 'setup.py')
++    from numpy.distutils.ccompiler_opt import NPY_CXX_FLAGS
+
+('numpy/core', 'setup.py')
++    from numpy.version import release as is_released
+
+('numpy/core', 'setup.py')
++        from numpy.distutils.misc_util import exec_mod_from_location
+
+('numpy/core', 'numeric.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'numeric.py')
+-import contextlib
+
+('numpy/core', 'numeric.py')
+-from numpy.compat import pickle, basestring
+
+('numpy/core', 'numeric.py')
+-    from .multiarray import newbuffer, getbuffer
+
+('numpy/core', 'numeric.py')
+-from .overrides import set_module
+
+('numpy/core', 'numeric.py')
++from . import shape_base
+
+('numpy/core', 'numeric.py')
++from .overrides import set_array_function_like_doc, set_module
+
+('numpy/core', 'numeric.py')
+-from ._asarray import asarray, asanyarray
+
+('numpy/core', 'numeric.py')
+-    import builtins
+
+('numpy/core', 'numeric.py')
+-    import __builtin__ as builtins
+
+('numpy/core', 'numeric.py')
+-# fix hack in scipy which imports this function
+
+('numpy/core', 'function_base.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'function_base.py')
++import types
+
+('numpy/core', 'function_base.py')
+-from .numeric import (result_type, NaN, shares_memory, MAY_SHARE_BOUNDS,
+
+('numpy/core', 'function_base.py')
++from .numeric import result_type, NaN, asanyarray, ndim
+
+('numpy/core', 'function_base.py')
++        The absolute name of the module to import from
+
+('numpy/core', 'einsumfunc.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'einsumfunc.py')
+-from numpy.compat import basestring
+
+('numpy/core', 'einsumfunc.py')
++import operator
+
+('numpy/core', 'umath_tests.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_ufunc_config.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', '_ufunc_config.py')
+-    import collections.abc as collections_abc
+
+('numpy/core', '_ufunc_config.py')
+-    import collections as collections_abc
+
+('numpy/core', '_ufunc_config.py')
++import collections.abc
+
+('numpy/core', '_ufunc_config.py')
+-    >>> from collections import OrderedDict
+
+('numpy/core', '_ufunc_config.py')
+-    >>> from collections import OrderedDict
+
+('numpy/core', '_ufunc_config.py')
+-    >>> from collections import OrderedDict
+
+('numpy/core', '_ufunc_config.py')
+-    >>> from collections import OrderedDict
+
+('numpy/core', '_ufunc_config.py')
+-    # without a from __future__ import with_statement
+
+('numpy/core', 'numerictypes.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'numerictypes.py')
+-import types as _types
+
+('numpy/core', 'numerictypes.py')
+-import sys
+
+('numpy/core', 'numerictypes.py')
+-import warnings
+
+('numpy/core', 'numerictypes.py')
+-from numpy.compat import bytes, long
+
+('numpy/core', 'numerictypes.py')
+-    from builtins import bool, int, float, complex, object, str
+
+('numpy/core', 'numerictypes.py')
+-    from __builtin__ import bool, int, float, complex, object, unicode, str
+
+('numpy/core', 'numerictypes.py')
++from builtins import bool, int, float, complex, object, str, bytes
+
+('numpy/core', 'numerictypes.py')
++from numpy.compat import long, unicode
+
+('numpy/core', '_type_aliases.py')
+-import warnings
+
+('numpy/core', '_type_aliases.py')
+-import sys
+
+('numpy/core', '_type_aliases.py')
+-from numpy._globals import VisibleDeprecationWarning
+
+('numpy/core', '_type_aliases.py')
+-from numpy.core._string_helpers import english_lower, english_capitalize
+
+('numpy/core', '_type_aliases.py')
++from numpy.core._string_helpers import english_lower
+
+('numpy/core', 'cversions.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'arrayprint.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core', 'arrayprint.py')
+-import sys
+
+('numpy/core', 'arrayprint.py')
+-        from _thread import get_ident
+
+('numpy/core', 'arrayprint.py')
+-        from _dummy_thread import get_ident
+
+('numpy/core', 'arrayprint.py')
+-        from thread import get_ident
+
+('numpy/core', 'arrayprint.py')
+-        from dummy_thread import get_ident
+
+('numpy/core', 'arrayprint.py')
++import sys
+
+('numpy/core', 'arrayprint.py')
++    from _thread import get_ident
+
+('numpy/core', 'arrayprint.py')
++    from _dummy_thread import get_ident
+
+('numpy/core', 'arrayprint.py')
+-from .umath import absolute, not_equal, isnan, isinf, isfinite, isnat
+
+('numpy/core', 'arrayprint.py')
++from .umath import absolute, isinf, isfinite, isnat
+
+('numpy/core', 'arrayprint.py')
+-from .fromnumeric import ravel, any
+
+('numpy/core', 'arrayprint.py')
++from .fromnumeric import any
+
+('numpy/core', 'arrayprint.py')
++import operator
+
+('numpy/core/code_generators', 'generate_ufunc_api.py')
+-from __future__ import division, print_function
+
+('numpy/core/code_generators', 'generate_ufunc_api.py')
+-from genapi import \
+
+('numpy/core/code_generators', 'generate_ufunc_api.py')
++from genapi import TypeApi, FunctionApi
+
+('numpy/core/code_generators', 'generate_numpy_api.py')
+-from __future__ import division, print_function
+
+('numpy/core/code_generators', 'generate_numpy_api.py')
+-#define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return NUMPY_IMPORT_ARRAY_RETVAL; } }
+
+('numpy/core/code_generators', 'generate_numpy_api.py')
++#define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return NULL; } }
+
+('numpy/core/code_generators', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core/code_generators', 'genapi.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core/code_generators', 'genapi.py')
+-import sys, os, re
+
+('numpy/core/code_generators', 'genapi.py')
++from numpy.distutils.conv_template import process_file as process_c_file
+
+('numpy/core/code_generators', 'genapi.py')
++import io
+
+('numpy/core/code_generators', 'genapi.py')
++import os
+
+('numpy/core/code_generators', 'genapi.py')
++import re
+
+('numpy/core/code_generators', 'genapi.py')
++import sys
+
+('numpy/core/code_generators', 'generate_umath.py')
+-from __future__ import division, print_function
+
+('numpy/core/code_generators', 'generate_umath.py')
+-import ufunc_docstrings as docstrings
+
+('numpy/core/code_generators', 'ufunc_docstrings.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core/code_generators', 'ufunc_docstrings.py')
+-    __future__ import division``.
+
+('numpy/core/code_generators', 'ufunc_docstrings.py')
+-    >>> from __future__ import division
+
+('numpy/core/code_generators', 'numpy_api.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/core/code_generators', 'numpy_api.py')
+-from code_generators.genapi import StealRef, NonNull
+
+('numpy/core/code_generators', 'numpy_api.py')
++from code_generators.genapi import StealRef
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++#include "npy_import.h"
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++     * We need to do a delayed import here as initialization on module load
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++     * leads to circular import problems.
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++    npy_cache_import("numpy.core.arrayprint", "_default_array_repr", &repr);
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++     * We need to do a delayed import here as initialization on module load leads
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++     * to circular import problems.
+
+('numpy/core/src/multiarray', 'strfuncs.c')
++    npy_cache_import("numpy.core.arrayprint", "_default_array_str", &str);
+
+('numpy/core/src/multiarray', 'multiarraymodule.c')
++                "NumPy was imported from a Python sub-interpreter but "
+
+('numpy/core/src/multiarray', 'multiarraymodule.c')
++                "The NumPy module was reloaded (imported a second time). "
+
+('numpy/core/src/multiarray', 'methods.c')
++        npy_cache_import("numpy.core._methods", name, &callable); \
+
+('numpy/core/src/multiarray', 'methods.c')
+-     * built-in support for protocol 5. We try importing the pickle5
+
+('numpy/core/src/multiarray', 'conversion_utils.c')
++    npy_cache_import("numpy", "_CopyMode", &numpy_CopyMode);
+
+('numpy/core/src/multiarray', 'dtype_transfer.c')
++    /* Make sure all important fields are either set or cleared */
+
+('numpy/core/src/multiarray', 'dtype_transfer.c')
+-    /* TODO: Special case some important cases so they're fast */
+
+('numpy/core/src/multiarray', 'arraytypes.c.src')
++ * This is especially important for nonzero and copyswap, which may run with
+
+('numpy/core/src/multiarray', 'common.h')
++#include "npy_import.h"
+
+('numpy/core/src/multiarray', 'common.h')
++        npy_cache_import("numpy.core._exceptions", "AxisError", &AxisError_cls);
+
+('numpy/core/src/multiarray', 'convert_datatype.c')
++    npy_cache_import("numpy.core", "ComplexWarning", &cls);
+
+('numpy/core/src/multiarray', 'descriptor.c')
++        /* NULL represents `type`, this is set to DTypeMeta at import time */
+
+('numpy/core/src/multiarray', 'ctors.c')
++    npy_cache_import(
+
+('numpy/core/src/multiarray', 'ctors.c')
+-            npy_cache_import(
+
+('numpy/core/src/multiarray', 'ctors.c')
+-    npy_cache_import("numpy.core._internal", "_is_from_ctypes", &py_func);
+
+('numpy/core/src/multiarray', 'ctors.c')
++                "NumPy currently does not support importing buffers which "
+
+('numpy/core/src/multiarray', 'scalartypes.c.src')
++    npy_cache_import("numpy", "VisibleDeprecationWarning",
+
+('numpy/core/src/umath', 'ufunc_object.c')
+-    npy_cache_import("numpy", "_NoValue", &NoValue);
+
+('numpy/core/src/umath', 'ufunc_object.c')
++    npy_cache_import("numpy", "_NoValue", &NoValue);
+
+('numpy/core/src/umath', 'ufunc_object.c')
++            /* This does not warn about `metadata`, but units is important. */
+
+('numpy/core/src/umath', 'ufunc_object.c')
+-    npy_cache_import(
+
+('numpy/core/src/umath', 'ufunc_object.c')
++    npy_cache_import("numpy", "matrix", &_numpy_matrix);
+
+('numpy/core/src/umath', 'simd.inc.src')
+-        /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'simd.inc.src')
+-            /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'simd.inc.src')
+-        /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'loops.c.src')
+-                /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'loops.c.src')
+-            /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'loops.c.src')
+-            /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'loops.c.src')
+-            /* Order of operations important for MSVC 2015 */
+
+('numpy/core/src/umath', 'override.c')
+-    npy_cache_import("numpy", "_NoValue", &NoValue);
+
+('numpy/core/src/umath', 'override.c')
++            npy_cache_import("numpy", "_NoValue", &NoValue);
+
+('numpy/core/src/umath', 'scalarmath.c.src')
++#include "npy_import.h"
+
+('numpy/core/src/umath', 'scalarmath.c.src')
++ * operation is not defined.  This is/was especially important for longdoubles
+
+('numpy/core/src/umath', 'scalarmath.c.src')
++    npy_cache_import("numpy.core", "ComplexWarning", &cls);
+
+('numpy/core/src/umath', 'ufunc_type_resolution.c')
+- * This function will not be hit for py3 or when __future__ imports division.
+
+('numpy/linalg', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/linalg', '__init__.py')
++from . import linalg
+
+('numpy/linalg', '__init__.py')
++from .linalg import *
+
+('numpy/linalg', '__init__.py')
+-from .info import __doc__
+
+('numpy/linalg', '__init__.py')
+-from .linalg import *
+
+('numpy/linalg', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/linalg', 'setup.py')
+-    from numpy.distutils.system_info import get_info
+
+('numpy/linalg', 'setup.py')
++    from numpy.distutils.ccompiler_opt import NPY_CXX_FLAGS
+
+('numpy/linalg', 'setup.py')
++    from numpy.distutils.system_info import get_info, system_info
+
+('numpy/linalg', 'linalg.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/linalg', 'linalg.py')
+-from numpy.linalg import lapack_lite, _umath_linalg
+
+('numpy/linalg', 'linalg.py')
++from numpy.linalg import _umath_linalg
+
+('numpy/linalg', 'linalg.py')
++    import numpy as _nx
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
+-import sys, os
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
++import os
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
++import sys
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
+-    from io import BytesIO as UStringIO
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
+-    from io import StringIO as UStringIO
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
++    from io import BytesIO as UStringIO  # Python 2
+
+('numpy/linalg/lapack_lite', 'clapack_scrub.py')
++    from io import StringIO as UStringIO  # Python 3
+
+('numpy/linalg/lapack_lite', 'make_lite.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/linalg/lapack_lite', 'make_lite.py')
++import re
+
+('numpy/linalg/lapack_lite', 'make_lite.py')
+-    from distutils.spawn import find_executable as which
+
+('numpy/linalg/lapack_lite', 'make_lite.py')
+-    from shutil import which
+
+('numpy/linalg/lapack_lite', 'make_lite.py')
++    from distutils.spawn import find_executable as which  # Python 2
+
+('numpy/linalg/lapack_lite', 'make_lite.py')
++    from shutil import which  # Python 3
+
+('numpy/linalg/lapack_lite', 'fortran.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', 'extras.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', 'extras.py')
+-import numpy.core.umath as umath
+
+('numpy/ma', 'testutils.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', 'core.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', 'core.py')
+-import sys
+
+('numpy/ma', 'core.py')
++import builtins
+
+('numpy/ma', 'core.py')
++import inspect
+
+('numpy/ma', 'core.py')
+-    import builtins
+
+('numpy/ma', 'core.py')
+-    import __builtin__ as builtins
+
+('numpy/ma', 'core.py')
+-from numpy.core._internal import recursive
+
+('numpy/ma', 'core.py')
+-from numpy.compat import pickle
+
+('numpy/ma', 'bench.py')
+-from __future__ import division, print_function
+
+('numpy/ma', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/ma', 'timer_comparison.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', 'mrecords.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/ma', 'mrecords.py')
+-import sys
+
+('numpy/ma', 'mrecords.py')
++from numpy.ma import (
+
+('numpy/ma', 'mrecords.py')
++import numpy.ma as ma
+
+('numpy/ma', 'mrecords.py')
+-from numpy.compat import basestring
+
+('numpy/ma', 'mrecords.py')
+-import numpy.ma as ma
+
+('numpy/ma', 'mrecords.py')
+-from numpy.ma import (
+
+('numpy/f2py', 'cfuncs.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'common_rules.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'crackfortran.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'crackfortran.py')
++from . import symbolic
+
+('numpy/f2py', 'cb_rules.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', '__init__.py')
+-import numpy as np
+
+('numpy/f2py', '__init__.py')
+-from . import f2py_testing
+
+('numpy/f2py', '__init__.py')
+-from numpy._pytesttester import PytestTester
+
+('numpy/f2py', '__init__.py')
++    # Avoid importing things that aren't needed for building
+
+('numpy/f2py', '__init__.py')
++    # which might import the main numpy module
+
+('numpy/f2py', '__init__.py')
++        from numpy._pytesttester import PytestTester
+
+('numpy/f2py', 'rules.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'rules.py')
++import os, sys
+
+('numpy/f2py', 'rules.py')
++import time
+
+('numpy/f2py', 'rules.py')
++import copy
+
+('numpy/f2py', 'rules.py')
++from pathlib import Path
+
+('numpy/f2py', 'rules.py')
+-import os
+
+('numpy/f2py', 'rules.py')
+-import time
+
+('numpy/f2py', 'rules.py')
+-import copy
+
+('numpy/f2py', 'rules.py')
+-\timport_array();
+
+('numpy/f2py', 'rules.py')
+-\t\t{PyErr_SetString(PyExc_ImportError, \"can't initialize module #modulename# (failed to import numpy)\"); return RETVAL;}
+
+('numpy/f2py', 'rules.py')
++    import_array();
+
+('numpy/f2py', 'rules.py')
++        {PyErr_SetString(PyExc_ImportError, \"can't initialize module #modulename# (failed to import numpy)\"); return m;}
+
+('numpy/f2py', 'f2py2e.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'f2py2e.py')
++from pathlib import Path
+
+('numpy/f2py', 'f2py2e.py')
++from . import capi_maps
+
+('numpy/f2py', 'f2py2e.py')
+-    from numpy import __version__ as numpy_version
+
+('numpy/f2py', 'f2py2e.py')
+-                from numpy.distutils import fcompiler
+
+('numpy/f2py', 'f2py2e.py')
++            from numpy.distutils import fcompiler
+
+('numpy/f2py', 'func2subr.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', '__version__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', '__version__.py')
+-    from __svn_version__ import version
+
+('numpy/f2py', '__version__.py')
++from numpy.version import version
+
+('numpy/f2py', 'diagnose.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/f2py', 'capi_maps.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'capi_maps.py')
+-import sys
+
+('numpy/f2py', 'f90mod_rules.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'use_rules.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', 'auxfuncs.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/f2py', '__main__.py')
+-from __future__ import division, print_function
+
+('numpy/lib', '_iotools.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', '_iotools.py')
+-import sys
+
+('numpy/lib', '_iotools.py')
+-from numpy.compat import asbytes, asunicode, bytes, basestring
+
+('numpy/lib', '_iotools.py')
+-    from builtins import bool, int, float, complex, object, str
+
+('numpy/lib', '_iotools.py')
+-    from __builtin__ import bool, int, float, complex, object, unicode, str
+
+('numpy/lib', '_iotools.py')
++from numpy.compat import asbytes, asunicode
+
+('numpy/lib', '_iotools.py')
+-            import gzip
+
+('numpy/lib', '_iotools.py')
+-            import bz2
+
+('numpy/lib', '_iotools.py')
+-    >>> import dateutil.parser
+
+('numpy/lib', '_iotools.py')
+-    >>> import datetime
+
+('numpy/lib', '_iotools.py')
++        >>> import dateutil.parser
+
+('numpy/lib', '_iotools.py')
++        >>> import datetime
+
+('numpy/lib', 'mixins.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'mixins.py')
+-import sys
+
+('numpy/lib', 'nanfunctions.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'recfunctions.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'recfunctions.py')
+-import sys
+
+('numpy/lib', 'recfunctions.py')
+-from numpy.compat import basestring
+
+('numpy/lib', 'recfunctions.py')
+-    from future_builtins import zip
+
+('numpy/lib', 'histograms.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'histograms.py')
+-from numpy.compat.py3k import basestring
+
+('numpy/lib', 'scimath.py')
+-  >>> from numpy.lib import scimath
+
+('numpy/lib', 'scimath.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', '_version.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', '_version.py')
+-from numpy.compat import basestring
+
+('numpy/lib', 'user_array.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'user_array.py')
+-from numpy.compat import long
+
+('numpy/lib', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', '__init__.py')
+-from .info import __doc__
+
+('numpy/lib', '__init__.py')
++# Note: recfunctions and (maybe) format are public too, but not imported
+
+('numpy/lib', '__init__.py')
++from . import mixins
+
+('numpy/lib', '__init__.py')
++from . import scimath as emath
+
+('numpy/lib', '__init__.py')
+-from .mixins import *
+
+('numpy/lib', '__init__.py')
+-from . import scimath as emath
+
+('numpy/lib', '__init__.py')
+-#import convertcode
+
+('numpy/lib', '__init__.py')
+-from .financial import *
+
+('numpy/lib', 'format.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'format.py')
+-import sys
+
+('numpy/lib', 'format.py')
+-import io
+
+('numpy/lib', 'format.py')
+-        from io import StringIO
+
+('numpy/lib', 'format.py')
+-        from StringIO import StringIO
+
+('numpy/lib', 'format.py')
++    from io import StringIO
+
+('numpy/lib', 'twodim_base.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'twodim_base.py')
++import operator
+
+('numpy/lib', 'twodim_base.py')
+-from numpy.core.overrides import set_module
+
+('numpy/lib', 'twodim_base.py')
++from numpy.core.overrides import set_array_function_like_doc, set_module
+
+('numpy/lib', 'twodim_base.py')
+-from numpy.core import iinfo, transpose
+
+('numpy/lib', 'twodim_base.py')
++from numpy.core import iinfo
+
+('numpy/lib', 'twodim_base.py')
++from numpy.lib.stride_tricks import broadcast_to
+
+('numpy/lib', 'index_tricks.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'index_tricks.py')
++import warnings
+
+('numpy/lib', 'npyio.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'npyio.py')
+-import sys
+
+('numpy/lib', 'npyio.py')
+-from operator import itemgetter, index as opindex
+
+('numpy/lib', 'npyio.py')
++import operator
+
+('numpy/lib', 'npyio.py')
++from operator import itemgetter, index as opindex, methodcaller
+
+('numpy/lib', 'npyio.py')
++from collections.abc import Mapping
+
+('numpy/lib', 'npyio.py')
+-from numpy.core.overrides import set_module
+
+('numpy/lib', 'npyio.py')
+-from numpy.core._internal import recursive
+
+('numpy/lib', 'npyio.py')
++from numpy.core._multiarray_umath import _load_from_filelike
+
+('numpy/lib', 'npyio.py')
++from numpy.core.overrides import set_array_function_like_doc, set_module
+
+('numpy/lib', 'npyio.py')
+-    from collections.abc import Mapping
+
+('numpy/lib', 'npyio.py')
+-    from future_builtins import map
+
+('numpy/lib', 'npyio.py')
+-    from collections import Mapping
+
+('numpy/lib', 'npyio.py')
+-        pickle_kwargs = dict(encoding=encoding, fix_imports=fix_imports)
+
+('numpy/lib', 'npyio.py')
++    pickle_kwargs = dict(encoding=encoding, fix_imports=fix_imports)
+
+('numpy/lib', 'npyio.py')
+-        pickle_kwargs = dict(fix_imports=fix_imports)
+
+('numpy/lib', 'npyio.py')
++                           pickle_kwargs=dict(fix_imports=fix_imports))
+
+('numpy/lib', 'npyio.py')
+-        import tempfile
+
+('numpy/lib', 'npyio.py')
+-        import locale
+
+('numpy/lib', 'npyio.py')
+-    # not to be confused with the flatten_dtype we import...
+
+('numpy/lib', 'npyio.py')
++    >>> import functools
+
+('numpy/lib', 'npyio.py')
++    >>> from io import StringIO
+
+('numpy/lib', 'shape_base.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'shape_base.py')
+-import warnings
+
+('numpy/lib', 'shape_base.py')
++from numpy.core.numeric import normalize_axis_tuple
+
+('numpy/lib', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/lib', 'stride_tricks.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'stride_tricks.py')
+-from numpy.core.overrides import array_function_dispatch
+
+('numpy/lib', 'stride_tricks.py')
++from numpy.core.numeric import normalize_axis_tuple
+
+('numpy/lib', 'stride_tricks.py')
++from numpy.core.overrides import array_function_dispatch, set_module
+
+('numpy/lib', 'utils.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'utils.py')
++import textwrap
+
+('numpy/lib', 'utils.py')
+-from numpy.compat import getargspec, formatargspec
+
+('numpy/lib', 'utils.py')
+-        from io import StringIO
+
+('numpy/lib', 'utils.py')
+-        from StringIO import StringIO
+
+('numpy/lib', 'utils.py')
++    from io import StringIO
+
+('numpy/lib', 'utils.py')
+-        import ast
+
+('numpy/lib', 'utils.py')
++    from numpy.core._multiarray_umath import (
+
+('numpy/lib', 'arrayterator.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'arrayterator.py')
+-from numpy.compat import long
+
+('numpy/lib', 'function_base.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'function_base.py')
+-    import collections.abc as collections_abc
+
+('numpy/lib', 'function_base.py')
+-    import collections as collections_abc
+
+('numpy/lib', 'function_base.py')
++import collections.abc
+
+('numpy/lib', 'function_base.py')
+-from numpy.core import atleast_1d, transpose
+
+('numpy/lib', 'function_base.py')
++from numpy.core import transpose
+
+('numpy/lib', 'function_base.py')
+-from numpy.compat import long
+
+('numpy/lib', 'function_base.py')
+-    import __builtin__ as builtins
+
+('numpy/lib', 'function_base.py')
+-    import builtins
+
+('numpy/lib', 'function_base.py')
++import builtins
+
+('numpy/lib', 'function_base.py')
++from numpy.lib.histograms import histogram, histogramdd  # noqa: F401
+
+('numpy/lib', 'function_base.py')
+-from numpy.lib.histograms import histogram, histogramdd
+
+('numpy/lib', 'function_base.py')
++        >>> from collections.abc import Iterable
+
+('numpy/lib', 'function_base.py')
++    elements within arrays. This is mainly important for arrays
+
+('numpy/lib', 'function_base.py')
++    >>> import copy
+
+('numpy/lib', 'function_base.py')
++    >>> import numpy as np
+
+('numpy/lib', 'function_base.py')
+-    from numpy.dual import i0
+
+('numpy/lib', 'arraysetops.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'arraypad.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'type_check.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', 'polynomial.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', '_datasource.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/lib', '_datasource.py')
+-import sys
+
+('numpy/lib', '_datasource.py')
+-import warnings
+
+('numpy/lib', '_datasource.py')
+-import shutil
+
+('numpy/lib', '_datasource.py')
+-from contextlib import closing
+
+('numpy/lib', '_datasource.py')
+-    import bz2
+
+('numpy/lib', '_datasource.py')
+-    import gzip
+
+('numpy/lib', '_datasource.py')
++            import shutil
+
+('numpy/lib', '_datasource.py')
+-            from urllib.parse import urlparse
+
+('numpy/lib', '_datasource.py')
+-            from urlparse import urlparse
+
+('numpy/lib', '_datasource.py')
++        from urllib.parse import urlparse
+
+('numpy/lib', '_datasource.py')
+-        # We import these here because importing urllib2 is slow and
+
+('numpy/lib', '_datasource.py')
++        # We import these here because importing them is slow and
+
+('numpy/lib', '_datasource.py')
+-            from urllib.request import urlopen
+
+('numpy/lib', '_datasource.py')
+-            from urllib.error import URLError
+
+('numpy/lib', '_datasource.py')
+-            from urllib2 import urlopen
+
+('numpy/lib', '_datasource.py')
+-            from urllib2 import URLError
+
+('numpy/lib', '_datasource.py')
++        import shutil
+
+('numpy/lib', '_datasource.py')
++        from urllib.request import urlopen
+
+('numpy/lib', '_datasource.py')
+-            from urllib.parse import urlparse
+
+('numpy/lib', '_datasource.py')
+-            from urlparse import urlparse
+
+('numpy/lib', '_datasource.py')
++        from urllib.parse import urlparse
+
+('numpy/lib', '_datasource.py')
+-        # We import this here because importing urllib2 is slow and
+
+('numpy/lib', '_datasource.py')
++        # We import this here because importing urllib is slow and
+
+('numpy/lib', '_datasource.py')
+-            from urllib.request import urlopen
+
+('numpy/lib', '_datasource.py')
+-            from urllib.error import URLError
+
+('numpy/lib', '_datasource.py')
+-            from urllib2 import urlopen
+
+('numpy/lib', '_datasource.py')
+-            from urllib2 import URLError
+
+('numpy/lib', '_datasource.py')
++        from urllib.request import urlopen
+
+('numpy/lib', '_datasource.py')
++        from urllib.error import URLError
+
+('numpy/lib', 'ufunclike.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/fft', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/fft', '__init__.py')
+-from .info import __doc__
+
+('numpy/fft', '__init__.py')
+-from .pocketfft import *
+
+('numpy/fft', '__init__.py')
++from . import _pocketfft, helper
+
+('numpy/fft', '__init__.py')
++from ._pocketfft import *
+
+('numpy/fft', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/fft', 'setup.py')
++import sys
+
+('numpy/fft', 'helper.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/fft', 'helper.py')
+-from numpy.compat import integer_types
+
+('numpy/random', 'bit_generator.pyx')
+-    from secrets import randbits
+
+('numpy/random', 'bit_generator.pyx')
+-    from random import SystemRandom
+
+('numpy/random', 'bit_generator.pyx')
+-    from threading import Lock
+
+('numpy/random', 'bit_generator.pyx')
+-    from dummy_threading import Lock
+
+('numpy/random', 'bit_generator.pyx')
++from secrets import randbits
+
+('numpy/random', 'bit_generator.pyx')
++from threading import Lock
+
+('numpy/random', 'bit_generator.pyx')
+-from libc.stdint cimport uint32_t
+
+('numpy/random', 'bit_generator.pyx')
+-from .common cimport (random_raw, benchmark, prepare_ctypes, prepare_cffi)
+
+('numpy/random', 'bit_generator.pyx')
+-from .distributions cimport bitgen_t
+
+('numpy/random', 'bit_generator.pyx')
++from ._common cimport (random_raw, benchmark, prepare_ctypes, prepare_cffi)
+
+('numpy/random', 'bit_generator.pyx')
+-    >>> from np.random.bit_generator import _coerce_to_uint32_array
+
+('numpy/random', 'bit_generator.pyx')
++    >>> from numpy.random.bit_generator import _coerce_to_uint32_array
+
+('numpy/random', '_pickle.py')
+-from .philox import Philox
+
+('numpy/random', '_pickle.py')
+-from .pcg64 import PCG64
+
+('numpy/random', '_pickle.py')
+-from .sfc64 import SFC64
+
+('numpy/random', '_pickle.py')
++from ._philox import Philox
+
+('numpy/random', '_pickle.py')
++from ._pcg64 import PCG64, PCG64DXSM
+
+('numpy/random', '_pickle.py')
++from ._sfc64 import SFC64
+
+('numpy/random', '_pickle.py')
+-from .generator import Generator
+
+('numpy/random', '_pickle.py')
+-from .mt19937 import MT19937
+
+('numpy/random', '_pickle.py')
++from ._generator import Generator
+
+('numpy/random', '_pickle.py')
++from ._mt19937 import MT19937
+
+('numpy/random', 'mtrand.pyx')
++from collections.abc import Sequence
+
+('numpy/random', 'mtrand.pyx')
+-from .bounded_integers import _integers_types
+
+('numpy/random', 'mtrand.pyx')
+-from .mt19937 import MT19937 as _MT19937
+
+('numpy/random', 'mtrand.pyx')
+-from libc cimport string
+
+('numpy/random', 'mtrand.pyx')
+-from .bounded_integers cimport *
+
+('numpy/random', 'mtrand.pyx')
+-from .common cimport *
+
+('numpy/random', 'mtrand.pyx')
+-from .distributions cimport *
+
+('numpy/random', 'mtrand.pyx')
+-from .legacy_distributions cimport *
+
+('numpy/random', 'mtrand.pyx')
++from libc cimport string
+
+('numpy/random', 'mtrand.pyx')
++from libc.stdint cimport int64_t, uint64_t
+
+('numpy/random', 'mtrand.pyx')
++from ._bounded_integers cimport (_rand_bool, _rand_int32, _rand_int64,
+
+('numpy/random', 'mtrand.pyx')
++from ._mt19937 import MT19937 as _MT19937
+
+('numpy/random', 'mtrand.pyx')
++from numpy.random cimport bitgen_t
+
+('numpy/random', 'mtrand.pyx')
++from ._common cimport (POISSON_LAM_MAX, CONS_POSITIVE, CONS_NONE,
+
+('numpy/random', 'mtrand.pyx')
+-        >>> from scipy import special  # doctest: +SKIP
+
+('numpy/random', 'mtrand.pyx')
++        >>> from scipy.special import zeta  # doctest: +SKIP
+
+('numpy/random', 'mtrand.pyx')
+-        from numpy.dual import svd
+
+('numpy/random', 'mtrand.pyx')
++        >>> import matplotlib.pyplot as plt
+
+('numpy/random', 'mtrand.pyx')
++        from numpy.linalg import svd
+
+('numpy/random', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/random', '__init__.py')
+-from . import mtrand
+
+('numpy/random', '__init__.py')
++from . import _pickle
+
+('numpy/random', '__init__.py')
++from . import _common
+
+('numpy/random', '__init__.py')
++from . import _bounded_integers
+
+('numpy/random', '__init__.py')
++from ._generator import Generator, default_rng
+
+('numpy/random', '__init__.py')
++from .bit_generator import SeedSequence, BitGenerator
+
+('numpy/random', '__init__.py')
++from ._mt19937 import MT19937
+
+('numpy/random', '__init__.py')
++from ._pcg64 import PCG64, PCG64DXSM
+
+('numpy/random', '__init__.py')
++from ._philox import Philox
+
+('numpy/random', '__init__.py')
++from ._sfc64 import SFC64
+
+('numpy/random', '__init__.py')
+-from .generator import Generator, default_rng
+
+('numpy/random', '__init__.py')
+-from .bit_generator import SeedSequence
+
+('numpy/random', '__init__.py')
+-from .mt19937 import MT19937
+
+('numpy/random', '__init__.py')
+-from .pcg64 import PCG64
+
+('numpy/random', '__init__.py')
+-from .philox import Philox
+
+('numpy/random', '__init__.py')
+-from .sfc64 import SFC64
+
+('numpy/random', '__init__.py')
+-from .mtrand import RandomState
+
+('numpy/random', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/random', 'setup.py')
++        # import modules.
+
+('numpy/random', 'bit_generator.pxd')
++cimport numpy as np
+
+('numpy/random', 'bit_generator.pxd')
++from libc.stdint cimport uint32_t, uint64_t
+
+('numpy/random', 'bit_generator.pxd')
+-from .common cimport bitgen_t
+
+('numpy/random', 'bit_generator.pxd')
+-cimport numpy as np
+
+('numpy/matrixlib', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/matrixlib', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/matrixlib', 'defmatrix.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/matrixlib', 'defmatrix.py')
+-            from numpy.dual import inv as func
+
+('numpy/matrixlib', 'defmatrix.py')
++            from numpy.linalg import inv as func
+
+('numpy/matrixlib', 'defmatrix.py')
+-            from numpy.dual import pinv as func
+
+('numpy/matrixlib', 'defmatrix.py')
++            from numpy.linalg import pinv as func
+
+('numpy/polynomial', 'laguerre.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'laguerre.py')
+-import warnings
+
+('numpy/polynomial', '_polybase.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', '_polybase.py')
++import os
+
+('numpy/polynomial', 'polyutils.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'polyutils.py')
++import functools
+
+('numpy/polynomial', '__init__.py')
++    >>> from numpy.polynomial import Chebyshev
+
+('numpy/polynomial', '__init__.py')
++    >>> from numpy.polynomial.chebyshev import chebfit
+
+('numpy/polynomial', '__init__.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', '__init__.py')
++    from ._polybase import ABCPolyBase
+
+('numpy/polynomial', 'setup.py')
+-from __future__ import division, print_function
+
+('numpy/polynomial', 'hermite_e.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'hermite_e.py')
+-import warnings
+
+('numpy/polynomial', 'chebyshev.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'chebyshev.py')
+-import warnings
+
+('numpy/polynomial', 'polynomial.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'polynomial.py')
+-import warnings
+
+('numpy/polynomial', 'legendre.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'legendre.py')
+-import warnings
+
+('numpy/polynomial', 'hermite.py')
+-from __future__ import division, absolute_import, print_function
+
+('numpy/polynomial', 'hermite.py')
+-import warnings
+
+('benchmarks/benchmarks', 'bench_records.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_records.py')
+-import os
+
+('benchmarks/benchmarks', 'bench_app.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_app.py')
+-from six.moves import xrange
+
+('benchmarks/benchmarks', 'bench_overrides.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_function_base.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', '__init__.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', '__init__.py')
++from . import common
+
+('benchmarks/benchmarks', '__init__.py')
++import sys
+
+('benchmarks/benchmarks', '__init__.py')
++import os
+
+('benchmarks/benchmarks', '__init__.py')
+-from . import common
+
+('benchmarks/benchmarks', '__init__.py')
++    from numpy.lib.utils import _opt_info
+
+('benchmarks/benchmarks', 'bench_linalg.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_random.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_random.py')
+-from numpy.random import RandomState
+
+('benchmarks/benchmarks', 'common.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_ma.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_shape_base.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_ufunc.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_indexing.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_indexing.py')
+-import sys
+
+('benchmarks/benchmarks', 'bench_indexing.py')
+-import six
+
+('benchmarks/benchmarks', 'bench_reduce.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_io.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_lib.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_core.py')
+-from __future__ import absolute_import, division, print_function
+
+('benchmarks/benchmarks', 'bench_import.py')
+-from __future__ import absolute_import, division, print_function
+
+('.circleci', 'config.yml')
++            VERSION=$(python -c "import setup; print(setup.VERSION)")
+
