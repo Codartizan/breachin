@@ -1,10 +1,9 @@
 from breachin.project_diff.project_diff import get_workable_files
 from breachin.project_diff.file_diff import output_file_diff
+from breachin.project_diff.constant import new_base_dir, old_base_dir
 import re
 from regex import imports, imports2
 
-old_base_dir = '/Users/tshi/researchProjs/numpy/numpy-1.17.0/'
-new_base_dir = '/Users/tshi/researchProjs/numpy/numpy-1.23.0/'
 
 if __name__ == '__main__':
     old_ver_ls = get_workable_files(old_base_dir)

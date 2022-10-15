@@ -1,6 +1,6 @@
 import os
 from fnmatch import fnmatch
-from breachin.project_diff.ignores import ignores_ext, ignores
+from breachin.project_diff.constant import ignores_ext, ignores
 
 
 # def file_list_by_type(root, ptn):

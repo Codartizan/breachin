@@ -1,12 +1,6 @@
-import re, os
-
-from breachin.project_diff.file_diff import build_file_path, output_file_diff, output_file_diff_with_file_name
+from breachin.project_diff.constant import old_base_dir, new_base_dir
+from breachin.project_diff.file_diff import build_file_path, output_file_diff_with_file_name
 from breachin.project_diff.project_diff import get_workable_files
-from breachin.project_diff.search_str_dir import search_fun_dir
-from regex import func_sig, class_sig, class_sig_param
-
-old_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.3.0/'
-new_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.8.0/'
 
 if __name__ == '__main__':
     old_ver_ls = get_workable_files(old_base_dir)

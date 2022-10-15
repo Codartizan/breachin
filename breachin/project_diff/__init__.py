@@ -1,4 +1,4 @@
-from .ignores import ignores, ignores_ext
+from .constant import ignores, ignores_ext, old_base_dir, new_base_dir
 from .project_diff import get_all_files
 from .code_parser import FindFuncs
 from .regex import imports, imports2, class_sig, class_sig_param
