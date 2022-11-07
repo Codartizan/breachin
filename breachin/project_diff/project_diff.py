@@ -3,6 +3,10 @@ from fnmatch import fnmatch
 from breachin.project_diff.constant import ignores_ext, ignores
 
 
+class example:
+    pass
+
+
 # def file_list_by_type(root, ptn):
 #     ls = []
 #     for path, subdirs, files in os.walk(root):
@@ -26,13 +30,11 @@ def get_workable_files(base_dir):
     work_file_ls = []
 
     for pyf in file_ls:
-        if not pyf[1].endswith(ignores_ext):
+        if pyf[1].endswith(".py"):
             if 'test' not in pyf[0]:
                 if 'doc' not in pyf[0]:
-                    if pyf[1] not in ignores:
-                        relative_path = pyf[0].removeprefix(base_dir)
-                        work_file_ls.append((relative_path, pyf[1]))
+                    if 'example' not in pyf[0]:
+                        if pyf[1] not in ignores:
+                            relative_path = pyf[0].removeprefix(base_dir)
+                            work_file_ls.append((relative_path, pyf[1]))
     return work_file_ls
-
-
-

@@ -1,0 +1,1271 @@
+/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin/java -javaagent:/Users/tshi/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/222.3739.54/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51574:/Users/tshi/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/222.3739.54/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/tshi/IdeaProjects/breachin/target/classes:/Users/tshi/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/tshi/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/tshi/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/tshi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tshi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tshi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tshi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tshi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tshi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/tshi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tshi/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/tshi/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/tshi/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/tshi/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/tshi/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tshi/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar org.example.App
+Remained file changes size: 301
+Class  class Wrapper: in file ('Tests', 'test_image_array.py') is modified
+Class  class TestTTypeFontLeak(PillowLeakTestCase): in file ('Tests', 'test_font_leaks.py') is modified
+Class  class TestDefaultFontLeak(TestTTypeFontLeak): in file ('Tests', 'test_font_leaks.py') is modified
+Class  class Example(QWidget): in file ('Tests', 'test_qt_image_qapplication.py') is modified
+Class +class MyStdOut: in file ('Tests', 'test_file_png.py') is added
+Class  class TestImageGrab: in file ('Tests', 'test_imagegrab.py') is modified
+Class  class TestImageFont: in file ('Tests', 'test_imagefont.py') is modified
+Class  class TestImageFont_RaqmLayout(TestImageFont): in file ('Tests', 'test_imagefont.py') is modified
+Class  class BITMAPFILEHEADER(ctypes.Structure): in file ('Tests', 'test_imagewin_pointers.py') is modified
+Class +class Pretty: in file ('Tests', 'test_image.py') is modified
+Class -class TestViewer(ImageShow.Viewer): in file ('Tests', 'test_image.py') is modified
+Class  class TestImageTransformAffine: in file ('Tests', 'test_image_transform.py') is modified
+Class  class TestImageTransformPerspective(TestImageTransformAffine): in file ('Tests', 'test_image_transform.py') is deleted
+Class  class TestImagingCoreResize: in file ('Tests', 'test_image_resize.py') is modified
+Class  class TestReducingGapResize: in file ('Tests', 'test_image_resize.py') is modified
+Class  class AccessTest: in file ('Tests', 'test_image_access.py') is modified
+Class  class TestImageGetPixel(AccessTest): in file ('Tests', 'test_image_access.py') is modified
+Class  class TestDecompressionBomb: in file ('Tests', 'test_decompression_bomb.py') is modified
+Class  class TestDecompressionCrop: in file ('Tests', 'test_decompression_bomb.py') is modified
+Class +class DummyImageFile(ImageFile.ImageFile): in file ('Tests', 'test_imagefile.py') is modified
+Class +class MockPyEncoder(ImageFile.PyEncoder): in file ('Tests', 'test_imagefile.py') is modified
+Class -class TestPyDecoder: in file ('Tests', 'test_imagefile.py') is deleted
+Class +class CodecsTest: in file ('Tests', 'test_imagefile.py') is added
+Class +class TestPyDecoder(CodecsTest): in file ('Tests', 'test_imagefile.py') is modified
+Class +class TestPyEncoder(CodecsTest): in file ('Tests', 'test_imagefile.py') is modified
+Class +class MyStdOut: in file ('Tests', 'test_file_ppm.py') is added
+Class  class TestFileTiff: in file ('Tests', 'test_file_tiff.py') is modified
+Class +class TestHandler: in file ('Tests', 'test_file_gribstub.py') is added
+Class  class TestImagingResampleVulnerability: in file ('Tests', 'test_image_resample.py') is modified
+Class  class TestCoreResampleConsistency: in file ('Tests', 'test_image_resample.py') is modified
+Class  class TestCoreResamplePasses: in file ('Tests', 'test_image_resample.py') is modified
+Class +class MyStdOut: in file ('Tests', 'test_psdraw.py') is modified
+Class +class TestHandler: in file ('Tests', 'test_file_bufrstub.py') is added
+Class +class TestHandler: in file ('Tests', 'test_file_hdf5stub.py') is added
+Class +class InfiniteMockPyDecoder(ImageFile.PyDecoder): in file ('Tests', 'test_file_jpeg.py') is added
+Class  class ModeDescriptor: in file ('src/PIL', 'ImageMode.py') is modified
+Class +class Disposal(IntEnum): in file ('src/PIL', 'PngImagePlugin.py') is modified
+Class +class Blend(IntEnum): in file ('src/PIL', 'PngImagePlugin.py') is modified
+Class -class PyDecoder: in file ('src/PIL', 'ImageFile.py') is deleted
+Class +class PyCodec: in file ('src/PIL', 'ImageFile.py') is modified
+Class +class PyDecoder(PyCodec): in file ('src/PIL', 'ImageFile.py') is modified
+Class +class PyEncoder(PyCodec): in file ('src/PIL', 'ImageFile.py') is modified
+Class  class FITSStubImageFile(ImageFile.StubImageFile): in file ('src/PIL', 'FitsStubImagePlugin.py') is modified
+Class  class MspDecoder(ImageFile.PyDecoder): in file ('src/PIL', 'MspImagePlugin.py') is modified
+Class +class LoadingStrategy(IntEnum): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Class +class Intent(IntEnum): in file ('src/PIL', 'ImageCms.py') is added
+Class +class Direction(IntEnum): in file ('src/PIL', 'ImageCms.py') is modified
+Class  class PSDraw: in file ('src/PIL', 'PSDraw.py') is modified
+Class  class Filter: in file ('src/PIL', 'ImageFilter.py') is modified
+Class  class GaussianBlur(MultibandFilter): in file ('src/PIL', 'ImageFilter.py') is modified
+Class -class _Deprecated_Version(str): in file ('src/PIL', '__init__.py') is modified
+Class +class BoxReader: in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Class +class WalImageFile(ImageFile.ImageFile): in file ('src/PIL', 'WalImageFile.py') is modified
+Class +class Format(IntEnum): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Class +class Encoding(IntEnum): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Class +class AlphaEncoding(IntEnum): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Class  class BlpImageFile(ImageFile.ImageFile): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Class  class _BLPBaseDecoder(ImageFile.PyDecoder): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Class  class BLP1Decoder(_BLPBaseDecoder): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Class  class BLP2Decoder(_BLPBaseDecoder): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Class +class BLPEncoder(ImageFile.PyEncoder): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Class  class Viewer: in file ('src/PIL', 'ImageShow.py') is modified
+Class  class MacViewer(Viewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class +class XDGViewer(UnixViewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class  class DisplayViewer(UnixViewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class +class GmDisplayViewer(UnixViewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class  class EogViewer(UnixViewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class  class XVViewer(UnixViewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class +class IPythonViewer(Viewer): in file ('src/PIL', 'ImageShow.py') is modified
+Class  class BmpImageFile(ImageFile.ImageFile): in file ('src/PIL', 'BmpImagePlugin.py') is modified
+Class +class BmpRleDecoder(ImageFile.PyDecoder): in file ('src/PIL', 'BmpImagePlugin.py') is modified
+Class  class ExtentTransform(Transform): in file ('src/PIL', 'ImageTransform.py') is modified
+Class  class QuadTransform(Transform): in file ('src/PIL', 'ImageTransform.py') is modified
+Class  class MeshTransform(Transform): in file ('src/PIL', 'ImageTransform.py') is modified
+Class  class _PyAccess32_2(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccess32_3(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccess32_4(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccess8(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccessI16_N(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccessI16_L(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccessI16_B(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccessI32_N(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccessI32_Swap(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class  class _PyAccessF(PyAccess): in file ('src/PIL', 'PyAccess.py') is modified
+Class +class Transpose(IntEnum): in file ('src/PIL', 'Image.py') is modified
+Class +class Transform(IntEnum): in file ('src/PIL', 'Image.py') is modified
+Class +class Resampling(IntEnum): in file ('src/PIL', 'Image.py') is modified
+Class +class Dither(IntEnum): in file ('src/PIL', 'Image.py') is modified
+Class +class Palette(IntEnum): in file ('src/PIL', 'Image.py') is added
+Class +class Quantize(IntEnum): in file ('src/PIL', 'Image.py') is modified
+Class +class _ArrayData: in file ('src/PIL', 'Image.py') is modified
+Class  class Example: in file ('src/PIL', 'Image.py') is modified
+Class  class Exif(MutableMapping): in file ('src/PIL', 'Image.py') is modified
+Class +class Layout(IntEnum): in file ('src/PIL', 'ImageFont.py') is modified
+Class  class _imagingft_not_installed: in file ('src/PIL', 'ImageFont.py') is modified
+Class +class PpmDecoder(ImageFile.PyDecoder): in file ('src/PIL', 'PpmImagePlugin.py') is modified
+Class +class Format(IntEnum): in file ('src/PIL', 'FtexImagePlugin.py') is modified
+Class  class FtexImageFile(ImageFile.ImageFile): in file ('src/PIL', 'FtexImagePlugin.py') is modified
+Modified classes: 84
+Added classes: 11
+Deleted classes: 3
+Function -def _info(im): in file ('', 'selftest.py') is deleted
+Function  def testimage(): in file ('', 'selftest.py') is modified
+Function +def _info(im): in file ('', 'selftest.py') is modified
+Function +def _find_include_dir(self, dirname, include): in file ('', 'setup.py') is added
+Function  def _cmd_exists(cmd): in file ('', 'setup.py') is modified
+Function  def __init__(self): in file ('', 'setup.py') is modified
+Function +def want_vendor(self, feat): in file ('', 'setup.py') is added
+Function  def __iter__(self): in file ('', 'setup.py') is modified
+Function  def finalize_options(self): in file ('', 'setup.py') is modified
+Function -def _update_extension(self, name, libraries, define_macros=None, include_dirs=None): in file ('', 'setup.py') is modified
+Function +def _update_extension(self, name, libraries, define_macros=None, sources=None): in file ('', 'setup.py') is modified
+Function  def _remove_extension(self, name): in file ('', 'setup.py') is modified
+Function +def get_macos_sdk_path(self): in file ('', 'setup.py') is modified
+Function  def build_extensions(self): in file ('', 'setup.py') is modified
+Function  def test_lab_srgb(): in file ('Tests', 'test_imagecms.py') is modified
+Function  def assert_truncated_tuple_equal(tup1, tup2, digits=10): in file ('Tests', 'test_imagecms.py') is modified
+Function +def test_constants_deprecation(): in file ('Tests', 'test_imagecms.py') is added
+Function  def _write_png(tmp_path, xdim, ydim): in file ('Tests', 'check_large_memory.py') is modified
+Function  def test_large(tmp_path): in file ('Tests', 'check_large_memory.py') is modified
+Function  def gradient_L(self): in file ('Tests', 'test_image_paste.py') is modified
+Function +def gradient_LA(self): in file ('Tests', 'test_image_paste.py') is added
+Function +def test_image_mask_LA(self): in file ('Tests', 'test_image_paste.py') is modified
+Function  def _assert_file_image_equal(source_path, target_path): in file ('Tests', 'test_file_msp.py') is modified
+Function  def test_toarray(): in file ('Tests', 'test_image_array.py') is deleted
+Function  def test(mode): in file ('Tests', 'test_image_array.py') is deleted
+Function +def test_with_dtype(dtype): in file ('Tests', 'test_image_array.py') is modified
+Function  def test_fromarray(): in file ('Tests', 'test_image_array.py') is modified
+Function  def __init__(self, img, arr_params): in file ('Tests', 'test_image_array.py') is modified
+Function  def test(mode): in file ('Tests', 'test_image_array.py') is deleted
+Function +def test_invalid_file(): in file ('Tests', 'test_file_xbm.py') is added
+Function +def pytest_configure(config): in file ('Tests', 'conftest.py') is modified
+Function  def test_textsize(request, tmp_path): in file ('Tests', 'test_font_pcf.py') is modified
+Function  def test_closed_file(): in file ('Tests', 'test_file_psd.py') is modified
+Function -def open(): in file ('Tests', 'test_file_psd.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_psd.py') is modified
+Function -def open(): in file ('Tests', 'test_file_psd.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_psd.py') is modified
+Function  def test_eoferror(): in file ('Tests', 'test_file_psd.py') is modified
+Function  def test_combined_larger_than_size(): in file ('Tests', 'test_file_psd.py') is modified
+Function +def test_crashes(test_file, raises): in file ('Tests', 'test_file_psd.py') is added
+Function  def test_closed_file(): in file ('Tests', 'test_file_dcx.py') is modified
+Function -def open(): in file ('Tests', 'test_file_dcx.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_dcx.py') is modified
+Function -def open(): in file ('Tests', 'test_file_dcx.py') is modified
+Function +def test_show_without_viewers(): in file ('Tests', 'test_imageshow.py') is modified
+Function  def test_viewer(): in file ('Tests', 'test_imageshow.py') is modified
+Function  def test_viewers(): in file ('Tests', 'test_imageshow.py') is modified
+Function +def test_ipythonviewer(): in file ('Tests', 'test_imageshow.py') is added
+Function +def test_file_deprecated(tmp_path): in file ('Tests', 'test_imageshow.py') is added
+Function +def test_odd_read(): in file ('Tests', 'test_file_pcx.py') is added
+Function  def test_sanity(self, tmp_path): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_bad_text(self): in file ('Tests', 'test_file_png.py') is modified
+Function -def test_load_dpi_rounding(self): in file ('Tests', 'test_file_png.py') is modified
+Function -def test_save_dpi_rounding(self): in file ('Tests', 'test_file_png.py') is modified
+Function +def test_load_float_dpi(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_roundtrip_text(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_trns_rgb(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_discard_icc_profile(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_read_private_chunks(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_roundtrip_private_chunk(self): in file ('Tests', 'test_file_png.py') is modified
+Function +def test_padded_idat(self): in file ('Tests', 'test_file_png.py') is modified
+Function +def test_specify_bits(self, tmp_path): in file ('Tests', 'test_file_png.py') is modified
+Function +def test_plte_length(self, tmp_path): in file ('Tests', 'test_file_png.py') is modified
+Function +def test_getxmp(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_exif(self): in file ('Tests', 'test_file_png.py') is modified
+Function  def test_exif_from_jpg(self, tmp_path): in file ('Tests', 'test_file_png.py') is modified
+Function +def test_save_stdout(self, buffer): in file ('Tests', 'test_file_png.py') is added
+Function  def test_grab(self): in file ('Tests', 'test_imagegrab.py') is modified
+Function  def test_grab_x11(self): in file ('Tests', 'test_imagegrab.py') is modified
+Function  def test_sanity(tmp_path): in file ('Tests', 'test_file_bmp.py') is modified
+Function  def test_save_bmp_with_dpi(tmp_path): in file ('Tests', 'test_file_bmp.py') is modified
+Function -def test_load_dpi_rounding(): in file ('Tests', 'test_file_bmp.py') is modified
+Function -def test_save_dpi_rounding(tmp_path): in file ('Tests', 'test_file_bmp.py') is modified
+Function +def test_save_float_dpi(tmp_path): in file ('Tests', 'test_file_bmp.py') is modified
+Function  def test_load_dib(): in file ('Tests', 'test_file_bmp.py') is modified
+Function  def test_save_dib(tmp_path): in file ('Tests', 'test_file_bmp.py') is modified
+Function +def test_rle8(): in file ('Tests', 'test_file_bmp.py') is added
+Function +def test_rle8_eof(file_name, length): in file ('Tests', 'test_file_bmp.py') is added
+Function +def test_offset(): in file ('Tests', 'test_file_bmp.py') is added
+Function  def test_closed_file(): in file ('Tests', 'test_file_im.py') is modified
+Function -def open(): in file ('Tests', 'test_file_im.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_im.py') is modified
+Function -def open(): in file ('Tests', 'test_file_im.py') is modified
+Function  def test_tell(): in file ('Tests', 'test_file_im.py') is modified
+Function  def rotate(im, mode, angle, center=None, translate=None): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def test_zero(): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def test_resample(): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def test_center_0(): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def test_center_14(): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def test_rotate_no_fill(): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def test_rotate_with_fill(): in file ('Tests', 'test_image_rotate.py') is modified
+Function  def helper_pickle_file(tmp_path, pickle, protocol, test_file, mode): in file ('Tests', 'test_pickle.py') is modified
+Function  def test_pickle_tell(): in file ('Tests', 'test_pickle.py') is modified
+Function +def helper_assert_pickled_font_images(font1, font2): in file ('Tests', 'test_pickle.py') is added
+Function +def test_pickle_font_string(protocol): in file ('Tests', 'test_pickle.py') is added
+Function +def test_pickle_font_file(tmp_path, protocol): in file ('Tests', 'test_pickle.py') is added
+Function +def test_load_blp1(): in file ('Tests', 'test_file_blp.py') is modified
+Function  def test_load_blp2_raw(): in file ('Tests', 'test_file_blp.py') is modified
+Function  def test_load_blp2_dxt1(): in file ('Tests', 'test_file_blp.py') is modified
+Function  def test_load_blp2_dxt1a(): in file ('Tests', 'test_file_blp.py') is modified
+Function +def test_save(tmp_path): in file ('Tests', 'test_file_blp.py') is modified
+Function +def test_crashes(test_file): in file ('Tests', 'test_file_blp.py') is added
+Function +def test_constants_deprecation(): in file ('Tests', 'test_file_blp.py') is added
+Function -def test_unavailable_layout_engine(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def _render(self, font): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_I16(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_textsize_equal(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_render_multiline_text(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_unknown_align(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_rotated_transposed_font(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_getsize_empty(self): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_textbbox_non_freetypefont(self): in file ('Tests', 'test_imagefont.py') is modified
+Function -def test_anchor(self, anchor, left, left_old, top): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_anchor(self, anchor, left, top): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_anchor_invalid(self): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_bitmap_font_stroke(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_standard_embedded_color(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_cbdt(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_cbdt_mask(self): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_sbix(self): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_sbix_mask(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_colr(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_colr_mask(self): in file ('Tests', 'test_imagefont.py') is modified
+Function  def test_render_mono_size(): in file ('Tests', 'test_imagefont.py') is modified
+Function -def test_freetype_deprecation(monkeypatch): in file ('Tests', 'test_imagefont.py') is deleted
+Function -def fake_version_module(module): in file ('Tests', 'test_imagefont.py') is deleted
+Function +def test_oom(test_file): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_raqm_missing_warning(monkeypatch): in file ('Tests', 'test_imagefont.py') is modified
+Function +def test_constants_deprecation(): in file ('Tests', 'test_imagefont.py') is added
+Function  def test_sanity_dxt1(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test_sanity_dxt3(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_sanity_dxt5(): in file ('Tests', 'test_file_dds.py') is modified
+Function -def test_sanity_dxt3(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test_dx10_bc5(image_path, expected_path): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_dx10_bc7(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_dx10_bc7_unorm_srgb(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_dx10_r8g8b8a8(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_dx10_r8g8b8a8_unorm_srgb(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_unimplemented_dxgi_format(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_uncompressed_rgb(): in file ('Tests', 'test_file_dds.py') is modified
+Function -def test__validate_true(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test__accept_true(): in file ('Tests', 'test_file_dds.py') is modified
+Function -def test__validate_false(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test__accept_false(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test_invalid_file(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_short_header(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def short_header(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_short_file(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test_dxt5_colorblock_alpha_issue_4142(): in file ('Tests', 'test_file_dds.py') is modified
+Function  def test_unimplemented_pixel_format(): in file ('Tests', 'test_file_dds.py') is modified
+Function +def test_save_unsupported_mode(tmp_path): in file ('Tests', 'test_file_dds.py') is added
+Function +def test_save(mode, test_file, tmp_path): in file ('Tests', 'test_file_dds.py') is added
+Function  def test_write_exif_metadata(): in file ('Tests', 'test_file_webp_metadata.py') is modified
+Function  def test_write_icc_metadata(): in file ('Tests', 'test_file_webp_metadata.py') is modified
+Function  def test_f_lut(): in file ('Tests', 'test_image_point.py') is modified
+Function  def test_rgb(): in file ('Tests', 'test_file_sgi.py') is modified
+Function  def test_rgb16(): in file ('Tests', 'test_file_sgi.py') is modified
+Function  def test_l(): in file ('Tests', 'test_file_sgi.py') is modified
+Function  def test_rle16(): in file ('Tests', 'test_file_sgi.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_sgi.py') is modified
+Function  def roundtrip(img): in file ('Tests', 'test_file_sgi.py') is modified
+Function  def test_write_animation_L(tmp_path): in file ('Tests', 'test_file_webp_animated.py') is modified
+Function  def test_write_animation_RGB(tmp_path): in file ('Tests', 'test_file_webp_animated.py') is modified
+Function  def test_correct_args(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_wrong_mode(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_correct_mode(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_identities(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_identities_4_channels(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_channels_order(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_overflow(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_numpy_formats(self): in file ('Tests', 'test_color_lut.py') is modified
+Function  def test_flip_left_right(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def test_flip_top_bottom(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def test_rotate_90(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def test_rotate_180(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def test_rotate_270(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def test_transpose(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def test_tranverse(): in file ('Tests', 'test_image_transpose.py') is modified
+Function  def transpose(mode): in file ('Tests', 'test_image_transpose.py') is modified
+Function +def test_load(): in file ('Tests', 'test_file_ico.py') is modified
+Function +def test_mask(): in file ('Tests', 'test_file_ico.py') is modified
+Function +def test_black_and_white(): in file ('Tests', 'test_file_ico.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_ico.py') is modified
+Function +def test_no_duplicates(tmp_path): in file ('Tests', 'test_file_ico.py') is modified
+Function +def test_different_bit_depths(tmp_path): in file ('Tests', 'test_file_ico.py') is modified
+Function +def test_save_to_bytes_bmp(mode): in file ('Tests', 'test_file_ico.py') is modified
+Function  def test_incorrect_size(): in file ('Tests', 'test_file_ico.py') is modified
+Function -def open(f): in file ('Tests', 'test_bmp_reference.py') is modified
+Function  def test_questionable(): in file ('Tests', 'test_bmp_reference.py') is modified
+Function +def test_repr_pretty(self): in file ('Tests', 'test_image.py') is modified
+Function +def text(self, text): in file ('Tests', 'test_image.py') is modified
+Function  def test_open_formats(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_bad_mode(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_stringio(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_pathlib(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function  def test_fp_name(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function  def test_unknown_extension(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function  def test_readonly_save(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function  def test_registered_extensions_uninitialized(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_effect_mandelbrot_bad_arguments(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_effect_spread_zero(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_remap_palette(self): in file ('Tests', 'test_image.py') is modified
+Function -def test_showxv_deprecation(self): in file ('Tests', 'test_image.py') is deleted
+Function -def show_image(self, image, **options): in file ('Tests', 'test_image.py') is deleted
+Function  def test_no_resource_warning_on_save(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function +def test_no_new_file_on_error(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function  def test_load_on_nonexclusive_multiframe(self): in file ('Tests', 'test_image.py') is modified
+Function +def test_empty_exif(self): in file ('Tests', 'test_image.py') is modified
+Function  def test_exif_jpeg(self, tmp_path): in file ('Tests', 'test_image.py') is modified
+Function -def test_pillow_version(self, test_module): in file ('Tests', 'test_image.py') is modified
+Function +def test_exif_ifd(self): in file ('Tests', 'test_image.py') is modified
+Function +def test_exif_load_from_fp(self): in file ('Tests', 'test_image.py') is modified
+Function +def test_zero_tobytes(self, size): in file ('Tests', 'test_image.py') is modified
+Function +def test_categories_deprecation(self): in file ('Tests', 'test_image.py') is modified
+Function +def test_constants_deprecation(self): in file ('Tests', 'test_image.py') is modified
+Function -def test_show_deprecation(self, monkeypatch): in file ('Tests', 'test_image.py') is deleted
+Function  def test_rgb(): in file ('Tests', 'test_imageqt.py') is modified
+Function  def checkrgb(r, g, b): in file ('Tests', 'test_imageqt.py') is modified
+Function  def test_image(): in file ('Tests', 'test_imageqt.py') is modified
+Function +def test_closed_file(): in file ('Tests', 'test_imageqt.py') is added
+Function  def test_load_raw(): in file ('Tests', 'test_file_ftex.py') is modified
+Function  def test_load_dxt1(): in file ('Tests', 'test_file_ftex.py') is added
+Function +def test_invalid_file(): in file ('Tests', 'test_file_ftex.py') is added
+Function +def test_constants_deprecation(): in file ('Tests', 'test_file_ftex.py') is added
+Function  def test_load_raw(): in file ('Tests', 'test_file_wmf.py') is modified
+Function +def test_load(): in file ('Tests', 'test_file_wmf.py') is modified
+Function  def test_register_handler(tmp_path): in file ('Tests', 'test_file_wmf.py') is modified
+Function -def test_load_dpi_rounding(): in file ('Tests', 'test_file_wmf.py') is modified
+Function +def test_load_float_dpi(): in file ('Tests', 'test_file_wmf.py') is modified
+Function  def test_load_set_dpi(): in file ('Tests', 'test_file_wmf.py') is modified
+Function  def test_sanity(): in file ('Tests', 'test_imagepalette.py') is modified
+Function +def test_reload(): in file ('Tests', 'test_imagepalette.py') is modified
+Function  def test_getcolor(): in file ('Tests', 'test_imagepalette.py') is modified
+Function +def test_getcolor_not_special(index, palette): in file ('Tests', 'test_imagepalette.py') is modified
+Function  def test_file(tmp_path): in file ('Tests', 'test_imagepalette.py') is modified
+Function  def test_rawmode_getdata(): in file ('Tests', 'test_imagepalette.py') is modified
+Function  def test_closed_file(): in file ('Tests', 'test_file_spider.py') is modified
+Function -def open(): in file ('Tests', 'test_file_spider.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_spider.py') is modified
+Function -def open(): in file ('Tests', 'test_file_spider.py') is modified
+Function  def test_save(tmp_path): in file ('Tests', 'test_file_spider.py') is modified
+Function  def test_nonstack_file(): in file ('Tests', 'test_file_spider.py') is modified
+Function +def test_load(): in file ('Tests', 'test_file_eps.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_eps.py') is modified
+Function  def test_cmyk(): in file ('Tests', 'test_file_eps.py') is modified
+Function +def test_transparency(): in file ('Tests', 'test_file_eps.py') is modified
+Function +def test_timeout(test_file): in file ('Tests', 'test_file_eps.py') is added
+Function +def test_palette(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def test_extent(self): in file ('Tests', 'test_image_transform.py') is modified
+Function +def _test_nearest(self, op, mode): in file ('Tests', 'test_image_transform.py') is added
+Function +def test_nearest_resize(self, mode): in file ('Tests', 'test_image_transform.py') is added
+Function +def op(im, sz): in file ('Tests', 'test_image_transform.py') is added
+Function +def test_nearest_transform(self, mode): in file ('Tests', 'test_image_transform.py') is added
+Function +def op(im, sz): in file ('Tests', 'test_image_transform.py') is added
+Function  def test_blank_fill(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def test_unknown_resampling_filter(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def _test_image(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def test_rotate_90_deg(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def test_rotate_180_deg(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def test_rotate_270_deg(self): in file ('Tests', 'test_image_transform.py') is modified
+Function  def _test_resize(self, scale, epsilonscale): in file ('Tests', 'test_image_transform.py') is modified
+Function  def test_convolution_modes(self): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_reduce_filters(self): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_enlarge_filters(self): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_enlarge_zero(self): in file ('Tests', 'test_image_resize.py') is modified
+Function +def test_cross_platform(self, tmp_path): in file ('Tests', 'test_image_resize.py') is modified
+Function  def gradients_image(): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_reducing_gap_values(self, gradients_image): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_reducing_gap_1(self, gradients_image): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_reducing_gap_8(self, gradients_image): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_default_filter(self): in file ('Tests', 'test_image_resize.py') is modified
+Function  def test_wedge(): in file ('Tests', 'test_format_hsv.py') is modified
+Function  def test_write_metadata(tmp_path): in file ('Tests', 'test_file_tiff_metadata.py') is modified
+Function +def test_iptc(tmp_path): in file ('Tests', 'test_file_tiff_metadata.py') is modified
+Function +def test_undefined_zero(tmp_path): in file ('Tests', 'test_file_tiff_metadata.py') is modified
+Function  def test_empty_metadata(): in file ('Tests', 'test_file_tiff_metadata.py') is modified
+Function +def test_tag_group_data(): in file ('Tests', 'test_file_tiff_metadata.py') is added
+Function +def test_empty_subifd(tmp_path): in file ('Tests', 'test_file_tiff_metadata.py') is added
+Function +def test_numpy(self): in file ('Tests', 'test_image_access.py') is modified
+Function  def test_basic(self): in file ('Tests', 'test_image_access.py') is modified
+Function  def test_p_putpixel_rgb_rgba(self): in file ('Tests', 'test_image_access.py') is modified
+Function +def test_putpixel_invalid_number_of_bands(self, mode, band_numbers, match): in file ('Tests', 'test_image_access.py') is modified
+Function  def test_putpixel_type_error2(self, mode): in file ('Tests', 'test_image_access.py') is modified
+Function  def test_putpixel_overflow_error(self, mode): in file ('Tests', 'test_image_access.py') is modified
+Function  def test_putpixel_unrecognized_mode(self): in file ('Tests', 'test_image_access.py') is modified
+Function  def test_embeddable(self): in file ('Tests', 'test_image_access.py') is added
+Function  def test_pypy_performance(): in file ('Tests', 'test_image_putdata.py') is modified
+Function +def test_mode_with_L_with_float(): in file ('Tests', 'test_image_putdata.py') is modified
+Function  def test_mode_i(): in file ('Tests', 'test_image_putdata.py') is modified
+Function +def test_not_flattened(): in file ('Tests', 'test_image_putdata.py') is added
+Function  def test_im1(): in file ('Tests', 'test_file_sun.py') is modified
+Function -def teardown_class(cls): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function +def teardown_method(self, method): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function  def test_no_warning_small_file(self): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function  def test_exception_ico(self): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function  def test_exception_gif(self): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function  def test_exception_bmp(self): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function  def test_crop_decompression_checks(self): in file ('Tests', 'test_decompression_bomb.py') is modified
+Function  def test_soft_light(): in file ('Tests', 'test_imagechops.py') is modified
+Function  def test_hard_light(): in file ('Tests', 'test_imagechops.py') is modified
+Function  def test_overlay(): in file ('Tests', 'test_imagechops.py') is modified
+Function  def _write_png(tmp_path, xdim, ydim): in file ('Tests', 'check_large_memory_numpy.py') is modified
+Function  def test_large(tmp_path): in file ('Tests', 'check_large_memory_numpy.py') is modified
+Function +def test_save_all(self, tmp_path): in file ('Tests', 'test_file_webp.py') is modified
+Function +def test_icc_profile(self, tmp_path): in file ('Tests', 'test_file_webp.py') is modified
+Function  def test_write_unsupported_mode_L(self, tmp_path): in file ('Tests', 'test_file_webp.py') is modified
+Function +def test_write_encoding_error_message(self, tmp_path): in file ('Tests', 'test_file_webp.py') is modified
+Function  def test_WebPEncode_with_invalid_args(self): in file ('Tests', 'test_file_webp.py') is modified
+Function  def test_file_pointer_could_be_reused(self): in file ('Tests', 'test_file_webp.py') is modified
+Function  def test_background_from_gif(self, tmp_path): in file ('Tests', 'test_file_webp.py') is modified
+Function +def test_duration(self, tmp_path): in file ('Tests', 'test_file_webp.py') is added
+Function +def test_palette_rawmode(): in file ('Tests', 'test_image_getpalette.py') is added
+Function  def test_closed_file(): in file ('Tests', 'test_file_fli.py') is modified
+Function -def open(): in file ('Tests', 'test_file_fli.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_fli.py') is modified
+Function -def open(): in file ('Tests', 'test_file_fli.py') is modified
+Function  def test_tell(): in file ('Tests', 'test_file_fli.py') is modified
+Function +def test_timeouts(test_file): in file ('Tests', 'test_file_fli.py') is modified
+Function +def test_crash(test_file): in file ('Tests', 'test_file_fli.py') is added
+Function  def string_to_img(image_string): in file ('Tests', 'test_imagemorph.py') is modified
+Function  def test_str_to_img(): in file ('Tests', 'test_imagemorph.py') is modified
+Function  def create_lut(): in file ('Tests', 'test_imagemorph.py') is modified
+Function -def test_non_binary_images(): in file ('Tests', 'test_imagemorph.py') is modified
+Function +def test_incorrect_mode(): in file ('Tests', 'test_imagemorph.py') is modified
+Function  def test_parser(self): in file ('Tests', 'test_imagefile.py') is modified
+Function  def roundtrip(format): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_incremental_webp(self): in file ('Tests', 'test_imagefile.py') is modified
+Function  def test_safeblock(self): in file ('Tests', 'test_imagefile.py') is modified
+Function -def test_raise_ioerror(self): in file ('Tests', 'test_imagefile.py') is modified
+Function  def test_raise_oserror(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_no_format(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def _open(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_oserror(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_truncated(self): in file ('Tests', 'test_imagefile.py') is modified
+Function  def test_truncated_with_errors(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def encode(self, buffer): in file ('Tests', 'test_imagefile.py') is added
+Function +def cleanup(self): in file ('Tests', 'test_imagefile.py') is modified
+Function -def get_decoder(self): in file ('Tests', 'test_imagefile.py') is deleted
+Function -def closure(mode, *args): in file ('Tests', 'test_imagefile.py') is deleted
+Function +def setup_class(cls): in file ('Tests', 'test_imagefile.py') is added
+Function +def decoder_closure(mode, *args): in file ('Tests', 'test_imagefile.py') is added
+Function +def encoder_closure(mode, *args): in file ('Tests', 'test_imagefile.py') is added
+Function  def test_setimage(self): in file ('Tests', 'test_imagefile.py') is modified
+Function  def test_extents_none(self): in file ('Tests', 'test_imagefile.py') is modified
+Function  def test_negsize(self): in file ('Tests', 'test_imagefile.py') is modified
+Function -def test_no_format(self): in file ('Tests', 'test_imagefile.py') is modified
+Function -def test_oserror(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_decode(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_setimage(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_extents_none(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_negsize(self): in file ('Tests', 'test_imagefile.py') is modified
+Function +def test_oversize(self): in file ('Tests', 'test_imagefile.py') is added
+Function +def test_encode(self): in file ('Tests', 'test_imagefile.py') is added
+Function  def test_DCT_scaling_edges(): in file ('Tests', 'test_image_thumbnail.py') is modified
+Function  def test_reducing_gap_values(): in file ('Tests', 'test_image_thumbnail.py') is modified
+Function +def test_gbr_file(): in file ('Tests', 'test_file_gbr.py') is modified
+Function +def test_load(): in file ('Tests', 'test_file_gbr.py') is modified
+Function +def test_multiple_load_operations(): in file ('Tests', 'test_file_gbr.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_gbr.py') is modified
+Function -def test_gbr_file(): in file ('Tests', 'test_file_gbr.py') is deleted
+Function -def test_multiple_load_operations(): in file ('Tests', 'test_file_gbr.py') is deleted
+Function  def test_sanity(): in file ('Tests', 'test_file_ppm.py') is modified
+Function +def test_arbitrary_maxval(data, mode, pixels): in file ('Tests', 'test_file_ppm.py') is modified
+Function  def test_16bit_pgm(): in file ('Tests', 'test_file_ppm.py') is modified
+Function  def test_16bit_pgm_write(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function  def test_pnm(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function +def test_magic(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function +def test_header_with_comments(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function +def test_non_integer_token(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function +def test_token_too_long(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function  def test_truncated_file(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function  def test_neg_ppm(): in file ('Tests', 'test_file_ppm.py') is modified
+Function  def test_mimetypes(tmp_path): in file ('Tests', 'test_file_ppm.py') is modified
+Function +def test_save_stdout(buffer): in file ('Tests', 'test_file_ppm.py') is added
+Function  def test_sanity(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_closed_file(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function -def open(): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_context_manager(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function -def open(): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_mac_tiff(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function -def test_wrong_bits_per_sample(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_bigtiff(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_wrong_bits_per_sample(self, file_name, mode, size, offset): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_set_legacy_api(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function -def test_load_dpi_rounding(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function -def test_save_dpi_rounding(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_load_float_dpi(self, resolutionUnit, dpi): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_save_float_dpi(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function -def test_subifd(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_save_setting_missing_resolution(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_invalid_file(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_16bit_r(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_16bit_s(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_unknown_pixel_mode(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_n_frames(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_frame_order(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test___str__(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_ifd_tag_type(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_exif(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def check_exif(exif): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_exif_frames(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_photometric(self, mode, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_seek(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_strip_raw(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_planar_configuration_save(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_palette(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def roundtrip(mode): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_save_icc_profile(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_discard_icc_profile(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_getxmp(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_get_photoshop_blocks(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_close_on_load_exclusive(self, tmp_path): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_string_dimension(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function +def test_timeout(self): in file ('Tests', 'test_file_tiff.py') is modified
+Function  def test_apng_save_disposal_previous(tmp_path): in file ('Tests', 'test_file_apng.py') is modified
+Function +def test_constants_deprecation(): in file ('Tests', 'test_file_apng.py') is added
+Function +def test_handler(tmp_path): in file ('Tests', 'test_file_gribstub.py') is added
+Function +def open(self, im): in file ('Tests', 'test_file_gribstub.py') is added
+Function +def load(self, im): in file ('Tests', 'test_file_gribstub.py') is added
+Function +def save(self, im, fp, filename): in file ('Tests', 'test_file_gribstub.py') is added
+Function  def upload(a, b): in file ('Tests', 'helper.py') is modified
+Function +def mark_if_feature_version(mark, feature, version_blacklist, reason=None): in file ('Tests', 'helper.py') is added
+Function -def imagemagick_available(): in file ('Tests', 'helper.py') is deleted
+Function +def magick_command(): in file ('Tests', 'helper.py') is added
+Function  def on_appveyor(): in file ('Tests', 'helper.py') is modified
+Function -def test_negative_crop(): in file ('Tests', 'test_image_crop.py') is modified
+Function +def test_negative_crop(box): in file ('Tests', 'test_image_crop.py') is modified
+Function +def test_palette_depth_16(tmp_path): in file ('Tests', 'test_file_tga.py') is modified
+Function  def test_id_field(): in file ('Tests', 'test_file_tga.py') is modified
+Function +def test_cross_scan_line(): in file ('Tests', 'test_file_tga.py') is modified
+Function  def test_save(tmp_path): in file ('Tests', 'test_file_tga.py') is modified
+Function +def test_save_mapdepth(): in file ('Tests', 'test_file_tga.py') is modified
+Function  def test_save_id_section(tmp_path): in file ('Tests', 'test_file_tga.py') is modified
+Function +def test_horizontal_orientations(): in file ('Tests', 'test_file_tga.py') is added
+Function  def test_bytesio(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_lossy_tiled(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_lossless_rt(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_default_num_resolutions(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_reduce(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_load_dpi(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_restricted_icc_profile(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_header_errors(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_layers_type(tmp_path): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_no_jp2(name, args, offset, data): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_mct(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_rgba(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_16bit_monochrome_jp2_like_tiff(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_16bit_monochrome_j2k_like_tiff(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_16bit_j2k_roundtrips(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_unbound_local(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function  def test_parser_feed(): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_subsampling_decode(name): in file ('Tests', 'test_file_jpeg2k.py') is modified
+Function +def test_crashes(test_file): in file ('Tests', 'test_file_jpeg2k.py') is added
+Function  def test_properties(): in file ('Tests', 'test_image_mode.py') is modified
+Function  def test_invalid_size(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_reduce_box(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_reduce_bilinear(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_reduce_hamming(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_reduce_bicubic(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_reduce_lanczos(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_enlarge_box(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_enlarge_bilinear(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_enlarge_hamming(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_enlarge_bicubic(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_enlarge_lanczos(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_box_filter_correct_range(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def run_case(self, case): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_levels_rgba(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_levels_la(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def make_dirty_case(self, mode, clean_pixel, dirty_pixel): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_dirty_pixels_rgba(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_dirty_pixels_la(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_horizontal(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_vertical(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_both(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_box_horizontal(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_box_vertical(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_wrong_arguments(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_tiles(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_subsample(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_formats(self): in file ('Tests', 'test_image_resample.py') is modified
+Function  def test_sanity(): in file ('Tests', 'test_image_quantize.py') is modified
+Function  def test_libimagequant_quantize(): in file ('Tests', 'test_image_quantize.py') is modified
+Function  def test_octree_quantize(): in file ('Tests', 'test_image_quantize.py') is modified
+Function  def test_quantize_dither_diff(): in file ('Tests', 'test_image_quantize.py') is modified
+Function +def test_colors(): in file ('Tests', 'test_image_quantize.py') is added
+Function +def test_transparent_colors_equal(): in file ('Tests', 'test_image_quantize.py') is added
+Function +def test_palette(method, color): in file ('Tests', 'test_image_quantize.py') is added
+Function +def test_small_palette(): in file ('Tests', 'test_image_quantize.py') is added
+Function  def test_ellipse1(): in file ('Tests', 'test_imagedraw2.py') is modified
+Function  def helper_line(points): in file ('Tests', 'test_imagedraw2.py') is modified
+Function  def test_line1_pen(): in file ('Tests', 'test_imagedraw2.py') is modified
+Function  def helper_polygon(points): in file ('Tests', 'test_imagedraw2.py') is modified
+Function  def test_polygon1(): in file ('Tests', 'test_imagedraw2.py') is modified
+Function  def test_rectangle1(): in file ('Tests', 'test_imagedraw2.py') is modified
+Function  def helper_save_as_palm(tmp_path, mode): in file ('Tests', 'test_file_palm.py') is modified
+Function -def open_with_imagemagick(tmp_path, f): in file ('Tests', 'test_file_palm.py') is modified
+Function +def open_with_magick(magick, tmp_path, f): in file ('Tests', 'test_file_palm.py') is modified
+Function  def roundtrip(tmp_path, mode): in file ('Tests', 'test_file_palm.py') is modified
+Function +def test_load(): in file ('Tests', 'test_file_icns.py') is modified
+Function  def test_save(tmp_path): in file ('Tests', 'test_file_icns.py') is modified
+Function  def test_save_append_images(tmp_path): in file ('Tests', 'test_file_icns.py') is modified
+Function  def test_save_fp(): in file ('Tests', 'test_file_icns.py') is modified
+Function  def test_jp2_icon(): in file ('Tests', 'test_file_icns.py') is modified
+Function +def test_icns_decompression_bomb(): in file ('Tests', 'test_file_icns.py') is modified
+Function  def test_g4_eq_png(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_g4_fillorder_eq_png(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_g4_write(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_write_metadata(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_additional_metadata(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_subifd(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_xmlpacket_tag(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_compressions(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_tiff_deflate_compression(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_quality(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_palette_save(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_multipage_seek_backwards(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_save_ycbcr(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_crashing_metadata(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_sampleformat_write(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_lzw(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_strip_ycbcr_jpeg_2x2_sampling(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_strip_ycbcr_jpeg_1x1_sampling(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_tiled_ycbcr_jpeg_1x1_sampling(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_tiled_ycbcr_jpeg_2x2_sampling(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_strip_planar_rgb(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_tiled_planar_rgb(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_tiled_planar_16bit_RGB(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_strip_planar_16bit_RGB(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_tiled_planar_16bit_RGBa(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_strip_planar_16bit_RGBa(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_block_tile_tags(self, compression, tmp_path): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_old_style_jpeg(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_open_missing_samplesperpixel(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_no_rows_per_strip(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function  def test_sampleformat_not_corrupted(self): in file ('Tests', 'test_file_libtiff.py') is modified
+Function +def test_save_multistrip(self, compression, tmp_path): in file ('Tests', 'test_file_libtiff.py') is added
+Function +def test_save_single_strip(self, tmp_path): in file ('Tests', 'test_file_libtiff.py') is added
+Function +def test_save_zero(self, compression, tmp_path): in file ('Tests', 'test_file_libtiff.py') is added
+Function  def test_overflow(): in file ('Tests', 'test_map.py') is modified
+Function +def test_tobytes(): in file ('Tests', 'test_map.py') is modified
+Function +def test_contain(new_size): in file ('Tests', 'test_imageops.py') is modified
+Function  def test_pad(): in file ('Tests', 'test_imageops.py') is modified
+Function  def test_pil163(): in file ('Tests', 'test_imageops.py') is modified
+Function +def test_expand_palette(border): in file ('Tests', 'test_imageops.py') is modified
+Function  def test_colorize_2color(): in file ('Tests', 'test_imageops.py') is modified
+Function  def test_autocontrast_cutoff(): in file ('Tests', 'test_imageops.py') is modified
+Function -def test_auto_contrast_mask_real_input(): in file ('Tests', 'test_imageops.py') is modified
+Function +def test_autocontrast_mask_real_input(): in file ('Tests', 'test_imageops.py') is modified
+Function +def test_autocontrast_preserve_tone(): in file ('Tests', 'test_imageops.py') is added
+Function +def autocontrast(mode, preserve_tone): in file ('Tests', 'test_imageops.py') is added
+Function +def test_autocontrast_preserve_gradient(): in file ('Tests', 'test_imageops.py') is modified
+Function +def test_autocontrast_preserve_one_color(color): in file ('Tests', 'test_imageops.py') is added
+Function  def test_putpalette(): in file ('Tests', 'test_image_putpalette.py') is modified
+Function  def test_imagepalette(): in file ('Tests', 'test_image_putpalette.py') is modified
+Function  def test_putpalette_with_alpha_values(): in file ('Tests', 'test_image_putpalette.py') is modified
+Function +def test_rgba_palette(mode, palette): in file ('Tests', 'test_image_putpalette.py') is added
+Function  def helper_save_as_pdf(tmp_path, mode, **kwargs): in file ('Tests', 'test_file_pdf.py') is modified
+Function  def test_greyscale(tmp_path): in file ('Tests', 'test_file_pdf.py') is modified
+Function +def test_resolution(tmp_path): in file ('Tests', 'test_file_pdf.py') is modified
+Function  def test_save_all(tmp_path): in file ('Tests', 'test_file_pdf.py') is modified
+Function +def test_redos(newline): in file ('Tests', 'test_file_pdf.py') is modified
+Function  def test_path_odd_number_of_coordinates(): in file ('Tests', 'test_imagepath.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_mcidas.py') is modified
+Function  def test_open(): in file ('Tests', 'test_file_wal.py') is modified
+Function +def test_load(): in file ('Tests', 'test_file_wal.py') is added
+Function  def test_default(): in file ('Tests', 'test_image_convert.py') is modified
+Function  def test_16bit_workaround(): in file ('Tests', 'test_image_convert.py') is modified
+Function +def test_opaque(): in file ('Tests', 'test_image_convert.py') is modified
+Function  def test_rgba_p(): in file ('Tests', 'test_image_convert.py') is modified
+Function -def test_trns_p_rgba(): in file ('Tests', 'test_image_convert.py') is modified
+Function +def test_trns_p_transparency(mode): in file ('Tests', 'test_image_convert.py') is modified
+Function  def test_trns_l(tmp_path): in file ('Tests', 'test_image_convert.py') is modified
+Function +def test_l_macro_rounding(convert_mode): in file ('Tests', 'test_image_convert.py') is modified
+Function  def test_gif_with_rgba_palette_to_p(): in file ('Tests', 'test_image_convert.py') is modified
+Function -def test_stdout(): in file ('Tests', 'test_psdraw.py') is modified
+Function +def test_stdout(buffer): in file ('Tests', 'test_psdraw.py') is modified
+Function  def test_crashes(test_file): in file ('Tests', 'test_sgi_crash.py') is modified
+Function  def test_arc_no_loops(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_bitmap(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def helper_chord(mode, bbox, start, end): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_chord_too_fat(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def helper_ellipse(mode, bbox): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_ellipse_width(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def ellipse_various_sizes_helper(filled): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_ellipse_various_sizes(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_ellipse_various_sizes_filled(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def helper_line(points): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_line1(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_shape2(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_transform(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def helper_pieslice(bbox, start, end): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_pieslice_wide(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_pieslice_no_spikes(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def helper_point(points): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_point1(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_polygon1(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_polygon_1px_high(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_polygon_translucent(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def helper_rectangle(bbox): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_rectangle1(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_rectangle_width_fill(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_rectangle_zero_width(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_rectangle_I16(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_rectangle_translucent_outline(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_rounded_rectangle(xy): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_rounded_rectangle_non_integer_radius(xy, radius, type): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_rounded_rectangle_zero_radius(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_rounded_rectangle_translucent(xy, suffix): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_floodfill_thresh(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_floodfill_not_negative(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_square(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_triangle_right(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_triangle_right_width(fill, suffix): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_line_horizontal(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_line_h_s1_w2(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_line_vertical(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_line_oblique_45(): in file ('Tests', 'test_imagedraw.py') is modified
+Function  def test_wide_line_dot(): in file ('Tests', 'test_imagedraw.py') is modified
+Function +def test_continuous_horizontal_edges_polygon(): in file ('Tests', 'test_imagedraw.py') is added
+Function +def test_discontiguous_corners_polygon(): in file ('Tests', 'test_imagedraw.py') is added
+Function  def test_RGBA(self): in file ('Tests', 'test_lib_pack.py') is modified
+Function  def test_roundtrip(): in file ('Tests', 'test_image_getdata.py') is modified
+Function  def getdata(mode): in file ('Tests', 'test_image_getdata.py') is modified
+Function -def test_roundtrip_eye(): in file ('Tests', 'test_numpy.py') is modified
+Function +def test_roundtrip_eye(dtype): in file ('Tests', 'test_numpy.py') is modified
+Function  def test_zero_size(): in file ('Tests', 'test_numpy.py') is modified
+Function  def test_bool(): in file ('Tests', 'test_numpy.py') is modified
+Function  def test_close(): in file ('Tests', 'test_file_tar.py') is modified
+Function -def open(): in file ('Tests', 'test_file_tar.py') is modified
+Function  def test_contextmanager(): in file ('Tests', 'test_file_tar.py') is modified
+Function -def open(): in file ('Tests', 'test_file_tar.py') is modified
+Function  def test_fpx_invalid_number_of_bands(): in file ('Tests', 'test_file_fpx.py') is modified
+Function +def test_prevent_exec(expression): in file ('Tests', 'test_imagemath.py') is added
+Function  def test_closed_file(): in file ('Tests', 'test_file_gif.py') is modified
+Function -def open(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_gif.py') is modified
+Function -def open(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_invalid_file(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_l_mode_transparency(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_strategy(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_optimize(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_loading_multiple_palettes(path, mode): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_headers_saving_for_animated_gifs(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_no_change(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_eoferror(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_first_frame_transparency(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_dispose_none(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_dispose_background(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_dispose_background_transparency(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_transparent_dispose(loading_strategy, expected_colors): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_dispose_previous(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_dispose_previous_first_frame(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_previous_frame_loaded(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_save_dispose(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_dispose2_palette(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function -def test_iss634(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_transparency_in_second_frame(): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_no_transparency_in_second_frame(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_duration(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_zero_comment_subblocks(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_version(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_rgba_transparency(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_bbox(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function +def test_palette_save_all_P(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_palette_save_ImagePalette(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_save_I(tmp_path): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_getdata(): in file ('Tests', 'test_file_gif.py') is modified
+Function  def test_extents(): in file ('Tests', 'test_file_gif.py') is added
+Function +def test_missing_background(): in file ('Tests', 'test_file_gif.py') is added
+Function +def test_saving_rgba(tmp_path): in file ('Tests', 'test_file_gif.py') is added
+Function +def test_color_too_long(): in file ('Tests', 'test_imagecolor.py') is added
+Function +def test_handler(tmp_path): in file ('Tests', 'test_file_bufrstub.py') is added
+Function +def open(self, im): in file ('Tests', 'test_file_bufrstub.py') is added
+Function +def load(self, im): in file ('Tests', 'test_file_bufrstub.py') is added
+Function +def save(self, im, fp, filename): in file ('Tests', 'test_file_bufrstub.py') is added
+Function  def test_closed_file(): in file ('Tests', 'test_file_mpo.py') is modified
+Function -def open(): in file ('Tests', 'test_file_mpo.py') is modified
+Function  def test_context_manager(): in file ('Tests', 'test_file_mpo.py') is modified
+Function -def open(): in file ('Tests', 'test_file_mpo.py') is modified
+Function  def test_app(): in file ('Tests', 'test_file_mpo.py') is modified
+Function +def test_ignore_frame_size(): in file ('Tests', 'test_file_mpo.py') is modified
+Function  def test_parallax(): in file ('Tests', 'test_file_mpo.py') is modified
+Function  def test_y_offset(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_complex_unicode_text(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_text_direction_rtl(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_text_direction_ltr(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_text_direction_rtl2(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_text_direction_ttb(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_text_direction_ttb_stroke(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_ligature_features(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_arabictext_features(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_x_max_and_y_offset(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_language(): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_anchor_ttb(anchor): in file ('Tests', 'test_imagefontctl.py') is modified
+Function  def test_combine(name, text, dir, anchor, epsilon): in file ('Tests', 'test_imagefontctl.py') is modified
+Function +def test_handler(tmp_path): in file ('Tests', 'test_file_hdf5stub.py') is added
+Function +def open(self, im): in file ('Tests', 'test_file_hdf5stub.py') is added
+Function +def load(self, im): in file ('Tests', 'test_file_hdf5stub.py') is added
+Function +def save(self, im, fp, filename): in file ('Tests', 'test_file_hdf5stub.py') is added
+Function +def test_zero(self, size, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_app(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_icc(self, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_large_icc_meta(self, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_truncated_jpeg_should_read_all_the_data(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_qtables(self, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def _n_qtables_helper(n, test_file): in file ('Tests', 'test_file_jpeg.py') is modified
+Function +def test_convert_dict_qtables_deprecation(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_load_djpeg(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_save_cjpeg(self, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_no_duplicate_0x1001_tag(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_bad_mpo_header(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function -def test_load_dpi_rounding(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_save_dpi_rounding(self, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function +def test_dpi_exif_string(self): in file ('Tests', 'test_file_jpeg.py') is added
+Function  def test_no_dpi_in_exif(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_exif_x_resolution(self, tmp_path): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_photoshop(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function +def test_adobe_transform(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function  def test_icc_after_SOF(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function +def test_getxmp(self): in file ('Tests', 'test_file_jpeg.py') is modified
+Function +def test_eof(self): in file ('Tests', 'test_file_jpeg.py') is added
+Function +def decode(self, buffer): in file ('Tests', 'test_file_jpeg.py') is added
+Function +def closure(mode, *args): in file ('Tests', 'test_file_jpeg.py') is added
+Function -def _accept(prefix): in file ('src/PIL', 'MpoImagePlugin.py') is deleted
+Function +def _accept(prefix): in file ('src/PIL', 'MpoImagePlugin.py') is added
+Function  def _save(im, fp, filename): in file ('src/PIL', 'MpoImagePlugin.py') is modified
+Function  def _after_jpeg_open(self, mpheader=None): in file ('src/PIL', 'MpoImagePlugin.py') is modified
+Function -def __init__(self, mode, bands, basemode, basetype): in file ('src/PIL', 'ImageMode.py') is modified
+Function +def __init__(self, mode, bands, basemode, basetype, typestr): in file ('src/PIL', 'ImageMode.py') is added
+Function +def __getattr__(name): in file ('src/PIL', 'PngImagePlugin.py') is modified
+Function  def _safe_zlib_decompress(s): in file ('src/PIL', 'PngImagePlugin.py') is modified
+Function  def load_end(self): in file ('src/PIL', 'PngImagePlugin.py') is modified
+Function +def getxmp(self): in file ('src/PIL', 'PngImagePlugin.py') is added
+Function  def _close__fp(self): in file ('src/PIL', 'PngImagePlugin.py') is modified
+Function -def raise_ioerror(error): in file ('src/PIL', 'ImageFile.py') is deleted
+Function  def _tilesort(t): in file ('src/PIL', 'ImageFile.py') is modified
+Function  def _load(self): in file ('src/PIL', 'ImageFile.py') is modified
+Function  def __init__(self, mode, *args): in file ('src/PIL', 'ImageFile.py') is modified
+Function  def init(self, args): in file ('src/PIL', 'ImageFile.py') is modified
+Function -def pulls_fd(self): in file ('src/PIL', 'ImageFile.py') is deleted
+Function -def decode(self, buffer): in file ('src/PIL', 'ImageFile.py') is deleted
+Function  def cleanup(self): in file ('src/PIL', 'ImageFile.py') is modified
+Function  def setfd(self, fd): in file ('src/PIL', 'ImageFile.py') is modified
+Function  def setimage(self, im, extents=None): in file ('src/PIL', 'ImageFile.py') is modified
+Function +def pulls_fd(self): in file ('src/PIL', 'ImageFile.py') is added
+Function +def decode(self, buffer): in file ('src/PIL', 'ImageFile.py') is added
+Function  def set_as_raw(self, data, rawmode=None): in file ('src/PIL', 'ImageFile.py') is modified
+Function +def pushes_fd(self): in file ('src/PIL', 'ImageFile.py') is added
+Function +def encode(self, bufsize): in file ('src/PIL', 'ImageFile.py') is added
+Function +def encode_to_pyfd(self): in file ('src/PIL', 'ImageFile.py') is added
+Function +def encode_to_file(self, fh, bufsize): in file ('src/PIL', 'ImageFile.py') is added
+Function  def _save(im, fp, filename): in file ('src/PIL', 'SpiderImagePlugin.py') is modified
+Function -def _accept(prefix): in file ('src/PIL', 'FitsStubImagePlugin.py') is deleted
+Function  def _open(self): in file ('src/PIL', 'FitsStubImagePlugin.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'FitsStubImagePlugin.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'GribStubImagePlugin.py') is modified
+Function  def getrgb(color): in file ('src/PIL', 'ImageColor.py') is modified
+Function +def _is_palette_needed(self, p): in file ('src/PIL', 'GifImagePlugin.py') is added
+Function  def _open(self): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function -def _seek(self, frame): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function +def _seek(self, frame, update_image=True): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function +def _rgb(color): in file ('src/PIL', 'GifImagePlugin.py') is added
+Function +def load_prepare(self): in file ('src/PIL', 'GifImagePlugin.py') is added
+Function +def load_end(self): in file ('src/PIL', 'GifImagePlugin.py') is added
+Function -def load_end(self): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function  def _close__fp(self): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function -def _normalize_mode(im, initial_call=False): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function +def _normalize_mode(im): in file ('src/PIL', 'GifImagePlugin.py') is added
+Function  def _write_single_frame(im, fp, palette): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function  def _write_local_header(fp, im, offset, flags): in file ('src/PIL', 'GifImagePlugin.py') is modified
+Function  def fromqimage(im): in file ('src/PIL', 'ImageQt.py') is modified
+Function  def _toqclass_helper(im): in file ('src/PIL', 'ImageQt.py') is modified
+Function  def toqpixmap(im): in file ('src/PIL', 'ImageQt.py') is modified
+Function  def _isconstant(v): in file ('src/PIL', 'ImageMath.py') is modified
+Function +def scan(code): in file ('src/PIL', 'ImageMath.py') is added
+Function  def write_comment(self, s): in file ('src/PIL', 'PdfParser.py') is modified
+Function  def write_catalog(self): in file ('src/PIL', 'PdfParser.py') is modified
+Function  def interpret_trailer(cls, trailer_data): in file ('src/PIL', 'PdfParser.py') is modified
+Function  def interpret_name(cls, raw, as_text=False): in file ('src/PIL', 'PdfParser.py') is modified
+Function +def __getattr__(name): in file ('src/PIL', 'ImageCms.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'BufrStubImagePlugin.py') is modified
+Function  def __init__(self, fp=None): in file ('src/PIL', 'PSDraw.py') is modified
+Function -def _fp_write(self, to_write): in file ('src/PIL', 'PSDraw.py') is modified
+Function  def begin_document(self, id=None): in file ('src/PIL', 'PSDraw.py') is modified
+Function  def end_document(self): in file ('src/PIL', 'PSDraw.py') is modified
+Function  def line(self, xy0, xy1): in file ('src/PIL', 'PSDraw.py') is modified
+Function  def rectangle(self, box): in file ('src/PIL', 'PSDraw.py') is modified
+Function  def text(self, xy, text): in file ('src/PIL', 'PSDraw.py') is modified
+Function  def image(self, box, im, dpi=None): in file ('src/PIL', 'PSDraw.py') is modified
+Function -def _raise_version_warning(): in file ('src/PIL', '__init__.py') is deleted
+Function -def __getattr__(name): in file ('src/PIL', '__init__.py') is deleted
+Function -def __str__(self): in file ('src/PIL', '__init__.py') is deleted
+Function -def __getitem__(self, key): in file ('src/PIL', '__init__.py') is deleted
+Function -def __eq__(self, other): in file ('src/PIL', '__init__.py') is deleted
+Function -def __ne__(self, other): in file ('src/PIL', '__init__.py') is deleted
+Function -def __gt__(self, other): in file ('src/PIL', '__init__.py') is deleted
+Function -def __lt__(self, other): in file ('src/PIL', '__init__.py') is deleted
+Function -def __ge__(self, other): in file ('src/PIL', '__init__.py') is deleted
+Function -def __le__(self, other): in file ('src/PIL', '__init__.py') is deleted
+Function  def _save(im, fp, filename): in file ('src/PIL', 'Hdf5StubImagePlugin.py') is modified
+Function  def pilinfo(out=None, supported_formats=True): in file ('src/PIL', 'features.py') is modified
+Function -def polygon(self, xy, fill=None, outline=None): in file ('src/PIL', 'ImageDraw.py') is modified
+Function +def polygon(self, xy, fill=None, outline=None, width=1): in file ('src/PIL', 'ImageDraw.py') is modified
+Function +def rounded_rectangle(self, xy, radius=0, fill=None, outline=None, width=1): in file ('src/PIL', 'ImageDraw.py') is modified
+Function +def draw_corners(pieslice): in file ('src/PIL', 'ImageDraw.py') is modified
+Function  def _multiline_check(self, text): in file ('src/PIL', 'ImageDraw.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'IcoImagePlugin.py') is modified
+Function  def load(self): in file ('src/PIL', 'IcoImagePlugin.py') is modified
+Function -def Ghostscript(tile, size, fp, scale=1): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function +def Ghostscript(tile, size, fp, scale=1, transparency=False): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function  def readline(self): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function  def _accept(prefix): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function -def load(self, scale=1): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function +def load(self, scale=1, transparency=False): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function  def load_seek(self, *args, **kwargs): in file ('src/PIL', 'EpsImagePlugin.py') is modified
+Function +def load_end(self): in file ('src/PIL', 'TgaImagePlugin.py') is added
+Function  def get_on_pixels(self, image): in file ('src/PIL', 'ImageMorph.py') is modified
+Function +def __init__(self, fp, length=-1): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Function +def _can_read(self, num_bytes): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is added
+Function +def _read_bytes(self, num_bytes): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Function +def read_fields(self, field_format): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is added
+Function +def read_boxes(self): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is added
+Function +def has_next_box(self): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is added
+Function +def next_box_type(self): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Function  def _parse_codestream(fp): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Function +def _res_to_dpi(num, denom, exp): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Function  def _parse_jp2_header(fp): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is deleted
+Function  def _save(im, fp, filename): in file ('src/PIL', 'Jpeg2KImagePlugin.py') is modified
+Function +def _open(self): in file ('src/PIL', 'WalImageFile.py') is modified
+Function +def load(self): in file ('src/PIL', 'WalImageFile.py') is added
+Function  def open(filename): in file ('src/PIL', 'WalImageFile.py') is modified
+Function -def imopen(fp): in file ('src/PIL', 'WalImageFile.py') is modified
+Function +def __getattr__(name): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function  def unpack_565(i): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function +def _accept(prefix): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Function  def _open(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function -def _read_blp_header(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function  def decode(self, buffer): in file ('src/PIL', 'BlpImagePlugin.py') is deleted
+Function +def _read_blp_header(self): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Function +def _safe_read(self, length): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Function  def _read_palette(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function -def _read_blp_header(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function +def _read_bgra(self, palette): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Function  def _load(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function  def _decode_jpeg_stream(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function  def _load(self): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function +def _write_palette(self): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Function +def encode(self, bufsize): in file ('src/PIL', 'BlpImagePlugin.py') is added
+Function +def _save(im, fp, filename, save_all=False): in file ('src/PIL', 'BlpImagePlugin.py') is modified
+Function +def _pyimagingtkcall(command, photo, id): in file ('src/PIL', 'ImageTk.py') is modified
+Function  def _open(self): in file ('src/PIL', 'GbrImagePlugin.py') is modified
+Function  def load(self): in file ('src/PIL', 'GbrImagePlugin.py') is deleted
+Function -def autocontrast(image, cutoff=0, ignore=None, mask=None): in file ('src/PIL', 'ImageOps.py') is modified
+Function +def autocontrast(image, cutoff=0, ignore=None, mask=None, preserve_tone=False): in file ('src/PIL', 'ImageOps.py') is modified
+Function -def pad(image, size, method=Image.BICUBIC, color=None, centering=(0.5, 0.5)): in file ('src/PIL', 'ImageOps.py') is modified
+Function +def contain(image, size, method=Image.Resampling.BICUBIC): in file ('src/PIL', 'ImageOps.py') is modified
+Function +def pad(image, size, method=Image.Resampling.BICUBIC, color=None, centering=(0.5, 0.5)): in file ('src/PIL', 'ImageOps.py') is modified
+Function -def scale(image, factor, resample=Image.BICUBIC): in file ('src/PIL', 'ImageOps.py') is modified
+Function +def scale(image, factor, resample=Image.Resampling.BICUBIC): in file ('src/PIL', 'ImageOps.py') is modified
+Function -def deform(image, deformer, resample=Image.BILINEAR): in file ('src/PIL', 'ImageOps.py') is modified
+Function +def deform(image, deformer, resample=Image.Resampling.BILINEAR): in file ('src/PIL', 'ImageOps.py') is modified
+Function  def equalize(image, mask=None): in file ('src/PIL', 'ImageOps.py') is modified
+Function -def fit(image, size, method=Image.BICUBIC, bleed=0.0, centering=(0.5, 0.5)): in file ('src/PIL', 'ImageOps.py') is modified
+Function +def fit(image, size, method=Image.Resampling.BICUBIC, bleed=0.0, centering=(0.5, 0.5)): in file ('src/PIL', 'ImageOps.py') is modified
+Function  def grayscale(image): in file ('src/PIL', 'ImageOps.py') is modified
+Function  def mirror(image): in file ('src/PIL', 'ImageOps.py') is modified
+Function  def posterize(image, bits): in file ('src/PIL', 'ImageOps.py') is modified
+Function  def register(viewer, order=1): in file ('src/PIL', 'ImageShow.py') is modified
+Function -def show_file(self, file, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function -def show_file(self, file, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function -def show_file(self, file, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def get_command_ex(self, file, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def get_command_ex(self, file, title=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function  def get_command_ex(self, file, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function  def get_command_ex(self, file, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_file(self, path=None, **options): in file ('src/PIL', 'ImageShow.py') is modified
+Function +def show_image(self, image, **options): in file ('src/PIL', 'ImageShow.py') is added
+Function  def load(self, dpi=None): in file ('src/PIL', 'WmfImagePlugin.py') is modified
+Function  def seek(self, frame): in file ('src/PIL', 'WebPImagePlugin.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'WebPImagePlugin.py') is modified
+Function -def lookup(tag): in file ('src/PIL', 'TiffTags.py') is modified
+Function +def lookup(tag, group=None): in file ('src/PIL', 'TiffTags.py') is added
+Function  def __eq__(self, other): in file ('src/PIL', 'TiffImagePlugin.py') is added
+Function +def __getstate__(self): in file ('src/PIL', 'TiffImagePlugin.py') is added
+Function +def __setstate__(self, state): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def _delegate(op): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def delegate(self, *args): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function -def __init__(self, ifh=b"II\052\0\0\0\0\0", prefix=None): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function +def __init__(self, ifh=b"II\052\0\0\0\0\0", prefix=None, group=None): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def _setitem(self, tag, value, legacy_api): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def load_rational(self, data, legacy_api=True): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def load_signed_rational(self, data, legacy_api=True): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def _seek(self, frame): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function +def getxmp(self): in file ('src/PIL', 'TiffImagePlugin.py') is added
+Function +def get_photoshop_blocks(self): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def load_end(self): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def _load_libtiff(self): in file ('src/PIL', 'TiffImagePlugin.py') is modified
+Function  def __init__(self, mode="RGB", palette=None, size=0): in file ('src/PIL', 'ImagePalette.py') is modified
+Function +def palette(self): in file ('src/PIL', 'ImagePalette.py') is added
+Function +def palette(self, palette): in file ('src/PIL', 'ImagePalette.py') is modified
+Function  def copy(self): in file ('src/PIL', 'ImagePalette.py') is modified
+Function  def tobytes(self): in file ('src/PIL', 'ImagePalette.py') is modified
+Function -def getcolor(self, color): in file ('src/PIL', 'ImagePalette.py') is modified
+Function +def getcolor(self, color, image=None): in file ('src/PIL', 'ImagePalette.py') is modified
+Function  def negative(mode="RGB"): in file ('src/PIL', 'ImagePalette.py') is modified
+Function  def random(mode="RGB"): in file ('src/PIL', 'ImagePalette.py') is modified
+Function  def sepia(white="#fff0c0"): in file ('src/PIL', 'ImagePalette.py') is deleted
+Function  def _bitmap(self, header=0, offset=0): in file ('src/PIL', 'BmpImagePlugin.py') is modified
+Function  def _open(self): in file ('src/PIL', 'BmpImagePlugin.py') is modified
+Function +def decode(self, buffer): in file ('src/PIL', 'BmpImagePlugin.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'IcnsImagePlugin.py') is modified
+Function +def _accept(prefix): in file ('src/PIL', 'IcnsImagePlugin.py') is added
+Function  def _open(self): in file ('src/PIL', 'DdsImagePlugin.py') is modified
+Function  def load_seek(self, pos): in file ('src/PIL', 'DdsImagePlugin.py') is modified
+Function -def _validate(prefix): in file ('src/PIL', 'DdsImagePlugin.py') is modified
+Function +def _save(im, fp, filename): in file ('src/PIL', 'DdsImagePlugin.py') is modified
+Function +def _accept(prefix): in file ('src/PIL', 'DdsImagePlugin.py') is added
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function  def _post_init(self, *args, **kwargs): in file ('src/PIL', 'PyAccess.py') is modified
+Function +def si16be(c, o=0): in file ('src/PIL', '_binary.py') is modified
+Function -def __getattr__(name): in file ('src/PIL', 'Image.py') is deleted
+Function +def __getattr__(name): in file ('src/PIL', 'Image.py') is modified
+Function  def _conv_type_shape(im): in file ('src/PIL', 'Image.py') is deleted
+Function +def __getattr__(self, name): in file ('src/PIL', 'Image.py') is modified
+Function  def width(self): in file ('src/PIL', 'Image.py') is modified
+Function +def _repr_pretty_(self, p, cycle): in file ('src/PIL', 'Image.py') is modified
+Function  def _repr_png_(self): in file ('src/PIL', 'Image.py') is modified
+Function -def __array_interface__(self): in file ('src/PIL', 'Image.py') is modified
+Function +def __init__(self, new): in file ('src/PIL', 'Image.py') is modified
+Function +def __array__(self, dtype=None): in file ('src/PIL', 'Image.py') is modified
+Function -def convert(self, mode=None, matrix=None, dither=None, palette=WEB, colors=256): in file ('src/PIL', 'Image.py') is modified
+Function -def quantize(self, colors=256, method=None, kmeans=0, palette=None, dither=1): in file ('src/PIL', 'Image.py') is modified
+Function  def getcolors(self, maxcolors=256): in file ('src/PIL', 'Image.py') is added
+Function +def _getxmp(self, xmp_tags): in file ('src/PIL', 'Image.py') is added
+Function +def get_name(tag): in file ('src/PIL', 'Image.py') is added
+Function +def get_value(element): in file ('src/PIL', 'Image.py') is added
+Function  def getexif(self): in file ('src/PIL', 'Image.py') is modified
+Function -def getpalette(self): in file ('src/PIL', 'Image.py') is modified
+Function +def getpalette(self, rawmode="RGB"): in file ('src/PIL', 'Image.py') is added
+Function  def getpixel(self, xy): in file ('src/PIL', 'Image.py') is modified
+Function  def putdata(self, data, scale=1.0, offset=0.0): in file ('src/PIL', 'Image.py') is modified
+Function  def remap_palette(self, dest_map, source_palette=None): in file ('src/PIL', 'Image.py') is modified
+Function -def resize(self, size, resample=BICUBIC, box=None, reducing_gap=None): in file ('src/PIL', 'Image.py') is modified
+Function +def resize(self, size, resample=None, box=None, reducing_gap=None): in file ('src/PIL', 'Image.py') is modified
+Function  def save(self, fp, format=None, **params): in file ('src/PIL', 'Image.py') is modified
+Function  def seek(self, frame): in file ('src/PIL', 'Image.py') is modified
+Function -def show(self, title=None, command=None): in file ('src/PIL', 'Image.py') is modified
+Function +def show(self, title=None): in file ('src/PIL', 'Image.py') is modified
+Function  def split(self): in file ('src/PIL', 'Image.py') is modified
+Function -def thumbnail(self, size, resample=BICUBIC, reducing_gap=2.0): in file ('src/PIL', 'Image.py') is modified
+Function +def thumbnail(self, size, resample=Resampling.BICUBIC, reducing_gap=2.0): in file ('src/PIL', 'Image.py') is modified
+Function  def getdata(self): in file ('src/PIL', 'Image.py') is modified
+Function -def __transformer(self, box, image, method, data, resample=NEAREST, fill=1): in file ('src/PIL', 'Image.py') is modified
+Function  def _open_core(fp, filename, prefix, formats): in file ('src/PIL', 'Image.py') is modified
+Function  def blend(im1, im2, alpha): in file ('src/PIL', 'Image.py') is modified
+Function  def _show(image, **options): in file ('src/PIL', 'Image.py') is modified
+Function -def _showxv(image, title=None, **options): in file ('src/PIL', 'Image.py') is modified
+Function  def __init__(self): in file ('src/PIL', 'Image.py') is modified
+Function -def _get_ifd_dict(self, tag): in file ('src/PIL', 'Image.py') is modified
+Function +def _get_ifd_dict(self, offset): in file ('src/PIL', 'Image.py') is modified
+Function +def _get_head(self): in file ('src/PIL', 'Image.py') is added
+Function  def load(self, data): in file ('src/PIL', 'Image.py') is modified
+Function +def load_from_fp(self, fp, offset=None): in file ('src/PIL', 'Image.py') is modified
+Function +def _get_merged_dict(self): in file ('src/PIL', 'Image.py') is modified
+Function  def tobytes(self, offset=8): in file ('src/PIL', 'Image.py') is modified
+Function  def get_ifd(self, tag): in file ('src/PIL', 'Image.py') is modified
+Function  def __str__(self): in file ('src/PIL', 'Image.py') is modified
+Function  def __getitem__(self, tag): in file ('src/PIL', 'Image.py') is deleted
+Function -def load_prepare(self): in file ('src/PIL', 'PsdImagePlugin.py') is modified
+Function  def _close__fp(self): in file ('src/PIL', 'PsdImagePlugin.py') is modified
+Function -def _layerinfo(file): in file ('src/PIL', 'PsdImagePlugin.py') is modified
+Function +def _layerinfo(fp, ct_bytes): in file ('src/PIL', 'PsdImagePlugin.py') is modified
+Function +def read(size): in file ('src/PIL', 'PsdImagePlugin.py') is added
+Function +def getxmp(self): in file ('src/PIL', 'JpegImagePlugin.py') is added
+Function  def _getmp(self): in file ('src/PIL', 'JpegImagePlugin.py') is modified
+Function  def convert_dict_qtables(qtables): in file ('src/PIL', 'JpegImagePlugin.py') is modified
+Function  def _save(im, fp, filename): in file ('src/PIL', 'JpegImagePlugin.py') is modified
+Function +def __getattr__(name): in file ('src/PIL', 'ImageFont.py') is modified
+Function +def __getstate__(self): in file ('src/PIL', 'ImageFont.py') is added
+Function +def __setstate__(self, state): in file ('src/PIL', 'ImageFont.py') is added
+Function  def getsize(self, text, *args, **kwargs): in file ('src/PIL', 'ImageFont.py') is modified
+Function -def _token(self, s=b""): in file ('src/PIL', 'PpmImagePlugin.py') is modified
+Function +def _read_magic(self): in file ('src/PIL', 'PpmImagePlugin.py') is modified
+Function +def _read_token(self): in file ('src/PIL', 'PpmImagePlugin.py') is added
+Function  def _open(self): in file ('src/PIL', 'PpmImagePlugin.py') is modified
+Function +def decode(self, buffer): in file ('src/PIL', 'PpmImagePlugin.py') is modified
+Function +def __getattr__(name): in file ('src/PIL', 'FtexImagePlugin.py') is modified
+Function  def _open(self): in file ('src/PIL', 'FtexImagePlugin.py') is modified
+Function -def _validate(prefix): in file ('src/PIL', 'FtexImagePlugin.py') is modified
+Function +def _accept(prefix): in file ('src/PIL', 'FtexImagePlugin.py') is added
+Modified functions: 843
+Added functions: 132
+Deleted functions: 36
+Module file ('', 'Makefile') is modified
+Module file ('', '.appveyor.yml') is modified
+Module file ('', 'setup.cfg') is modified
+Module file ('', 'CHANGES.rst') is modified
+Module file ('.ci', 'after_success.sh') is modified
+Module file ('.ci', 'install.sh') is modified
+Module file ('.ci', 'test.sh') is modified
+Module file ('winbuild', 'build.rst') is modified
+Module file ('winbuild', 'fribidi.cmake') is modified
+Module file ('winbuild', 'build_prepare.py') is modified
+Module file ('Tests', 'test_qt_image_toqimage.py') is modified
+Module file ('Tests', 'test_font_leaks.py') is modified
+Module file ('Tests', 'test_qt_image_qapplication.py') is modified
+Module file ('Tests', 'test_mode_i16.py') is modified
+Module file ('Tests', 'test_imagewin_pointers.py') is modified
+Module file ('Tests', '32bit_segfault_check.py') is modified
+Module file ('Tests', 'createfontdatachunk.py') is modified
+Module file ('Tests', 'test_imagestat.py') is modified
+Module file ('Tests', 'check_fli_oob.py') is modified
+Module file ('Tests', 'test_image_reduce.py') is modified
+Module file ('Tests', 'check_j2k_dos.py') is modified
+Module file ('Tests', 'check_jp2_overflow.py') is modified
+Module file ('Tests', 'check_imaging_leaks.py') is modified
+Module file ('Tests', 'check_icns_dos.py') is modified
+Module file ('Tests', 'test_pdfparser.py') is modified
+Module file ('.github', 'mergify.yml') is modified
+Module file ('.github/workflows', 'lint.yml') is modified
+Module file ('.github/workflows', 'test.yml') is modified
+Module file ('.github/workflows', 'macos-install.sh') is modified
+Module file ('.github/workflows', 'release-drafter.yml') is modified
+Module file ('.github/workflows', 'test-windows.yml') is modified
+Module file ('.github/workflows', 'test-docker.yml') is modified
+Module file ('depends', 'install_raqm.sh') is modified
+Module file ('depends', 'install_webp.sh') is modified
+Module file ('depends', 'install_openjpeg.sh') is modified
+Module file ('depends', 'install_raqm_cmake.sh') is modified
+Module file ('depends', 'install_imagequant.sh') is modified
+Module file ('src', '_imagingft.c') is modified
+Module file ('src', '_webp.c') is modified
+Module file ('src', '_imagingmath.c') is modified
+Module file ('src', 'decode.c') is modified
+Module file ('src', 'encode.c') is modified
+Module file ('src', '_imagingtk.c') is modified
+Module file ('src', 'path.c') is modified
+Module file ('src', 'outline.c') is modified
+Module file ('src', 'map.c') is modified
+Module file ('src', '_imagingmorph.c') is modified
+Module file ('src', '_imaging.c') is modified
+Module file ('src', '_imagingcms.c') is modified
+Module file ('src/libImaging', 'UnsharpMask.c') is modified
+Module file ('src/libImaging', 'Crop.c') is modified
+Module file ('src/libImaging', 'PcxDecode.c') is modified
+Module file ('src/libImaging', 'ImPlatform.h') is modified
+Module file ('src/libImaging', 'Jpeg2KDecode.c') is modified
+Module file ('src/libImaging', 'PcxEncode.c') is modified
+Module file ('src/libImaging', 'PcdDecode.c') is modified
+Module file ('src/libImaging', 'Palette.c') is modified
+Module file ('src/libImaging', 'QuantHash.c') is modified
+Module file ('src/libImaging', 'Jpeg2KEncode.c') is modified
+Module file ('src/libImaging', 'RankFilter.c') is modified
+Module file ('src/libImaging', 'EpsEncode.c') is modified
+Module file ('src/libImaging', 'GetBBox.c') is modified
+Module file ('src/libImaging', 'Paste.c') is modified
+Module file ('src/libImaging', 'BcnDecode.c') is modified
+Module file ('src/libImaging', 'PackDecode.c') is modified
+Module file ('src/libImaging', 'Storage.c') is modified
+Module file ('src/libImaging', 'Negative.c') is modified
+Module file ('src/libImaging', 'Access.c') is modified
+Module file ('src/libImaging', 'Effects.c') is modified
+Module file ('src/libImaging', 'Reduce.c') is modified
+Module file ('src/libImaging', 'QuantHeap.c') is modified
+Module file ('src/libImaging', 'BoxBlur.c') is modified
+Module file ('src/libImaging', 'Gif.h') is modified
+Module file ('src/libImaging', 'Unpack.c') is modified
+Module file ('src/libImaging', 'ZipDecode.c') is modified
+Module file ('src/libImaging', 'Convert.c') is modified
+Module file ('src/libImaging', 'ImagingUtils.h') is modified
+Module file ('src/libImaging', 'codec_fd.c') is modified
+Module file ('src/libImaging', 'TiffDecode.c') is modified
+Module file ('src/libImaging', 'SunRleDecode.c') is modified
+Module file ('src/libImaging', 'ZipEncode.c') is modified
+Module file ('src/libImaging', 'QuantPngQuant.h') is modified
+Module file ('src/libImaging', 'Bit.h') is modified
+Module file ('src/libImaging', 'Copy.c') is modified
+Module file ('src/libImaging', 'Draw.c') is modified
+Module file ('src/libImaging', 'Geometry.c') is modified
+Module file ('src/libImaging', 'ConvertYCbCr.c') is modified
+Module file ('src/libImaging', 'QuantOctree.h') is modified
+Module file ('src/libImaging', 'Filter.c') is modified
+Module file ('src/libImaging', 'HexDecode.c') is modified
+Module file ('src/libImaging', 'UnpackYCC.c') is modified
+Module file ('src/libImaging', 'JpegDecode.c') is modified
+Module file ('src/libImaging', 'QuantHash.h') is modified
+Module file ('src/libImaging', 'Pack.c') is modified
+Module file ('src/libImaging', 'Fill.c') is modified
+Module file ('src/libImaging', 'Imaging.h') is modified
+Module file ('src/libImaging', 'Jpeg.h') is modified
+Module file ('src/libImaging', 'RawDecode.c') is modified
+Module file ('src/libImaging', 'TgaRleEncode.c') is modified
+Module file ('src/libImaging', 'Resample.c') is modified
+Module file ('src/libImaging', 'RawEncode.c') is modified
+Module file ('src/libImaging', 'JpegEncode.c') is modified
+Module file ('src/libImaging', 'Jpeg2K.h') is modified
+Module file ('src/libImaging', 'QuantTypes.h') is modified
+Module file ('src/libImaging', 'Blend.c') is modified
+Module file ('src/libImaging', 'BitDecode.c') is modified
+Module file ('src/libImaging', 'TgaRleDecode.c') is modified
+Module file ('src/libImaging', 'Raw.h') is modified
+Module file ('src/libImaging', 'Point.c') is modified
+Module file ('src/libImaging', 'ZipCodecs.h') is modified
+Module file ('src/libImaging', 'AlphaComposite.c') is modified
+Module file ('src/libImaging', 'SgiRleDecode.c') is modified
+Module file ('src/libImaging', 'Chops.c') is modified
+Module file ('src/libImaging', 'Offset.c') is modified
+Module file ('src/libImaging', 'QuantPngQuant.c') is modified
+Module file ('src/libImaging', 'FliDecode.c') is modified
+Module file ('src/libImaging', 'TiffDecode.h') is modified
+Module file ('src/libImaging', 'File.c') is modified
+Module file ('src/libImaging', 'ColorLUT.c') is modified
+Module file ('src/libImaging', 'Dib.c') is modified
+Module file ('src/libImaging', 'QuantHeap.h') is modified
+Module file ('src/libImaging', 'Quant.c') is modified
+Module file ('src/libImaging', 'Bands.c') is modified
+Module file ('src/libImaging', 'ImDib.h') is modified
+Module file ('src/libImaging', 'Sgi.h') is modified
+Module file ('src/libImaging', 'XbmEncode.c') is modified
+Module file ('src/libImaging', 'GifDecode.c') is modified
+Module file ('src/libImaging', 'Except.c') is modified
+Module file ('src/libImaging', 'QuantOctree.c') is modified
+Module file ('src/libImaging', 'Histo.c') is modified
+Module file ('src/libImaging', 'GifEncode.c') is modified
+Module file ('src/libImaging', 'XbmDecode.c') is modified
+Module file ('src/libImaging', 'ModeFilter.c') is modified
+Module file ('src/libImaging', 'Matrix.c') is modified
+Module file ('src/Tk', '_tkmini.h') is modified
+Module file ('src/Tk', 'tkImaging.c') is modified
+Module file ('src/PIL', 'PcxImagePlugin.py') is modified
+Module file ('src/PIL', 'ImageStat.py') is modified
+Module file ('src/PIL', 'GimpPaletteFile.py') is modified
+Module file ('src/PIL', 'MspImagePlugin.py') is modified
+Module file ('src/PIL', 'MicImagePlugin.py') is modified
+Module file ('src/PIL', '_version.py') is modified
+Module file ('src/PIL', 'ImtImagePlugin.py') is modified
+Module file ('src/PIL', 'ExifTags.py') is modified
+Module file ('src/PIL', 'ImageFilter.py') is modified
+Module file ('src/PIL', 'JpegPresets.py') is modified
+Module file ('src/PIL', '_tkinter_finder.py') is modified
+Module file ('src/PIL', 'PdfImagePlugin.py') is modified
+Module file ('src/PIL', 'ImageGrab.py') is modified
+Module file ('src/PIL', 'ImageTransform.py') is modified
+Module file ('src/PIL', 'SgiImagePlugin.py') is modified
+Modified module: 151
+
+Process finished with exit code 0

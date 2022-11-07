@@ -3,6 +3,7 @@ from breachin.project_diff.project_diff import get_workable_files
 from breachin.project_diff.constant import new_base_dir, old_base_dir
 
 if __name__ == '__main__':
+
     old_ver_ls = get_workable_files(old_base_dir)
     new_ver_ls = get_workable_files(new_base_dir)
 
@@ -24,7 +25,7 @@ if __name__ == '__main__':
 
     print(len(remained_f))
 
-    with open(r'C:\Users\test\PycharmProjects\breachin\breachin\output\remained_diff.txt', 'w') as fp:
+    with open(r'/Users/tshi/PycharmProjects/breachin/breachin/output/remained_diff.txt', 'w') as fp:
         diffs = []
         for rf in remained_f:
             diffs = output_file_diff_with_file_name(old_base_dir, new_base_dir, rf)

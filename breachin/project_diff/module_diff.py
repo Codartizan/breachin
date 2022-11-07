@@ -55,14 +55,18 @@ if __name__ == '__main__':
 
     moved_func = []
     moved_clas = []
+    moved_clas_new = []
+    moved_func_new = []
 
     for rfn in removed_func:
-        if len(search_fun_dir(new_base_dir, rfn[1])) > 0:
-            moved_func.append(rfn)
+        moved_func_new = search_fun_dir(new_base_dir, rfn[1])
+        if len(moved_func_new) > 0:
+            moved_func.append((rfn, moved_func_new))
 
     for rcl in removed_class:
-        if len(search_fun_dir(new_base_dir, rcl[1])) > 0:
-            moved_clas.append(rcl)
+        moved_clas_new = search_fun_dir(new_base_dir, rcl[1])
+        if len(moved_clas_new) > 0:
+            moved_clas.append((rcl, moved_clas_new))
 
     # print('Moved functions {} and classes {}:'.format(len(moved_func), len(moved_clas)))
     # print(moved_func)
@@ -84,9 +88,9 @@ if __name__ == '__main__':
             if len(search_fun_dir(new_base_dir, clazz_sig)) > 0:
                 modified_clas.append(rcl)
 
-    print('Modified functions {} and classes {}:'.format(len(modified_func), len(modified_clas)))
-    print(modified_func)
-    print(modified_clas)
+    # print('Modified functions {} and classes {}:'.format(len(modified_func), len(modified_clas)))
+    # print(modified_func)
+    # print(modified_clas)
 
     added_func = []
     added_class = []
@@ -115,23 +119,33 @@ if __name__ == '__main__':
     #       'Removed function {}, class {} \n'
     #       'Moved function {}, class {} \n'
     #       'Modified function {}, class {} \n'
-    #       'Added function {}, class {}'. format(len(removed_func)-len(moved_func)-len(modified_func), len(removed_class)-len(moved_clas)-len(modified_clas),
-    #                                             len(moved_func), len(moved_clas), len(modified_func), len(modified_clas),
+    #       'Added function {}, class {}'. format(len(removed_func)-len(moved_func)-len(modified_func),
+    #                                             len(removed_class)-len(moved_clas)-len(modified_clas),
+    #                                             len(moved_func), len(moved_clas),
+    #                                             len(modified_func), len(modified_clas),
     #                                             len(added_func), len(added_class)))
-    print('Function Removal')
-    print(removed_func)
-    print('Function Addition')
-    print(added_func)
-    print('Function modification')
-    print(modified_func)
+    # print('Function Removal')
+    # for f in removed_func:
+    #     print(f)
+    # print('Function Addition')
+    # for f in added_func:
+    #     print(f)
+    # print('Function modification')
+    # for f in modified_func:
+    #     print(f)
     print('Function moved')
-    print(moved_func)
-
-    print('Class Removal')
-    print(removed_class)
-    print('Class Addition')
-    print(added_class)
-    print('Class modification')
-    print(modified_clas)
-    print('Class moved')
-    print(moved_clas)
+    for f in moved_func:
+        print(f)
+    #
+    # print('Class Removal')
+    # for f in removed_class:
+    #     print(f)
+    # print('Class Addition')
+    # for f in added_class:
+    #     print(f)
+    # print('Class modification')
+    # for f in modified_clas:
+    #     print(f)
+    # print('Class moved')
+    # for f in moved_clas:
+    #     print(f)

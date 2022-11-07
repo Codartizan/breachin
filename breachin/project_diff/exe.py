@@ -44,15 +44,14 @@ if __name__ == '__main__':
         filename = build_file_path(new_base_dir, f)
         with open(filename, 'r') as my_file:
             filetext = my_file.read()
-            if 'class' in filetext or 'def' in filetext:
+            if 'class' not in filetext and 'def' not in filetext:
                 added_module.append(f)
-
 
     for f in removed_f:
         filename = build_file_path(old_base_dir, f)
         with open(filename, 'r') as my_file:
             filetext = my_file.read()
-            if 'class' in filetext or 'def' in filetext:
+            if 'class' not in filetext and 'def' not in filetext:
                 removed_module.append(f)
 
     added_filename = []
@@ -65,9 +64,20 @@ if __name__ == '__main__':
 
     moved_module = list(set(added_filename).intersection(removed_filename))
 
-    print('added module ' + str(len(added_module)))
-    print(added_module)
-    print('removed module ' + str(len(removed_module)))
-    print(removed_module)
+    # print('added module ' + str(len(added_module)))
+    # print(added_module)
+    # print('removed module ' + str(len(removed_module)))
+    # print(removed_module)
     print('moved module ' + str(len(moved_module)))
+
+    # for m in moved_module:
+    #     print("module " + m + " from " + )
     print(moved_module)
+
+
+
+    for f in removed_f:
+        print(old_base_dir + f[0] + '/' + f[1])
+
+    for f in added_f:
+        print(new_base_dir + f[0] + '/' + f[1])
