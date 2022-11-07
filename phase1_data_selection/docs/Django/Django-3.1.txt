@@ -1,0 +1,2 @@
+callat-qcd/django-gvar | requirements.txt | 17
+CONABIO-audio/irekua-database | requirements.txt | 30

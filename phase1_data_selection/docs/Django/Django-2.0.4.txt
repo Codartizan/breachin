@@ -1,0 +1,3 @@
+icaropires/django-singleton-model | requirements.txt | 6
+ailling/django-bulkmodel | requirements.txt | 6
+Cadasta/django-jsonattrs | requirements.txt | 21

@@ -1,0 +1,8 @@
+aletuf93/analogistics | requirements.txt | 14
+ruirzma/osmsc | requirements.txt | 5
+tellae/starling | requirements.txt | 3
+dullibri/if_license_plates_could_talk | requirements.txt | 15
+phborba/pytorch_segmentation_models_trainer | requirements.txt | 7
+ellipsis-drive/python-package | setup.py | 4
+mggg/maup | requirements.txt | 11
+mikeqfu/pydriosm | requirements.txt | 4

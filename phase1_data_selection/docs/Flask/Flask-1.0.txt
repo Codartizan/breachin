@@ -1,0 +1,7 @@
+smartbgp/yabgp | requirements.txt | 5
+Dinoshauer/pryvate | requirements.txt | 6
+noahziheng/freeiot | requirements.txt | 7
+soasme/flask-perm | requirements.txt | 11
+ondoheer/flask-zurb-foundation | requirements.txt | 4
+muatik/flask-profiler | requirements.txt | 11
+d-ganchar/flask_request_validator | requirements.txt | 7

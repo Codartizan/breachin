@@ -1,0 +1,2 @@
+jeremyagray/django-allauth-2f2a | requirements.txt | 14
+Myzel394/django-model-mixins | requirements.txt | 12

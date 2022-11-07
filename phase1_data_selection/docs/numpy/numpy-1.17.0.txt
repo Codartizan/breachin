@@ -1,0 +1,10 @@
+waking95/easy-bert | setup.py | 6
+EndlessLethe/DeepDraughts | requirements.txt | 7
+yifding/hetseq | requirements.txt | 14
+Lehsuby/chatbotEORA | requirements.txt | 4
+alberttxu/semmatch | requirements.txt | 4
+HussainiLab/BinConverter | requirements.txt | 6
+MaxStrange/AudioSegment | requirements.txt | 15
+epic-kitchens/epic-kitchens-55-lib | requirements.txt | 11
+darothen/pyrcel | requirements.txt | 14
+mgriley/diva | requirements.txt | 10

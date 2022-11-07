@@ -1,0 +1,1 @@
+shanbay/django-comment | requirements.txt | 9

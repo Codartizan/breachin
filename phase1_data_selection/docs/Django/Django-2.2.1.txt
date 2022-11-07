@@ -1,0 +1,3 @@
+joshuaprince/Contrail | requirements.txt | 12
+thelabnyc/django-oscar-wfrs | requirements.txt | 22
+thelabnyc/django-oscar-cybersource | requirements.txt | 22

@@ -1,0 +1,5 @@
+Sensirion/python-shdlc-svm41
+Sensirion/python-i2c-svm41
+tlambert03/llspy-slm
+IAMconsortium/nomenclature
+TirsvadCMS-Scripts/LinuxServerSetup

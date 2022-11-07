@@ -1,0 +1,12 @@
+nealde/Ampere | requirements.txt | 9
+institutedigitalgames/PLT | requirements.txt | 13
+thiagopbueno/tf-rddlsim | requirements.txt | 6
+bluekiri/anomalydetection | requirements.txt | 4
+milesgranger/lumber-jack | requirements.txt | 4
+tympanix/subsync | requirements.txt | 5
+staturecrane/PyTorch-ES | requirements.txt | 9
+wikipedia2vec/wikipedia2vec | requirements.txt | 6
+AhmadZakaria/ScotlandPYard | setup.py | 6
+mjirik/imtools | requirements.txt | 26
+haotianteng/Chiron | requirements.txt | 18
+tacohen125/chachies | requirements.txt | 8

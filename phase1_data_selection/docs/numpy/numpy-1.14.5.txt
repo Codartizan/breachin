@@ -1,0 +1,15 @@
+Quantipy/quantipy3 | requirements.txt | 23
+nusdbsystem/singa-easy | setup.py | 18
+koriavinash1/pgm | requirements.txt | 14
+baidu/Senta | requirements.txt | 25
+p-mongodb/mtools-legacy | requirements.txt | 3
+tuw-eeg/hotmapsDispatch | requirements.txt | 7
+IITDBGroup/cape | requirements.txt | 8
+advboxes/AdvBox | requirements.txt | 27
+MSingerLab/COMETSC | requirements.txt | 4
+slashdigital/khmer-ml | requirements.txt | 10
+mblackgeo/rastertodataframe | requirements.txt | 4
+tungminhphan/traffic-intersection | requirements.txt | 17
+mapbox/rio-mucho | requirements.txt | 4
+urinieto/msaf | requirements.txt | 26
+elitcloud/elit | requirements.txt | 22

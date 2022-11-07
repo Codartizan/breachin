@@ -1,0 +1,7 @@
+kunpeng199494/text_category | requirements.txt | 3
+danielkelshaw/PySwallow | requirements.txt | 19
+daviddavini/pysinewave | requirements.txt | 6
+LeviBorodenko/spectrographic | requirements.txt | 3
+sidhomj/DeepTCR | requirements.txt | 29
+robinsonkwame/adversarial_labeller | requirements.txt | 3
+deepmipt/DeepPavlov | requirements.txt | 28

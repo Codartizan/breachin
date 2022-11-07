@@ -1,0 +1,6 @@
+heroku/python-salesforce-client | requirements.txt | 3
+gramedia-digital-nusantara/midtranspay | requirements.txt | 4
+mbylstra/django-wham | requirements.txt | 5
+praekeltfoundation/mobileu | setup.py | 3
+globocom/python-bss-client | setup.py | 4
+sven-cremer/assemblycoins | requirements.txt | 8

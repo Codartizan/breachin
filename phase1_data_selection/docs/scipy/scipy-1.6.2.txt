@@ -1,0 +1,17 @@
+mozilla/mozperftest-tools | requirements.txt | 8
+JaerongA/pyfinch | requirements.txt | 9
+BreezeWhite/oemer | setup.py | 6
+kpcoleman/SpaDecon | setup.py | 8
+CBIGR/HTSplotter | requirements.txt | 7
+mcataneo/pyLDT-cosmo | setup.py | 3
+amoussawi/recoder | requirements.txt | 5
+Black-Swan-ICL/PyRKHSstats | requirements.txt | 10
+AndreiChertkov/teneva | requirements.txt | 3
+golmschenk/ramjet | requirements.txt | 3
+CuriBio/mantarray-waveform-analysis | requirements.txt | 3
+quizlet/abracadabra | setup.py | 4
+tillahoffmann/macrodynamics | requirements.txt | 11
+ioshchepkov/pygeoid | requirements.txt | 3
+usnistgov/mosaic | requirements.txt | 14
+Techtonique/GPopt | requirements.txt | 3
+clbarnes/molesq | requirements.txt | 3

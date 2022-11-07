@@ -1,0 +1,3 @@
+jdiegodcp/ramlfications | requirements.txt | 3
+sveetch/python-captains-log | setup.py | 11
+jhermann/gh-commander | requirements.txt | 9

@@ -1,0 +1,9 @@
+Boorunaut/Boorunaut | requirements.txt | 29
+furlongm/patchman | requirements.txt | 21
+bitlabstudio/django-people | requirements.txt | 11
+bitlabstudio/django-multilingual-tags | requirements.txt | 14
+bitlabstudio/django-multilingual-news | requirements.txt | 23
+zerc/django-light-draft | requirements.txt | 19
+sidneycarlos65/django-gerencianet | requirements.txt | 12
+pinetree408/django-facebook-auth | requirements.txt | 13
+bitlabstudio/bitmazk-contact-form | requirements.txt | 15

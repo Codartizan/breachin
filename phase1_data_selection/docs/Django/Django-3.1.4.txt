@@ -1,0 +1,3 @@
+hotwire-django/stimulus-webpack-tools | requirements.txt | 3
+hotwire-django/turbo-lazy | requirements.txt | 12
+hitnik/hazard_feed | requirements.txt | 28

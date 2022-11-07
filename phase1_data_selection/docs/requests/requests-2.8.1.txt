@@ -1,0 +1,6 @@
+harman-red-square/Kinto | requirements.txt | 6
+gszathmari/wpbiff | requirements.txt | 3
+pennlabs/pennathletics | requirements.txt | 3
+neuroticnerd/dragoncon-bot | requirements.txt | 9
+cristianoliveira/croutera | requirements.txt | 5
+JamesGardiner/chwrapper | requirements.txt | 3

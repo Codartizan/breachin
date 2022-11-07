@@ -1,0 +1,6 @@
+UTEL-UIUC/gtfs_segments | requirements.txt | 3
+asfadmin/asf_metadata | requirements.txt | 3
+joshuaneronha/ziptool | requirements.txt | 10
+thegraphnetwork/epigraphhub_py | requirements.txt | 16
+IMMM-SFA/mosartwmpy | setup.py | 8
+OasisLMF/OasisLMF | requirements.txt | 23

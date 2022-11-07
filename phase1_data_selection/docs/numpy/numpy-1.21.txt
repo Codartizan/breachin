@@ -1,0 +1,16 @@
+Andrew-Draganov/GiDR-DUN | setup.py | 24
+LQCT/MDScan | requirements.txt | 5
+Bayer-Group/cdst | requirements.txt | 4
+felixzhu17/FastExplain | requirements.txt | 10
+AndreiChertkov/fpcross | requirements.txt | 7
+shuaigroup/Renormalizer | requirements.txt | 27
+HPI-Information-Systems/gutentag | requirements.txt | 27
+Sentinal4D/cellshape-cluster | setup.py | 4
+Sentinal4D/cellshape-cloud | setup.py | 3
+poseidonchan/TAPE | setup.py | 4
+cabouman/svmbir | requirements.txt | 15
+mbaudin47/otbenchmark | requirements.txt | 27
+ajakef/gemlog | setup.py | 13
+phausamann/rigid-body-motion | requirements.txt | 19
+NREL/OpenOA | requirements.txt | 26
+NatLibFi/Annif | setup.py | 13

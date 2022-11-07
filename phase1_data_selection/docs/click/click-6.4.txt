@@ -1,0 +1,4 @@
+manosim/pypiup | requirements.txt | 5
+kusanagi/katana-sdk-python3 | setup.py | 3
+kusanagi/katana-sdk-python2 | setup.py | 3
+soasme/beeper.py | requirements.txt | 3

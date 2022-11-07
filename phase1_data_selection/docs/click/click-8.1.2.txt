@@ -1,0 +1,15 @@
+xImAnton/mcsrv-cli | requirements.txt | 3
+LineaLabs/lineapy | requirements.txt | 5
+panqec/panqec | setup.py | 3
+zmoog/classeviva-client | requirements.txt | 4
+investoreight/i8-terminal | requirements.txt | 28
+SoftwareAG/cumulocity-remote-access-local-proxy | requirements.txt | 20
+kovshenin/sail | requirements.txt | 20
+afterit/flaskstarter | requirements.txt | 3
+max-block/mb-solana-py | setup.py | 7
+unikubehq/cli | requirements.txt | 27
+kumaraditya303/pycreds | requirements.txt | 3
+paris-saclay-cds/ramp-board | requirements.txt | 9
+salesforce/policy_sentry | requirements.txt | 7
+nucypher/nucypher | requirements.txt | 30
+Skyscanner/cfripper | requirements.txt | 3

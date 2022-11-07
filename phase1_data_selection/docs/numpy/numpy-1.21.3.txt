@@ -1,0 +1,9 @@
+rishiraj/autolgbm | setup.py | 4
+gecad-pyticle-swarm/pyticle-swarm | requirements.txt | 3
+XanaduAI/xanadu-cloud-client | requirements.txt | 4
+HPI-DeepLearning/length | requirements.txt | 29
+ThibaudLamothe/uthibs | setup.py | 10
+abhishekkrthakur/autoxgb | setup.py | 4
+NishantBaheti/mightypy | requirements.txt | 12
+NREL/rdtools | requirements.txt | 20
+internetarchive/archive-pdf-tools | requirements.txt | 4

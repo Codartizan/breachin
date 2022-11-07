@@ -1,0 +1,16 @@
+CheeseCake87/Flask-Launchpad | requirements.txt | 15
+thangarajdeivasikamani/object_detection_common_application | requirements.txt | 4
+rreben/tools4zettelkasten | requirements.txt | 8
+licenseware/licenseware-sdk-v2 | requirements.txt | 24
+ToraNova/flask-arch | requirements.txt | 18
+elifesciences/sciencebeam-parser | requirements.txt | 5
+jackm/kijiji-manager | requirements.txt | 10
+DEAL-US/Silence | setup.py | 7
+rapid7/komand-plugin-sdk-python | requirements.txt | 4
+elixir-cloud-aai/foca | requirements.txt | 13
+paris-saclay-cds/ramp-board | requirements.txt | 20
+TaleLin/lin-cms-flask-core | setup.py | 12
+google/timesketch | requirements.txt | 24
+gmucsn/mTree | requirements.txt | 12
+miong/pycodeanalyzer | setup.py | 4
+puhoy/lspace | setup.py | 20

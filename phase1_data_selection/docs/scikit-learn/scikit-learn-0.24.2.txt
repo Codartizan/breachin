@@ -1,0 +1,6 @@
+albertotonda/HumanModels | requirements.txt | 3
+MIND-Lab/OCTIS | requirements.txt | 3
+gaussalgo/anlearn | requirements.txt | 4
+amaiya/ktrain | setup.py | 5
+iamDecode/sklearn-pmml-model | requirements.txt | 8
+andersbogsnes/ml_tooling | requirements.txt | 8

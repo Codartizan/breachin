@@ -1,0 +1,16 @@
+apache/superset | setup.py | 23
+GuillaumePv/Deep_surrogate_PIN_model | requirements.txt | 12
+pwoznicki/AutoRadiomics | requirements.txt | 16
+IMMC-UWaterloo/ARCGen-Python | requirements.txt | 10
+alexzanderr/_core-dev | requirements.txt | 4
+mgsky1/FG-plugin | setup.py | 3
+cyllab/ccinput | requirements.txt | 3
+CruxML/vitis-quantizer | requirements.txt | 11
+JannisNe/muvimaker | requirements.txt | 20
+i-shah/genra-py | requirements.txt | 6
+NishantBaheti/graphpkg | requirements.txt | 8
+HananyTolba/makeprediction | requirements.txt | 21
+vivarium-collective/vivarium-core | requirements.txt | 16
+tlecomte/friture | setup.py | 23
+jamalsenouci/causalimpact | requirements.txt | 7
+sanderroosendaal/rowingdata | requirements.txt | 17

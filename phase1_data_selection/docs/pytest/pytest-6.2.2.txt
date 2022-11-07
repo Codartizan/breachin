@@ -1,0 +1,6 @@
+chandar-lab/RLHive | requirements.txt | 6
+UriaMorP/mprod_package | setup.py | 8
+TNanukem/scikit-net | requirements.txt | 5
+mitre/ilpyt | setup.py | 10
+DynamiteAI/dynamite-nsm | setup.py | 4
+IndicoDataSolutions/Indico-Solutions-Toolkit | requirements.txt | 27

@@ -1,0 +1,12 @@
+ECOLE-ITN/NguyenIEEEAccess2022 | requirements.txt | 3
+jakubarendac/fingerflow | requirements.txt | 7
+poseidonchan/TAPE | setup.py | 4
+alegiac95/Imaging-transcriptomics | requirements.txt | 5
+darshanbaral/pdrle | requirements.txt | 5
+AlphaFinance/Alpha_Finance | requirements.txt | 6
+NicolaiThomassen/moviefinder | setup.py | 5
+tiepvupsu/tabml | requirements.txt | 10
+jasonpul/MarketGym | requirements.txt | 5
+altcp/gdemandfcast | requirements.txt | 3
+PlanetHunters/lcbuilder | setup.py | 4
+ffeast/finam-export | requirements.txt | 3

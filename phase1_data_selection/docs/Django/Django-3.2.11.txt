@@ -1,0 +1,1 @@
+ldsxp/django-utils-lds | requirements.txt | 8           Suceed

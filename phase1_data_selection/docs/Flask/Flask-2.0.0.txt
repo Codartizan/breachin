@@ -1,0 +1,3 @@
+PermutaTriangle/TileScopeGUI | setup.py | 8
+objetorelacional/infosystem | requirements.txt | 23
+littlebai3618/bspider | requirements.txt | 22

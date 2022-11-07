@@ -1,0 +1,5 @@
+python -m unittest ubackup.tests.test_utils
+
+
+
+export DJANGO_SETTINGS_MODULE=poppulate_first_app.settings

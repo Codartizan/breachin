@@ -1,0 +1,2 @@
+FundedByMe/django-uc | requirements.txt | 4
+FundedByMe/django-mangopay | requirements.txt | 8

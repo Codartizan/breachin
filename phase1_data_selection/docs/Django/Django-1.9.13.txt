@@ -1,0 +1,2 @@
+AASHE/django-constant-contact | requirements.txt | 4
+AASHE/django-bulletin | requirements.txt | 26

@@ -1,0 +1,10 @@
+smirik/mass-resonances | setup.py | 7 | Found breaking change | from 1.10.4 -> 1.18.5
+djordon/queueing-tool | requirements.txt | 20 | Found breaking change | from 1.10.4 -> 1.18.5
+lwgray/pytransform | requirements.txt | 3
+timercrack/pydatacoll | requirements.txt | 6
+brianbruggeman/oogli | requirements.txt | 8
+DataSounds/OceanSound | requirements.txt | 5
+awentzonline/image-analogies | requirements.txt | 11
+par2/lamana | requirements.txt | 6
+fukuball/fuku-ml | requirements.txt | 23 -- Version conflict
+mila-iqia/fuel | requirements.txt | 29

@@ -1,0 +1,11 @@
+SCIInstitute/UncertainSCI | requirements.txt | 28
+mechanicalsea/pytorch-light | requirements.txt | 3
+CS207ProjectGroup8/cs207-FinalProject | requirements.txt | 7
+cid-harvard/py-ecomplexity | requirements.txt | 6
+cs207-group19/Automatic-Differentiation | requirements.txt | 9
+peterjbrown519/dirng | requirements.txt | 9
+nomuramasahir0/crfmnes | requirements.txt | 7
+libtangle/qcgpu | requirements.txt | 5
+DaulPavid/pyturbo | requirements.txt | 8
+boazmohar/pySparkUtils | requirements.txt | 4
+gasparka/pyha | requirements.txt | 28

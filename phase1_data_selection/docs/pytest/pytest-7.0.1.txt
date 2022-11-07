@@ -1,0 +1,11 @@
+avishaycohen/mpd-parser | requirements.txt | 3
+TimNekk/pypayment | setup.py | 4
+Solar-network/python-crypto | setup.py | 16
+AlphonsG/Rainbow-Optical-Flow-For-ALI | requirements.txt | 5
+squirrel-writer/squirrel | setup.py | 5
+DirksCGM/turbo-stream | requirements.txt | 4
+tgedr/connectors | requirements.txt | 3
+mkorman90/regipy | requirements.txt | 3
+KyleKing/calcipy | requirements.txt | 15
+Devansh3712/cmc-py | requirements.txt | 6
+virocon-organization/virocon | requirements.txt | 15

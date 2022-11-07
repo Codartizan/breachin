@@ -1,0 +1,2 @@
+RonDingDing/restframework_datachange | requirements.txt | 4
+KryptedGaming/django-eveonline-connector | setup.py | 26

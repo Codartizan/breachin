@@ -1,0 +1,7 @@
+developerpe/django-automatic-crud | requirements.txt | 9
+samyakjain101/django-phone-auth | requirements.txt | 20
+AnmolChachra/django-location-app | requirements.txt | 14
+juanbenitezdev/django-model-logs | requirements.txt | 10
+ahernp/django-feedreader | setup.py | 16
+cltrudeau/django-airplane | requirements.txt | 13
+crgwbr/asymmetric-jwt-auth | requirements.txt | 22

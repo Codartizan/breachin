@@ -1,0 +1,3 @@
+john-maluki/blog-project | requirements.txt | 4
+alexisbellido/znbdownload | requirements.txt | 12
+HackSoftware/django-enum-choices | setup.py | 24

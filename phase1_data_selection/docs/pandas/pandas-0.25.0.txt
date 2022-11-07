@@ -1,0 +1,9 @@
+impresso/impresso-text-acquisition | requirements.txt | 4
+day0market/support_resistance | requirements.txt | 7
+boromir674/topic-modeling-toolkit | requirements.txt | 3
+idekerlab/auto-graph-visualizer | requirements.txt | 3
+resuelve/silk-ml | requirements.txt | 8
+waterlandlab/CluBCpG | setup.py | 5
+jakevc/karyopype | requirements.txt | 3
+cdqa-suite/cdQA | requirements.txt | 7
+epic-kitchens/epic-kitchens-55-lib | requirements.txt | 11

@@ -1,0 +1,1 @@
+barakaVictor/django-gamma-cloudinary | requirements.txt | 13

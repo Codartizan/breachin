@@ -1,0 +1,15 @@
+bioexcel/biobb_dna | requirements.txt | 13
+ShengzheXu/stan | setup.py | 11
+ClimateMind/climatemind-ontology-processing | requirements.txt | 4
+Cstolborg/HMMpy | requirements.txt | 5
+insightindustry/spss-converter | requirements.txt | 3
+GuillaumeSimo/autoforecast | requirements.txt | 4
+targhs/pycargo | requirements.txt | 4
+zebengberg/bairy | requirements.txt | 5
+ig-ksv/graphene-pandas | requirements.txt | 3
+lucabasa/tubesML | requirements.txt | 25
+DuraMAT/pvpro | requirements.txt | 19
+DuraMAT/pvarc | requirements.txt | 12
+medoidai/skrobot | setup.py | 11
+GianniBalistreri/easyexplore | requirements.txt | 12
+sharebook-kr/pykrx | requirements.txt | 18

@@ -1,0 +1,2 @@
+transifex/transifex-old-core | requirements.txt | 30
+zsiciarz/django-briefcase | requirements.txt | 19

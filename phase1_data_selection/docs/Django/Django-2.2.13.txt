@@ -1,0 +1,3 @@
+ryesalvador/cm_portal | requirements.txt | 25
+antiproblemist/django-accountkit | requirements.txt | 5
+mvantellingen/localshop | setup.py | 28

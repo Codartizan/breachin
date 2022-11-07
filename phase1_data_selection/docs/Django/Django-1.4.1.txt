@@ -1,0 +1,5 @@
+tryolabs/django-tastypie-extendedmodelresource | requirements.txt | 9
+modocache/django-generate-scaffold | requirements.txt | 24
+tangentlabs/django-blakey-utils | setup.py | 3
+globocom/crane-ec2 | requirements.txt | 6
+clutchio/clutch | requirements.txt | 22

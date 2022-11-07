@@ -1,0 +1,12 @@
+AI4SCR/ATHENA | requirements.txt | 17
+AI4SCR/spatial-omics | requirements.txt | 5
+project-pareto/project-pareto | setup.py | 4
+mhconradt/research-tools | requirements.txt | 4
+ydataai/ydata-quality | requirements.txt | 14
+gbrltv/cdesf2 | requirements.txt | 4
+NaegleLab/OpenEnsembles | setup.py | 8
+pckhoi/datavalid | requirements.txt | 25
+pckhoi/datamatch | requirements.txt | 13
+jbpauly/fasting | requirements.txt | 3
+NREL/OpenOA | requirements.txt | 23
+ydataai/ydata-synthetic | requirements.txt | 17

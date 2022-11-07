@@ -1,0 +1,5 @@
+bluedenim/vmigration-helper | requirements.txt | 11
+mahbd/simplify-rest-framework | requirements.txt | 15
+uspdev/django-oauth-usp | requirements.txt | 27
+just-work/django-admin-countless | requirements.txt | 10
+DataONEorg/d1_python | requirements.txt | 30

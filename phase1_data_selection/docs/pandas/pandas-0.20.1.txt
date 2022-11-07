@@ -1,0 +1,7 @@
+laugustyniak/textlytics | requirements.txt | 22
+empiricalstateofmind/eventgraphs | requirements.txt | 8
+mavrix93/LightCurvesClassifier | requirements.txt | 10
+CancerRxGene/gdsctools | requirements.txt | 23
+mgriley/diva | requirements.txt | 14
+xflows/cf_nlp | setup.py | 6
+blue-yonder/azure-cost-mon | requirements.txt | 3

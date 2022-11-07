@@ -1,0 +1,14 @@
+mozilla/mozperftest-tools | requirements.txt | 10
+kmhess/SoFiA-image-pipeline | requirements.txt | 3
+cassidylaidlaw/boltzmann-policy-distribution | requirements.txt | 3
+JoshuaHess12/miaaim-python | requirements.txt | 4
+TheBrownLab/PhyloFisher | setup.py | 6
+RoberAgro/HES-OFF | requirements.txt | 16
+ds4n6/ds4n6_lib | requirements.txt | 15
+zjunlp/DeepKE | requirements.txt | 6
+banillie/analysis_engine | requirements.txt | 5
+cwmccurdy/quantumGrid | requirements.txt | 7
+quizlet/abracadabra | setup.py | 3
+tillahoffmann/macrodynamics | requirements.txt | 4
+andersbogsnes/ml_tooling | requirements.txt | 27
+vprzybylo/IPAS | requirements.txt | 17

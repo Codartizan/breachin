@@ -1,0 +1,3 @@
+mbrown1508/microsoftbotframework | requirements.txt | 4
+apiwatcher/flask-ouath2-provider | requirements.txt | 3
+ClaudeSeo/flask-app-generator | requirements.txt | 5

@@ -1,0 +1,5 @@
+Salaah01/django-email-signals | requirements.txt | 24               No No
+tom-010/django-presentable-exception | requirements.txt | 4
+migelbd/django-site-variables | requirements.txt | 13               No No
+mahbd/django-front-data | requirements.txt | 14                     No No
+ross/django-thread | requirements.txt | 11                          No No

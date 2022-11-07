@@ -1,0 +1,3 @@
+awentzonline/image-analogies | requirements.txt | 4
+mila-iqia/fuel | requirements.txt | 7
+chengsoonong/crowdastro | requirements.txt | 16

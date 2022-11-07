@@ -1,0 +1,11 @@
+sebhaan/geobo | requirements.txt | 4
+jcvasquezc/phonet | requirements.txt | 4
+djmaity/md-davis | requirements.txt | 4
+diku-dk/bfast | requirements.txt | 3
+klatimer/robot-data-visualizer | requirements.txt | 6
+tympanix/subsync | requirements.txt | 6
+Yoctol/yoctol-nlu-py | setup.py | 3
+urinieto/msaf | requirements.txt | 5
+mjirik/imtools | requirements.txt | 7
+dannyi96/pygenetic | requirements.txt | 6
+jtrunnels91/ModularEstimator | requirements.txt | 17

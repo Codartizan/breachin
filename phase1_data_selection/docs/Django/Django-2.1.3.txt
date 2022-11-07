@@ -1,0 +1,3 @@
+marcgibbons/django-rest-swagger | requirements.txt | 13
+jsql-method/jsql-django | requirements.txt | 3
+crepex-dev/cafe24-sms-Django | requirements.txt | 6

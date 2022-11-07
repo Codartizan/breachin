@@ -1,0 +1,13 @@
+lijiacd985/Mmint | requirements.txt | 18
+Dangertrip/LiBis | requirements.txt | 4
+telia-oss/birgitta | requirements.txt | 7
+demand-consults/demand_acep | requirements.txt | 9
+Jimut123/wisp | requirements.txt | 3
+mediaintegration/twiddlepy | requirements.txt | 7
+bthornton191/dripy | requirements.txt | 6
+TabQ/gugu | setup.py | 9
+Merck/deepbgc | setup.py | 12
+MillionIntegrals/vel | requirements.txt | 8
+ChrisCummins/labm8 | requirements.txt | 5
+Amsterdam/data-processing | setup.py | 20
+rodrigobressan/entity_embeddings_categorical | requirements.txt | 11

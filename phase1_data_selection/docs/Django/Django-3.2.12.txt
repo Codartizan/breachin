@@ -1,0 +1,6 @@
+VoIlAlex/authoriz | requirements.txt | 7                        No
+renderbox/django-integrations | requirements.txt | 19           No
+apache/airavata-django-portal-sdk | requirements.txt | 16       No
+SlavaSkvortsov/arq-django-admin | requirements.txt | 9          No No
+hellohaptik/chatbot_ner | requirements.txt | 22                 No No
+renderbox/django-help-me | requirements.txt | 26                No No

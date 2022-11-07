@@ -1,0 +1,2 @@
+leferrad/pyoselm | setup.py | 6
+nitrictech/python-sdk | setup.py | 8

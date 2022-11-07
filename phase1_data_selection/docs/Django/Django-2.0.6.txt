@@ -1,0 +1,1 @@
+mrf345/django_gtranslate | requirements.txt | 10

@@ -1,0 +1,6 @@
+AgustinCB/tuir | requirements.txt | 15
+michael-lazar/rtv | requirements.txt | 16
+reposify/reposify-python | requirements.txt | 3
+atlassian/localstack | requirements.txt | 16
+juiceinc/juicebox-cli | requirements.txt | 7
+DallasMorningNews/django-datafreezer | requirements.txt | 4

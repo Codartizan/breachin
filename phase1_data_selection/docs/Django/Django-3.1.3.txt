@@ -1,0 +1,4 @@
+Mendes11/drf_embedded_fields | requirements.txt | 8
+renderbox/django-release-notes | requirements.txt | 15
+nikhiljohn10/django-google-mailer | requirements.txt | 12
+mrf345/django_gtts | requirements.txt | 11

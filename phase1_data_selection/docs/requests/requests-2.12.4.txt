@@ -1,0 +1,5 @@
+neilswainston/synbiochem-py | setup.py | 5
+ziplokk1/python-amazon-mws-tools | requirements.txt | 5
+jayrav13/presidency | requirements.txt | 12
+memegen/meme_get | requirements.txt | 3
+Allianzcortex/FBRank | requirements.txt | 3

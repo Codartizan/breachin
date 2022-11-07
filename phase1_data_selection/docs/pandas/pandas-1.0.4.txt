@@ -1,0 +1,13 @@
+bio-ontology-research-group/DeepMOCCA | requirements.txt | 6
+mysterious-ben/dutil | requirements.txt | 6
+SforAiDl/genrl | requirements.txt | 7
+piEsposito/TanD | requirements.txt | 7
+markdouthwaite/xanthus | requirements.txt | 14
+hyunwoongko/kochat | requirements.txt | 6
+explainX/explainx | requirements.txt | 9
+fw-dev/useful_dashboard_info | requirements.txt | 5
+dondaum/ninjasql | requirements.txt | 3
+calico/scnym | requirements.txt | 11
+fakecoinbase/cloudwallslashserenity | requirements.txt | 5
+phausamann/sklearn-xarray | requirements.txt | 3
+druid-io/pydruid | requirements.txt | 4

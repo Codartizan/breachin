@@ -1,0 +1,2 @@
+tuxmonk/pupdb | requirements.txt | 3
+AICoE/log-anomaly-detector | setup.py | 7

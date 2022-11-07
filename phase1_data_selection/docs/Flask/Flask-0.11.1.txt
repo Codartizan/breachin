@@ -1,0 +1,10 @@
+caser789/flask-jwt | requirements.txt | 16
+lsst-sqre/sqre-apikit | setup.py | 7
+DarkSand/Sasila | requirements.txt | 3
+RyanKung/qubit | requirements.txt | 4
+fretboardfreak/netify | requirements.txt | 6
+pragmaticcoders/horse | requirements.txt | 9
+AristotleJunior/flask-loginmanager | requirements.txt | 8
+diamond-org/flask-diamond | requirements.txt | 4
+PonteIneptique/flask-github-proxy | requirements.txt | 7
+dinocloud/flask-dino-utils | setup.py | 4

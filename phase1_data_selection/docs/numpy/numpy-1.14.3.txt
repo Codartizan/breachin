@@ -1,0 +1,8 @@
+jag426/oast | requirements.txt | 3
+hochbaumGroup/sparsecomputation | requirements.txt | 4
+jdoepfert/roipoly.py | requirements.txt | 4
+dgketchum/satellite_image | requirements.txt | 4
+hackl/cnet | requirements.txt | 9
+tdb-alcorn/q2 | requirements.txt | 12
+nmiculinic/minion-data | requirements.txt | 6
+Phelimb/BIGSI | requirements.txt | 8

@@ -1,0 +1,11 @@
+tadz-io/hydropt | requirements.txt | 5
+ndeutschmann/zunis | requirements.txt | 9
+ethz-asl/navrep | requirements.txt | 23
+jimmyyyeh/tw-stock-plugin | requirements.txt | 3
+Biomatters/Azimuth | requirements.txt | 7
+overtime3/overtime | requirements.txt | 4
+cdmacfadyen/MedPicPy | requirements.txt | 5
+chaininout/messagehub | requirements.txt | 4
+ffreemt/light-aligner | requirements.txt | 9
+machow/siuba | requirements.txt | 14
+inside-track/pandas-mapper | requirements.txt | 3

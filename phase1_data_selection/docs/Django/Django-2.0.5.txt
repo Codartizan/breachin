@@ -1,0 +1,3 @@
+navedr/django-reusable | requirements.txt | 24
+lordoftheflies/hydra-presentation | requirements.txt | 17
+thelabnyc/instrumented-soap | requirements.txt | 6

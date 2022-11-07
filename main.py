@@ -1,5 +1,5 @@
 # This is a sample Python script.
-from breachin.libraries_io_api.get_dependencies_by_rank import search_dependency_by_rank
+from phase2_extract_diffs.libraries_io_api.get_dependencies_by_rank import search_dependency_by_rank
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 

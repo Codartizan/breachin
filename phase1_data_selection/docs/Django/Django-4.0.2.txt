@@ -1,0 +1,6 @@
+portant-shop/django-commons | requirements.txt | 5
+IvanRomanchenko/django-bot-faq | setup.py | 9
+portant-shop/mailing | requirements.txt | 14
+IvanRomanchenko/django-tbot-base | setup.py | 5
+davidegalletti/django_database_logger | requirements.txt | 20
+marekprochazka/django-dart-reverse | requirements.txt | 25

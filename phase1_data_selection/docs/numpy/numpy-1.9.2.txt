@@ -1,0 +1,7 @@
+openbci-archive/OpenBCI_Python | requirements.txt | 5
+VeritoneAlpha/xpatterns-xframe | requirements.txt | 9
+Mindwerks/worldengine | requirements.txt | 26
+sparklingpandas/sparklingpandas | setup.py | 7
+jon--lee/neuralpy | setup.py | 9
+stitchfix/fauxtograph | requirements.txt | 3
+frnsys/broca | requirements.txt | 9

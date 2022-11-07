@@ -1,0 +1,10 @@
+just-work/django-admin-wizard | requirements.txt | 14
+just-work/django-sitemap-generate | requirements.txt | 15
+just-work/django-testing-utils | requirements.txt | 12
+just-work/rest-framework-smoke | requirements.txt | 14
+just-work/django-admin-blame | requirements.txt | 13
+just-work/django-video-transcoding | requirements.txt | 17
+hartwork/jawanndenn | requirements.txt | 18
+just-work/django-denormalized | requirements.txt | 18
+nickromano/product-release-notes | requirements.txt | 21
+nickromano/django-daily-digest | requirements.txt | 15

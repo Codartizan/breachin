@@ -1,0 +1,15 @@
+vanvalen/deepcell-tf | requirements.txt | 29
+povilasb/ocr-pack | requirements.txt | 4
+sahamath/PSO-QPSO | requirements.txt | 8
+melvin15may/ssdedupe | requirements.txt | 3
+KirovVerst/qlink | requirements.txt | 4
+granularag/pyspatial | requirements.txt | 9
+5amrun/pre-ml | requirements.txt | 6
+polyaxon/polyaxon-lib | setup.py | 25
+drckf/paysage | requirements.txt | 22
+jkibele/OpticalRS | requirements.txt | 23
+NervanaSystems/neon | requirements.txt | 22
+undertheseanlp/languageflow | requirements.txt | 10
+PurdueCAM2Project/CAM2ImageArchiver | requirements.txt | 3
+pkmital/pycadl | requirements.txt | 27
+Reichenbachian/adlframework | requirements.txt | 28

@@ -1,0 +1,7 @@
+MaximilianSti/dexom_python | setup.py | 11
+alpa-projects/alpa | setup.py | 24
+mhconradt/research-tools | requirements.txt | 3
+xyzhang/sbfit | requirements.txt | 7
+gbrltv/cdesf2 | requirements.txt | 13
+LABSS/PyPROTON-OC | requirements.txt | 3
+TheAustinator/cellforest | requirements.txt | 17

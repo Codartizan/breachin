@@ -1,0 +1,4 @@
+MartinPaulEve/django-caretaker | requirements.txt | 22
+00-team/black-knight | requirements.txt | 24
+just-work/django-admin-smoke | requirements.txt | 11
+jdelic/authserver | requirements.txt | 25

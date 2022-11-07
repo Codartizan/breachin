@@ -1,0 +1,17 @@
+MIC-DKFZ/BodyPartRegression | requirements.txt | 11
+joeltanwr/DirtyDF | requirements.txt | 11
+adaa-polsl/RuleKit-python | requirements.txt | 6
+woj-i/degiro-pit | requirements.txt | 3
+JeremieGince/AutoMLpy | requirements.txt | 7
+JeffersonLab/rfwtools | requirements.txt | 19
+ArchivedProjects/Rover | requirements.txt | 26
+neuromat/smallest_maximizer_criterion | requirements.txt | 8
+JCamyre/Python-Trading | requirements.txt | 11
+mshumko/aurora-asi-lib | requirements.txt | 4
+Garve/scikit-bonus | requirements.txt | 7
+penguinwang96825/nlp4ml | requirements.txt | 6
+imohitmayank/jaal | requirements.txt | 4
+andrewtavis/kwx | requirements.txt | 4
+sixone11/stackimpute | requirements.txt | 9
+watson-developer-cloud/assistant-improve-recommendations-notebook | requirements.txt | 9
+musicfox/pycmc | requirements.txt | 7

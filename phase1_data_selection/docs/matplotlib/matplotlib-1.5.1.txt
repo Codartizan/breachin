@@ -1,0 +1,4 @@
+par2/lamana | requirements.txt | 8
+chengsoonong/crowdastro | requirements.txt | 23
+geosensing/allocator | requirements.txt | 6
+carlosqsilva/pyspc | requirements.txt | 5

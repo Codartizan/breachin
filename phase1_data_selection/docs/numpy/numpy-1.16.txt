@@ -1,0 +1,5 @@
+Boulder-Cryogenic-Quantum-Testbed/scresonators | requirements.txt | 17
+CambridgeMolecularEngineering/chemdataextractor2 | setup.py | 5
+rsanchezgarc/deepEMhancer | setup.py | 7
+ska-sa/casperfpga | requirements.txt | 18
+bmill3r/EpiClass | setup.py | 3

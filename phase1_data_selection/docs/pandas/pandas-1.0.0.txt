@@ -1,0 +1,9 @@
+fernandonieuwveldt/mlxops-pipeline | requirements.txt | 6
+Jwuthri/Maupassant | setup.py | 7
+cqfn/aibolit | requirements.txt | 8
+prasannals/tf_object_detection_util | requirements.txt | 3
+comptechaug/textaug | requirements.txt | 5
+kearnz/autoimpute | requirements.txt | 24
+getzlab/deTiN | requirements.txt | 4
+techbureau/zaifbot | requirements.txt | 6
+john-sandall/maven | requirements.txt | 10

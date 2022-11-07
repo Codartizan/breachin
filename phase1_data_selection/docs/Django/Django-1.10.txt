@@ -1,0 +1,4 @@
+vicalloy/LBForum | setup.py | 16
+mypebble/django-madcap-flare | requirements.txt | 13
+DallasMorningNews/django-datafreezer | requirements.txt | 25
+DallasMorningNews/django-datafreezer-deployment | requirements.txt | 4

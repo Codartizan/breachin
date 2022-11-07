@@ -1,0 +1,16 @@
+somts/odf-ctd-proc | requirements.txt | 24
+kensk8er/chicksexer | requirements.txt | 3
+empiricalstateofmind/eventgraphs | requirements.txt | 6
+Danielhp95/tennis-model | setup.py | 9
+tompollard/tableone | requirements.txt | 3
+meetps/pytorch-semseg | requirements.txt | 17
+dssg/pgdedupe | requirements.txt | 3
+numenta/nupic | requirements.txt | 29
+mavrix93/LightCurvesClassifier | requirements.txt | 23
+numenta/htmresearch | requirements.txt | 30
+breakfastny/flipdisc-python-framework | setup.py | 12
+pskeshu/doodle | requirements.txt | 3
+DLTK/DLTK | requirements.txt | 27
+PyconUK/ConferenceScheduler | requirements.txt | 16
+ylogx/aesthetics | requirements.txt | 5
+suhimahes/nupic | requirements.txt | 30

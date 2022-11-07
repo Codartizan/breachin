@@ -1,0 +1,13 @@
+data-engineering-collective/plateau | requirements.txt | 22
+canismarko/scimap | requirements.txt | 28
+JPLMLIA/MLIB | requirements.txt | 24
+stjude/PrimerTK | requirements.txt | 5
+mittalgovind/fifty | requirements.txt | 3
+JDASoftwareGroup/kartothek | requirements.txt | 22
+marcomoretto/pyCOMPASS | requirements.txt | 3
+soonyenju/pysy | requirements.txt | 17
+jp43/MDKit | setup.py | 4
+RasaHQ/rasa_core | requirements.txt | 16
+kavehmahdavi/KAVICA | requirements.txt | 19
+heracleia/pyrdmp | requirements.txt | 3
+zheminzhou/SPARSE | requirements.txt | 17

@@ -1,0 +1,7 @@
+opps/opps | requirements.txt | 30
+jpardobl/django-thermostat | setup.py | 23
+demianbrecht/django-sanction | requirements.txt | 12
+jpardobl/django-haweb | setup.py | 8
+jpardobl/django-hautomation | setup.py | 13
+jpardobl/django-hautomation-suite | setup.py | 14
+jpardobl/cacti_rest | setup.py | 6

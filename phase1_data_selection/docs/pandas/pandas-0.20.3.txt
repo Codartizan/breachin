@@ -1,0 +1,13 @@
+somts/odf-ctd-proc | requirements.txt | 25
+dkn22/embedder | requirements.txt | 5
+ecampana/metrictensor | requirements.txt | 4
+MingjieJian/ir_ldr | requirements.txt | 4
+zhafen/galaxy-dive | requirements.txt | 11
+Hong-Xiang/dxdata | setup.py | 13
+KirovVerst/qlink | requirements.txt | 4
+tobgu/qcache | setup.py | 4
+granularag/pyspatial | requirements.txt | 4
+jkibele/OpticalRS | requirements.txt | 10
+rnwolf/jira-metrics-extract | requirements.txt | 3
+LCSB-BioCore/Fractalis | setup.py | 29
+Reichenbachian/adlframework | requirements.txt | 9

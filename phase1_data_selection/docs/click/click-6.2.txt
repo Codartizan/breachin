@@ -1,0 +1,6 @@
+manuphatak/python_hangman | requirements.txt | 5
+mardix/Mocha | requirements.txt | 3
+li-clutter-org/loadimpact-cli | requirements.txt | 14
+ci-team/jimmy | requirements.txt | 12
+DeviaVir/cassandras3 | requirements.txt | 4
+abconway/bluecanary | setup.py | 8

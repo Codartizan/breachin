@@ -1,0 +1,8 @@
+icecube/TauRunner | requirements.txt | 6
+duocang/pipasic | requirements.txt | 4
+ynshen/k-seq | requirements.txt | 3
+thomasgilgenast/hic3defdr | requirements.txt | 19
+man-group/dtale | requirements.txt | 6
+gt-frc/gt3 | requirements.txt | 27
+gt-frc/neutpy | requirements.txt | 5
+MarcoMuellner/SMURFS | requirements.txt | 4

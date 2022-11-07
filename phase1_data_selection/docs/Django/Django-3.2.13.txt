@@ -1,0 +1,5 @@
+uzh/ddm | requirements.txt | 25                                 No
+Duckerise/ducker-notifications | requirements.txt | 10          No
+Abdenasser/dr_scaffold | requirements.txt | 11                  No No
+karrioapi/karrio | requirements.txt | 28                        No
+bento-platform/bento_lib | requirements.txt | 4                 No

@@ -1,0 +1,4 @@
+emanjavacas/retrieve | requirements.txt | 15
+Sirsirious/NLPTools | requirements.txt | 6
+pyplan/pyplan-core | requirements.txt | 19
+maajor/pyhapi | requirements.txt | 8

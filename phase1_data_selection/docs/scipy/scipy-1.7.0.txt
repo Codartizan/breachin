@@ -1,0 +1,7 @@
+LCAV/LenslessPiCam | setup.py | 4
+JPLMLIA/UQ4K | requirements.txt | 3
+alegiac95/Imaging-transcriptomics | requirements.txt | 5
+MIC-DKFZ/BodyPartRegression | requirements.txt | 5
+MatthewFilipovich/pycharge | requirements.txt | 12
+deepmind/alphafold | requirements.txt | 4
+McMorranLab/wsp_tools | requirements.txt | 3

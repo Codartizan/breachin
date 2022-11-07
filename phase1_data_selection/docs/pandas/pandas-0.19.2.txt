@@ -1,0 +1,10 @@
+smirik/mass-resonances | setup.py | 8
+rooster1979/mlfin | requirements.txt | 12
+IntuitiveWebSolutions/diffino | requirements.txt | 5
+Danielhp95/tennis-model | setup.py | 12
+shawxiaozhang/wefacts | setup.py | 4
+hall-lab/svtools | setup.py | 3
+BD2KGenomics/protect | setup.py | 5
+drckf/paysage | requirements.txt | 15
+thundergolfer/Insults | requirements.txt | 9
+fraenkel-lab/GarNet | requirements.txt | 3

@@ -1,0 +1,3 @@
+dessibelle/sorl-thumbnail-serializer-field | requirements.txt | 8
+purelabs/django-bulk-admin | requirements.txt | 8
+PerchLive/django-broadcast | requirements.txt | 7

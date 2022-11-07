@@ -1,0 +1,10 @@
+njauzrn/faCRSA | requirements.txt | 4
+SamuelJansen/python-framework | setup.py | 28
+ahmetcagriakca/pdip | requirements.txt | 17
+coding-kitties/investing-algorithm-framework | requirements.txt | 12
+roscisz/TensorHive | setup.py | 16
+HsOjo/Saika | requirements.txt | 19
+LifeguardSystem/lifeguard | requirements.txt | 5
+vwt-digital/openapi3-fuzzer | requirements.txt | 3
+hapi-server/plotserver-python | setup.py | 3
+privacyidea/privacyidea | requirements.txt | 26

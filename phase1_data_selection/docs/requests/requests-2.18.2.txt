@@ -1,0 +1,3 @@
+eReuse/DeviceHub | requirements.txt | 10
+einverne/douban-dl | requirements.txt | 4
+ElevenPaths/AtomShields | requirements.txt | 4

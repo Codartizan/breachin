@@ -1,0 +1,1 @@
+cisco-open/otel-py | requirements.txt | 5

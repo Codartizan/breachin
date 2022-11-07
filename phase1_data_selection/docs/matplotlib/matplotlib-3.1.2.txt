@@ -1,0 +1,16 @@
+NLESC-JCER/QMCblip | requirements.txt | 6
+sandialabs/PyRIID | setup.py | 4
+obersteiner/sparseSpACE | requirements.txt | 16
+hannabacave/logistic_module | requirements.txt | 13
+firmai/atspy | requirements.txt | 5
+si-cim/protoflow | requirements.txt | 6
+dgrethlein/RubixCube | requirements.txt | 6
+robertopreste/mitoviz | requirements.txt | 4
+wptmdoorn/methcomp | requirements.txt | 20
+sagar87/tensorsignatures | requirements.txt | 3
+stfxecutables/empyricalRMT | requirements.txt | 5
+christianhidber/easyagents | requirements.txt | 3
+berceanu/sliceplots | requirements.txt | 5
+ncgr/aakbar | requirements.txt | 4
+lichao312214129/lc_private_codes | requirements.txt | 29
+phantasy-project/mpl4qt | requirements.txt | 19

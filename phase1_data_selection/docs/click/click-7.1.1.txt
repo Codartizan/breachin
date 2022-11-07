@@ -1,0 +1,9 @@
+matrixbegins/rokso-pgsql | requirements.txt | 3
+unfor19/githubsecrets | requirements.txt | 4
+unification-com/mainnet-helpers | requirements.txt | 5
+AlirezaKm/expl | requirements.txt | 5
+Openpipe/openpipe | requirements.txt | 6
+trustlines-protocol/relay | requirements.txt | 3
+agda/agda-pkg | requirements.txt | 18
+uTensor/utensor_cgen | requirements.txt | 7
+SadeghHayeri/xSim | requirements.txt | 3

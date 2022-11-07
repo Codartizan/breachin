@@ -1,0 +1,5 @@
+grantjenks/syntaxforest | setup.py | 20
+nhsuk/wagtail-nhsuk-frontend | setup.py | 24
+mbacicc/django-template-email-manager | requirements.txt | 23
+usnistgov/core_main_app | requirements.txt | 27
+hotwire-django/turbo-django | requirements.txt | 20

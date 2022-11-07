@@ -1,0 +1,10 @@
+intelligent-environments-lab/CityLearn | requirements.txt | 9
+icecube/TauRunner | requirements.txt | 22
+man-group/dtale | requirements.txt | 25
+gt-frc/neutpy | requirements.txt | 5
+oie-mines-paristech/lca_algebraic | requirements.txt | 4
+ynshen/k-seq | requirements.txt | 26
+thomasgilgenast/hic3defdr | requirements.txt | 23
+nikikilbertus/fairensics | requirements.txt | 8
+tilde-lab/tilde | requirements.txt | 13
+visualfabriq/portalytics | requirements.txt | 11

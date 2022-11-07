@@ -1,0 +1,3 @@
+SocialSchools/socialschools-cms | requirements.txt | 11
+praekelt/jmbo-foundry | requirements.txt | 30
+hasadna/knesset-data-django | requirements.txt | 20

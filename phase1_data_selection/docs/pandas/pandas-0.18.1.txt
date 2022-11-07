@@ -1,0 +1,9 @@
+Tian-Dechao/diffDomain | requirements.txt | 3
+secimTools/gait-gm | requirements.txt | 4
+yoavram/curveball | requirements.txt | 16
+GraySilver/wencai | requirements.txt | 3
+totalgood/twip | requirements.txt | 18
+carlosqsilva/pyspc | requirements.txt | 4
+bioinformatics-IBCH/logloss-beraf | requirements.txt | 5
+optilude/jira-cycle-extract | requirements.txt | 3
+numenta/htmresearch | requirements.txt | 24

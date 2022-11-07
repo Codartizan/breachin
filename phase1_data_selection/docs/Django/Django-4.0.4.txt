@@ -1,0 +1,8 @@
+internetarchive/arklet | requirements.txt | 15
+BdVade/DRF-admin | requirements.txt | 19
+miare-ir/unleash-django | requirements.txt | 5
+brenokcc/sloth | requirements.txt | 30
+prayagsrivastava/django-user-login | requirements.txt | 3
+riccardoFasan/django-polyglot | requirements.txt | 8
+just-work/django-celery-rpc | requirements.txt | 19
+just-work/django-image-assets | requirements.txt | 24

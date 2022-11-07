@@ -1,0 +1,6 @@
+kgohil27/PyCAT | setup.py | 3
+datamllab/AutoRec | requirements.txt | 6
+glamlab/glambox | requirements.txt | 8
+DatosAbiertos2020/spotichart | requirements.txt | 5
+CiaranWelsh/pycotools3 | requirements.txt | 10
+foarsitter/decide-exchange-model | requirements.txt | 5

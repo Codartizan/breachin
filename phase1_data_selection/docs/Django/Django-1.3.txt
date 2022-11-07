@@ -1,0 +1,3 @@
+pterk/finch-cms | setup.py | 14
+caioceccon/django-shipping | requirements.txt | 16
+incuna/authentic | requirements.txt | 29

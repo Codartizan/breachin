@@ -1,0 +1,2 @@
+jpardobl/monscale | setup.py | 24
+machinalis/telegraphy | requirements.txt | 19

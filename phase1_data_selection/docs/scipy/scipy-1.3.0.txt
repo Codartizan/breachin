@@ -1,0 +1,9 @@
+auto-flow/auto-flow | requirements.txt | 14
+Dowell-Lab/TFEA | requirements.txt | 4
+charx7/DynamicBayesianNetworks | requirements.txt | 5
+shakelab/shakelab | requirements.txt | 8
+stfxecutables/empyricalRMT | requirements.txt | 10
+PNNL-Comp-Mass-Spec/CRNT4SBML | requirements.txt | 12
+AnasEmad11/aa | requirements.txt | 3
+LoLab-VU/MAGINE | requirements.txt | 4
+mozilla/dye-score | setup.py | 3

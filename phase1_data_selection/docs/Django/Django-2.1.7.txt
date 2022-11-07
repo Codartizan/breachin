@@ -1,0 +1,2 @@
+gnosis/django-eth-events | requirements.txt | 26
+barbuza/django-happymailer | requirements.txt | 19

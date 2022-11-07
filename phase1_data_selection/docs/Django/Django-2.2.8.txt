@@ -1,0 +1,8 @@
+Faisal-Manzer/django-paytm-checkout | requirements.txt | 11
+praekeltfoundation/seed-control-interface | setup.py | 14
+praekeltfoundation/seed-stage-based-messaging | setup.py | 26
+praekeltfoundation/seed-message-sender | setup.py | 26
+praekeltfoundation/seed-scheduler | setup.py | 21
+praekeltfoundation/seed-identity-store | setup.py | 22
+praekeltfoundation/seed-control-interface-service | setup.py | 25
+praekeltfoundation/seed-auth-api | setup.py | 24

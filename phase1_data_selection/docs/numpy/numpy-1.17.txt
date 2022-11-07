@@ -1,0 +1,6 @@
+AlexKay28/zarnitsa | requirements.txt | 7
+James-Montgomery/lind | requirements.txt | 15
+fabiofumarola/ultrayolo | requirements.txt | 14
+marekborowiec/spruceup | setup.py | 3
+IntelLabs/nlp-architect | requirements.txt | 22
+doyubkim/fluid-engine-dev | requirements.txt | 13

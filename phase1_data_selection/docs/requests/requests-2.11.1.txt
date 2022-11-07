@@ -1,0 +1,15 @@
+Robin8Put/pmes | requirements.txt | 22
+yhat/yhat-client | setup.py | 3
+ai-wordsmith/wordsmith-python-sdk | requirements.txt | 4
+21dotco/two1-python | requirements.txt | 22
+TissueMAPS/TmDeploy | requirements.txt | 4
+learningequality/ka-lite | requirements.txt | 24
+pitrho/rancher-gen | setup.py | 3
+tizz98/prosperworks-api | requirements.txt | 4
+alisterionold/payfort-python | requirements.txt | 5
+moonsun-git/bmcs-cli | requirements.txt | 6
+nickrw/keyfree | requirements.txt | 3
+dgwartney-io/import-io-api-python | requirements.txt | 8
+micro-fan/fan | requirements.txt | 3
+dnsdb-team/dnsdb-python-sdk | requirements.txt | 3
+agouil/deepgram-python | setup.py | 3

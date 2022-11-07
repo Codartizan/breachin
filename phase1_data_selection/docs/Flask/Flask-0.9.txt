@@ -1,0 +1,8 @@
+tsuru/varnishapi | requirements.txt | 3
+litl/leeroy | requirements.txt | 4
+tzulberti/Flask-PyPi-Proxy | requirements.txt | 7
+rehandalal/flask-funnel | requirements.txt | 8
+demianbrecht/flask-canvas | requirements.txt | 4
+charlesflynn/eve-docs | requirements.txt | 3
+thieman/dagobah | requirements.txt | 7
+ErinCall/catsnap | setup.py | 11

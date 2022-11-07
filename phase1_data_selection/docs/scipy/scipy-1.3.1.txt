@@ -1,0 +1,16 @@
+tmfrlska/edudata | requirements.txt | 6
+kgohil27/PyCAT | setup.py | 3
+deweylab/CellO | requirements.txt | 3
+DSE-MSU/DeepRobust | requirements.txt | 20
+LLNL/CallFlow | requirements.txt | 4
+duxfrederic/diffpanstarrs | requirements.txt | 3
+SuperKogito/pydiogment | requirements.txt | 4
+GeoscienceAustralia/uncover-ml | requirements.txt | 15
+assamite/creamas | requirements.txt | 5
+allenai/HyBayes | requirements.txt | 8
+robertopreste/prestools | requirements.txt | 3
+HussainiLab/BinConverter | requirements.txt | 3
+MaxStrange/AudioSegment | requirements.txt | 6
+darothen/pyrcel | requirements.txt | 5
+etienne-monier/inpystem | requirements.txt | 8
+renll/rongba | requirements.txt | 9

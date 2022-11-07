@@ -1,0 +1,5 @@
+cogniteev/pyonedrive | requirements.txt | 4
+unhaltable/pycanlii | requirements.txt | 3
+heat-tools/hot | requirements.txt | 3
+vladimirmyshkovski/django-wallets | setup.py | 7
+contentful-labs/contentful.py | setup.py | 3

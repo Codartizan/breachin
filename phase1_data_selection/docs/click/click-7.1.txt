@@ -1,0 +1,3 @@
+hmiladhia/nbmanips | requirements.txt | 8
+danielmorell/cruncher | setup.py | 3
+paterit/version-checker | setup.py | 4

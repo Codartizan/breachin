@@ -1,0 +1,2 @@
+yspanchal/docli | requirements.txt | 12
+Grunny/zap-cli | setup.py | 8

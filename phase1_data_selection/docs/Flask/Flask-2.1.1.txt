@@ -1,0 +1,10 @@
+catalystneuro/heidelberg-metadata-gui | requirements.txt | 6
+label-sleuth/label-sleuth | requirements.txt | 3
+AlephVault/standard-http-mongodb-storage | setup.py | 5
+PyThursdays/grizzzly | requirements.txt | 7
+xaled/ElementaryFlask | requirements.txt | 24
+ovh/celery-director | requirements.txt | 13
+chriskuehl/fluffy | requirements.txt | 8
+WessexWater/chellow | setup.py | 28
+ckan/ckan-service-provider | requirements.txt | 3
+Capitains/Hook | requirements.txt | 7

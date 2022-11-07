@@ -1,0 +1,4 @@
+wercker/DEPRECATED-wercker-cli | requirements.txt | 5
+Vassius/ttrss-python | requirements.txt | 3
+Education-Numerique/api | setup.py | 8
+marekjm/diaspy | requirements.txt | 3

@@ -1,0 +1,8 @@
+LarrySnyder/stockpyl | requirements.txt | 26
+Clearbox-AI/StructuredDataProfiling | requirements.txt | 5
+mrvollger/fibertools | requirements.txt | 7
+HanXudong/fairlib | requirements.txt | 23
+SandoghdarLab/PiSCAT | requirements.txt | 26
+BioSTEAMDevelopmentGroup/thermosteam | requirements.txt | 25
+facebookresearch/access | requirements.txt | 4
+PyThaiNLP/pythainlp | requirements.txt | 11

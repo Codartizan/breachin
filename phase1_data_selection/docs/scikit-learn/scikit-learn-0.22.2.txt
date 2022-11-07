@@ -1,0 +1,5 @@
+BUDDI-AI/CIAMS | requirements.txt | 4
+jaisenbe58r/MLearner | requirements.txt | 5
+Nathanlauga/transparentai | requirements.txt | 4
+GeoscienceAustralia/uncover-ml | requirements.txt | 7
+thorwhalen/ut | requirements.txt | 5

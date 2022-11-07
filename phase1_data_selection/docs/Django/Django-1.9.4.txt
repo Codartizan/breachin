@@ -1,0 +1,2 @@
+telefonicaid/fiware-cloto | requirements.txt | 19
+MicroPyramid/django-blog-it | requirements.txt | 15

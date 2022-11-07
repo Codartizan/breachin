@@ -1,0 +1,17 @@
+OATML/oatomobile | setup.py | 6
+ismrmrd/ismrmrdviewer | requirements.txt | 3
+bthornton191/thornpy | requirements.txt | 7
+bthornton191/adamspy | requirements.txt | 8
+jeremymoreau/mnisiscom | requirements.txt | 3
+astrazeneca-cgr-publications/mantis-ml-release | setup.py | 29
+ContextLab/timecorr | requirements.txt | 7
+VlachosGroup/ORR-Optimization | requirements.txt | 13
+scipion-em/scipion-pyworkflow | requirements.txt | 4
+wywongbd/autocluster | requirements.txt | 3
+hlgirard/CrystalML | requirements.txt | 4
+HussainiLab/hfoGUI | requirements.txt | 4
+bthornton191/dripy | requirements.txt | 4
+louis-she/minetorch | requirements.txt | 3
+amloren1/ExoPlex | requirements.txt | 9
+UGentBiomath/wwdata | requirements.txt | 5
+AxeldeRomblay/MLBox | requirements.txt | 3

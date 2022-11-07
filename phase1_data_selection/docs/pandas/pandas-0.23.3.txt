@@ -1,0 +1,3 @@
+IITDBGroup/cape | requirements.txt | 16
+MSingerLab/COMETSC | requirements.txt | 4
+MPI-Dortmund/transphire_transform | requirements.txt | 17

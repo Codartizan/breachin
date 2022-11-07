@@ -1,0 +1,8 @@
+Superzchen/iLearnPlus | requirements.txt | 3
+jroakes/ForecastGA | requirements.txt | 3
+sakoho81/pyimagequalityranking | requirements.txt | 5
+DuraMAT/pvarc | requirements.txt | 3
+JFLandrigan/eagles | requirements.txt | 5
+murraylab/brainsmash | requirements.txt | 3
+scikit-maad/scikit-maad | requirements.txt | 12
+pmandera/semspaces | setup.py | 3

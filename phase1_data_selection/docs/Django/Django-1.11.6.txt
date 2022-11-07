@@ -1,0 +1,2 @@
+cltrudeau/django-yacon | requirements.txt | 16
+dstarner/django_thrift | requirements.txt | 7

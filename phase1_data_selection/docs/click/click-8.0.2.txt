@@ -1,0 +1,2 @@
+william-cass-wright/media-mgmt-cli | requirements.txt | 4
+valory-xyz/open-autonomy | setup.py | 14

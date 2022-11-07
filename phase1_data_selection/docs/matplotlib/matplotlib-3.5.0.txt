@@ -1,0 +1,13 @@
+cambiegroup/flowchem | requirements.txt | 4
+jangddol/EXP_jangddol_pip | requirements.txt | 4
+McMorranLab/ltempy | requirements.txt | 11
+fja05680/pinkfish | requirements.txt | 4
+stefanbschneider/mobile-env | setup.py | 3
+Cosmoglobe/Cosmoglobe | requirements.txt | 8
+sylvchev/mdla | requirements.txt | 7
+APLA-Toolbox/pymapf | requirements.txt | 4
+NREL/rdtools | requirements.txt | 8
+thompsonsed/pycoalescence | requirements.txt | 3
+cytoflow/cytoflow | requirements.txt | 29
+pct-code/scalewiz | requirements.txt | 5
+SandoghdarLab/PiSCAT | requirements.txt | 17

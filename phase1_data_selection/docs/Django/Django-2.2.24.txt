@@ -1,0 +1,8 @@
+samuelmovi/drf-tester | requirements.txt | 9
+briefmnews/django-podle | requirements.txt | 19
+netgarden/staby | requirements.txt | 25
+trco/django-bootstrap-modal-forms | requirements.txt | 19
+xvronny/django-typeahead | requirements.txt | 11
+siddhism/smart-queries | requirements.txt | 25
+Nerlin/django-polymorphic-queryset | requirements.txt | 5
+Parisson/TimeSide | requirements.txt | 27

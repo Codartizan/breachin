@@ -1,0 +1,7 @@
+iamjli/keggx | requirements.txt | 3
+USDA-ARS-NWRC/snowav | requirements.txt | 17
+meetps/pytorch-semseg | requirements.txt | 6
+1a1a11a/PyMimircache | requirements.txt | 9
+drckf/paysage | requirements.txt | 5
+mavrix93/LightCurvesClassifier | requirements.txt | 6
+pskeshu/doodle | requirements.txt | 3

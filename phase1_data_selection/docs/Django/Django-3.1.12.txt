@@ -1,0 +1,3 @@
+akitasoftware/akita-django | requirements.txt | 3
+hacknd/django-rest-social-email-allauth | requirements.txt | 22
+erygreat/scrapycw | requirements.txt | 17

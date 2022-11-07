@@ -1,0 +1,10 @@
+Emmarex/django-audit | requirements.txt | 15                  No
+just-work/django-manticore | requirements.txt | 23            No
+vrchost/rooibos | requirements.txt | 26                       Succeed
+rafaelurben/django-discordbot | requirements.txt | 27         No
+r4g3baby/money-lib | requirements.txt | 3                     No
+rootstrap/django-drip-campaigns | requirements.txt | 18       Fail
+ubccr/coldfront | requirements.txt | 26                       No
+
+
+from 3.2.14 to 4.0.6

@@ -1,0 +1,12 @@
+settylab/2for1separator | setup.py | 6
+RothkopfLab/lqg | requirements.txt | 8
+migueleci/node_classification | requirements.txt | 3
+conor-horgan/spectrai | setup.py | 17
+Aalto-Arotor/openTorsion | requirements.txt | 8
+RoberAgro/HES-OFF | requirements.txt | 4
+cwmccurdy/quantumGrid | requirements.txt | 7
+salesforce/ai-economist | requirements.txt | 3
+baigouy/EPySeg | setup.py | 16
+tyiannak/pyAudioAnalysis | requirements.txt | 7
+PedroCotovio/nclustgen | requirements.txt | 3
+brettChapman/multivis | setup.py | 8

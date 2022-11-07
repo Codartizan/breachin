@@ -1,0 +1,17 @@
+edgerun/galileo | requirements.txt | 12
+rmetcalf9/EllucianEthosPythonClient | setup.py | 10
+singer-io/tap-mailchimp | setup.py | 3
+BuiltonDev/python-sdk | requirements.txt | 4
+digirati-co-uk/pyelucidate | requirements.txt | 3
+Duke-GCB/lando | setup.py | 5
+SynapseFI/SynapsePy | requirements.txt | 6
+mqtran01/python-yahoofinance | requirements.txt | 8
+Mirdalan/base_astro_bot | requirements.txt | 4
+AloneFire/flask-hsrpc | requirements.txt | 3
+openlegaldata/oldp | setup.py | 4
+wmgroot/servicer | setup.py | 9
+workforce-data-initiative/skills-ml | requirements.txt | 12
+intercom/python-intercom | requirements.txt | 7
+theendsofinvention/esst | requirements.txt | 5
+Stratoscale/docker-test-tools | requirements.txt | 6
+cloudblue/apsconnect-cli | requirements.txt | 4

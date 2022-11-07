@@ -1,0 +1,7 @@
+shahcompbio/scgenome | requirements.txt | 11
+ackmanlab/pySEAS | requirements.txt | 4
+sylvchev/mdla | requirements.txt | 3
+fhidalgor/mutagenesis_visualization | requirements.txt | 5
+lukingroup/pylabnet | requirements.txt | 7
+gmrukwa/divik | requirements.txt | 9
+Karan-Malik/prepdata | setup.py | 3

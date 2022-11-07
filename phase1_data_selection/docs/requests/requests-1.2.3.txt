@@ -1,0 +1,20 @@
+ThomasKliszowski/ubackup | requirements.txt | 7 | NO Breaking Change Found | Test cannot be executed.
+allegro/tipboard | requirements.txt | 3 |  Not a pure python project - JavaScript 92.0% Python 4.7%
+
+scieloorg/scieloapi.py | setup.py | 5 | NO Breaking Change Found
+heyimalex/s3tup | requirements.txt | 4
+marklap/rundeckrun | requirements.txt | 5
+scieloorg/ratchetapi.py | setup.py | 4
+z4r/python-fanart | requirements.txt | 3
+philippbosch/muto | requirements.txt | 4
+jakubroztocil/lastfmclient | requirements.txt | 4
+mozilla/esFrontLine | setup.py | 5
+dailymuse/catnap | requirements.txt | 3
+
+
+
+
+
+request 1.2.3 released in 2013.05.26
+supported python 3.3.2
+          python 2.7.5

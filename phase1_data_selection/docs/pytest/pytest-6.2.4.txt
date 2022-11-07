@@ -1,0 +1,16 @@
+friendliai/periflow-cli | setup.py | 14
+friendliai/periflow-python-sdk | setup.py | 4
+ModelFlow/modelflow | requirements.txt | 7
+instadeepai/Mava | setup.py | 25
+jeremy-jin/nameko-atomicity | setup.py | 3
+NVIDIA/clara-pipeline-operator-sizing-tool | requirements.txt | 7
+alegiac95/Imaging-transcriptomics | requirements.txt | 5
+valenzano-lab/aegis | setup.py | 6
+tatsuya4649/printm | requirements.txt | 3
+Standard-Unix-Notes/pynoteslib | requirements.txt | 3
+GispoCoding/pytest-qgis | requirements.txt | 17
+danieldeutsch/repro | setup.py | 7
+devil-cyber/flash | requirements.txt | 6
+dcmi/dctap-python | requirements.txt | 13
+nayaverdier/newql | setup.py | 3
+rayniervanegmond/sciencewriter | requirements.txt | 7

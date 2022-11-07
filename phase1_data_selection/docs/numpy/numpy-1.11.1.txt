@@ -1,0 +1,8 @@
+rooster1979/mlfin | requirements.txt | 14
+yoavram/curveball | requirements.txt | 13
+vaclavcadek/titanium | setup.py | 5
+carlosqsilva/pyspc | requirements.txt | 16
+blagasz/nao | setup.py | 3
+ioos/qartod | requirements.txt | 6
+uberscientist/activetick_http | requirements.txt | 3
+jeremy-ma/gmmmc | requirements.txt | 10

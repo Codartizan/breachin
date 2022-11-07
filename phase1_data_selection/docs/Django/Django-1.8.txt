@@ -1,0 +1,3 @@
+CHARMe-Project/djcharme | requirements.txt | 26
+praekeltfoundation/django-messaging-contentstore | requirements.txt | 10
+tzulberti/django-datefilterspec | requirements.txt | 3

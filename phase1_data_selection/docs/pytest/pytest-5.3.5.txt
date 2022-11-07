@@ -1,0 +1,3 @@
+marnanel/yex | requirements.txt | 23
+targetaidev/arku | setup.py | 6
+labd/django-cognito-jwt | setup.py | 3

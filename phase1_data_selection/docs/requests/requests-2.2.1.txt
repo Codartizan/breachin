@@ -1,0 +1,10 @@
+rshipp/python-appassure | requirements.txt | 4
+Ubuntu-Solutions-Engineering/openstack-installer | requirements.txt | 5
+9seconds/rymtracks | setup.py | 3
+Wikia/data-science-toolkit | requirements.txt | 21
+cafca/souma | requirements.txt | 6
+cameronmaske/skipper | setup.py | 4
+orchardup/python-orchard | setup.py | 5
+longaccess/longaccess-client | requirements.txt | 3
+alphagov/ghtools | setup.py | 4
+rpedigoni/fbads | requirements.txt | 4

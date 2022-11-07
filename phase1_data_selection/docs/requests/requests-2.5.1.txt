@@ -1,0 +1,7 @@
+rafaelportugal/ZendeskIntegration | requirements.txt | 3
+mattvonrocketstein/ymir | setup.py | 4
+astagi/exp-api | requirements.txt | 8
+slok/prometheus-python | requirements.txt | 4
+Mendeley/mendeley-python-sdk | requirements.txt | 3
+ashleysommer/haleasy | requirements.txt | 3
+bslatkin/dpxdt | requirements.txt | 8

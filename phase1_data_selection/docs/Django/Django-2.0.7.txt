@@ -1,0 +1,1 @@
+aljp/drf_model_pusher | requirements.txt | 11

@@ -1,0 +1,7 @@
+gt-frc/gt3 | requirements.txt | 18
+ponl/m2py | requirements.txt | 3
+Merck/deepbgc | setup.py | 5
+orbingol/geomdl-cli | requirements.txt | 3
+orbingol/NURBS-Python | requirements.txt | 3
+sbl-sdsc/mmtf-pyspark | setup.py | 6
+openAGI/tefla | requirements.txt | 5

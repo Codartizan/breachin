@@ -1,0 +1,2 @@
+datalyze-solutions/pandas-qt | setup.py | 18
+mining/mining | requirements.txt | 4

@@ -1,0 +1,13 @@
+Benjymack/pyhp | requirements.txt | 3
+mmdbalkhi/Flask-tinydb | requirements.txt | 8
+baezfb/OpenWebPOS | requirements.txt | 11
+snarfed/oauth-dropins | requirements.txt | 22
+facebook/sapp | requirements.txt | 3
+oceanprotocol/provider | setup.py | 17
+Techainer/mlchain-python | requirements.txt | 10
+obfusk/jiten | requirements.txt | 5
+sciapp/sampledb | requirements.txt | 30
+BrythonServer/brython-server | requirements.txt | 3
+mitre/thumbtack | requirements.txt | 6
+flaskbb/flaskbb | requirements.txt | 19
+alerta/alerta | requirements.txt | 24

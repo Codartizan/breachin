@@ -1,0 +1,4 @@
+vanvalen/deepcell-tf | requirements.txt | 18
+WilliamJudge94/sxdm | requirements.txt | 9
+numenta/htmresearch | requirements.txt | 28
+ahuang11/ahh | requirements.txt | 3

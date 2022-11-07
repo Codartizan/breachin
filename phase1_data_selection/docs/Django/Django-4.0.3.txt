@@ -1,0 +1,5 @@
+israelabraham/djangorest-routes | requirements.txt | 21
+ericziethen/django-property-filter | requirements.txt | 10
+juntagrico/juntagrico | requirements.txt | 24
+osakunta/django-ilmo-app | requirements.txt | 15
+pylixm/django-mdeditor | requirements.txt | 18

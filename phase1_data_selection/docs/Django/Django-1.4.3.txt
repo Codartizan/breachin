@@ -1,0 +1,4 @@
+FundedByMe/django-paypal-adaptive | requirements.txt | 22
+multmeio/django-hstore-flattenfields | requirements.txt | 24
+rochapps/django-google-oauth | requirements.txt | 5
+zpassenger/Django-Auction | requirements.txt | 17

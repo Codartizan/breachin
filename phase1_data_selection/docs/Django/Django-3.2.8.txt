@@ -1,0 +1,6 @@
+tangdyy/onlyuserclient | requirements.txt | 26                  No No
+jdevries3133/django_htmx_rest | requirements.txt | 3
+N1K1TAS95/django_composite_auto_field | requirements.txt | 11
+liangdongchang/django-xadmin | requirements.txt | 26            Succeed
+rsinger86/django-lifecycle | requirements.txt | 16
+apache/skywalking-python | requirements.txt | 6
