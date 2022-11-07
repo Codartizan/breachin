@@ -16,12 +16,12 @@ ignores_ext = ('.js', '.mo', '.po', '.css', '.md', '.svg', '.html', '.txt', '.gz
 
 # old_base_dir = '/Users/tshi/researchProjs/pandas/pandas-0.25.3/'
 # new_base_dir = '/Users/tshi/researchProjs/pandas/pandas-1.4.0/'
-#
+
 # old_base_dir = '/Users/tshi/researchProjs/pillow/Pillow-8.1.0/'
 # new_base_dir = '/Users/tshi/researchProjs/pillow/Pillow-9.1.0/'
-#
-old_base_dir = '/Users/tshi/researchProjs/flask/flask-1.0.3/'
-new_base_dir = '/Users/tshi/researchProjs/flask/flask-2.0.3/'
+
+# old_base_dir = '/Users/tshi/researchProjs/flask/flask-1.0.3/'
+# new_base_dir = '/Users/tshi/researchProjs/flask/flask-2.0.3/'
 #
 # old_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.3.0/'
 # new_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.8.0/'
@@ -44,6 +44,6 @@ new_base_dir = '/Users/tshi/researchProjs/flask/flask-2.0.3/'
 # old_base_dir = '/Users/tshi/researchProjs/scipy/scipy-0.19.1/'
 # new_base_dir = '/Users/tshi/researchProjs/scipy/scipy-1.8.0/'
 
-# old_base_dir = '/Users/tshi/researchProjs/click/click-7.1.0/'
-# new_base_dir = '/Users/tshi/researchProjs/click/click-8.1.0/'
+old_base_dir = '/Users/tshi/researchProjs/click/click-7.1.0/'
+new_base_dir = '/Users/tshi/researchProjs/click/click-8.1.0/'
 
