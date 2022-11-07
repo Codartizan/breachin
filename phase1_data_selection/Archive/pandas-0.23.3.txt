@@ -1,0 +1,15 @@
+lsiafara/Bertelsmann-Arvato-Customer-Segmentation-Project
+swtdew/Mission_to_Mars
+rmbborges/UNDE-data-warehouse
+AsifYar/ModifiedSHADE
+kmjui7/2_highlight
+PrajNasa/LSTM-Neural-Network-for-Time-Series-Prediction
+Horizon-coder/-Django-
+PauFB/distributed-dataframe
+AsifYar/shadeils
+barrettab/DOMNE_ND_Predicting-Customer-Churn
+PoornaHegde20/MovieNator
+rmbborges/UNDE-data-modeling-with-cassandra
+Ru-Yan/Sharpe-LSTM-Investment-Model
+bourbonq/autoOCR
+rmbborges/UNDE-data-modeling-with-postgres

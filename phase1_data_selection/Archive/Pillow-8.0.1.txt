@@ -1,0 +1,15 @@
+david-fang0621/proshop
+DosMarcos/Django-App-with-Database
+Arnab-Temporary-Side-Account/final-cloud-app-with-database
+Bionic-TMH/PyRadGUI
+Deepak-technical/Face-Recognition-Attendance-Project
+jl052/Test
+asad5059/Hogwarts
+mikelhishio/test.clone
+MSufiyanAG/dockerized-house-hunter
+SubhoBasak/OpenCV_AttendanceSystem
+Project-SwaG/IGVC_ConeDetectionScript
+SIDANWhatever/capstone
+rohanraj1095/AttendanceSystem_project
+jahnvigangwar/Django-project
+kartikgpt/car-detector

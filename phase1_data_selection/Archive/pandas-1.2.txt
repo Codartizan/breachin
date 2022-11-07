@@ -1,0 +1,5 @@
+lucasvascrocha/stocks
+NeoAi-Health/ydata-synthetic
+Eshwihdi/Scrape_Websites
+mafreihaut/MLOps_project
+UNISvalbard/unisacsi

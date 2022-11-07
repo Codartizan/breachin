@@ -1,0 +1,12 @@
+ejoone/DIWS-ABSC
+VladMiron00/SI-ABSA
+chintankotian/Resolve_data_engineer_challenge
+KuldeepBagga/assignment
+janamoumita1997/Data-Engineer-Customer-data
+Prasadchollangi/Revolve_Solutions_Starter_Project
+minerva-ml/open-solution-home-credit
+terodea/revolvespl
+viky80/Python-Mysql-Assignment-Project
+DrZaighamAbbas/Feature-Selection
+buzinguyen/yomeci_server
+LucijaZuzic/deep-protein-generation-master-add-conditions

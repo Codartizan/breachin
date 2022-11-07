@@ -1,0 +1,17 @@
+amasick/FaceRecognition
+Code-Institute-Submissions/nno24-nikolay-cranner-official_JuneResub
+JJFelix/InternHub-django
+jhonny1201/Scraping-to-google-translators
+Ian-Mc-Okeyo/InternHub
+saifujasoor/invoice-annotation-LayoutLM
+Prashanyh/CICD-pipeline
+Prashanyh/CICDPipeline
+gabrieliovu/test
+Thomas-Basham/hiking-trails-api
+Roibeard-Ruadhan/alcohol-free-ecommerse
+fahimakhtar9079/Attendance-Management-System-using-Face-Recognition
+ed0bus/bitbuy
+saifujasoor/Automatic-Resume-Ranking-with-dataset-and-model
+nno24/nikolay-cranner-official
+tokuD/pkc
+kabszac/inventoryapp

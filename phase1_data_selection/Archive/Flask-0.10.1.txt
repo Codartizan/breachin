@@ -1,0 +1,12 @@
+12foo/event-flyer-factory
+kaiquefonseca/spotmusicfront
+shubomi2/Heart-Disease-Prediction
+avineshwar/discover-flask
+avineshwar/doorman
+avineshwar/requests
+itsnowkim/dkfile-autotagging-test
+Sourabhvb/mypythonRepo
+chunkitnick/intel-30june2022
+madhuda/devops1
+vijkes/pyproject
+SayaliSaware/jendock2

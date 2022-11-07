@@ -1,0 +1,16 @@
+AhmedRifky/SoundDetection
+avineshwar/timesketch
+afilimonov/ai-trading-backtesting
+Braavosi-Design/backtesting
+ibs9668/Bigfive
+mardanisamani/LodgedNet
+shanuhimkar/Chronic-Kidney-Diseases
+cdddg/ptt_crawler
+Abdulmannan112233/Yolo_v3_Tensorflow
+TUMFTM/test_scenarios_cooperation
+HackProAIT/BE_Project
+kuroipearls/imdbWord2Vec
+rogeliorc/IEXETEC_Actividad5
+mokeddembillel/gym-sepsis
+Firecloudfelblood/productos-de-datos
+80r3d/tag-ez

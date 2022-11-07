@@ -1,0 +1,10 @@
+basharahul/CardiacArrest
+laclauc/DynSimilarity
+Bahrul-Rozak/django-clustering-web-apps
+Bahrul-Rozak/clustering-web-application
+ishaansharma7/personal-blog-website
+KelvinHalx/Managment
+RajapriyaRaju/CardiacArrest
+Dreambigxz/autoshopv1
+prem4589/Intel-image-Classification
+anastasiia-honcharuk/Covid-19-data-visualization-CZ

@@ -1,0 +1,2 @@
+ebrahim-sameh/Simple-Django-Blog
+derrosilee/SimplePOS-django

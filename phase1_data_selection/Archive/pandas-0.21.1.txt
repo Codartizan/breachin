@@ -1,0 +1,5 @@
+Braavosi-Design/breakout-strategy
+Braavosi-Design/trading-with-momentum
+Braavosi-Design/portfolio-optimization
+cerionXLII/MomentumBasedStockTrading
+sera2002/Going-Deeper-with-Convolutional-Neural-Network-for-Stock-Market-Prediction-Clone

@@ -1,0 +1,2 @@
+stelb/devicetype-library
+DoktorGhost/bot_netstalker

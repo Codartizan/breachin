@@ -1,0 +1,11 @@
+afilimonov/ai-trading-feature-engineering
+Laxmanya/yadav-store
+opentargets-archive/notebooks
+Braavosi-Design/alpha-research-and-factor-modeling
+soblinger/sparql_to_pandas
+aceuganda/BigDataClass-ACE-Sem-II-2021-2022
+ackermanl77/PythonDataScienceHandbook-master
+afilimonov/combining-signals-for-enhanced-alpha
+NaRoMa/PythonDataScienceHandbok
+m0rp43us/deep-pwning
+LalithK90/PythonDataScienceHandbook

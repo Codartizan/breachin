@@ -1,0 +1,15 @@
+wren93/HiCu-ICD
+7tena/fake-news-detector-backend
+sakizo-blog/dashboard_dash_plotly_en
+mmdzb/modifiedLT
+Alexanderchen929/healthy
+boostcampaitech3/final-project-level3-recsys-10
+joma13331/Credit-Card-Defaulter-Project
+joma13331/Concrete-Compressive-Strength-Project
+BannoPostma/MultimediaAnalytics-Framework-2022
+miller1704/icd10_code_prediction
+fritz-lewagon/Capstone_Project
+EC-BS/nos
+dildeolupbiten/WFM-BPGen
+marseline92/attention_keras
+joma13331/Energy-Efficiency-Project
