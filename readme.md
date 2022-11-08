@@ -18,13 +18,14 @@ An Investigation of Breaking Changes in Python Software Programs
 ## Usage
 This project only records the scripts that are used in the steps of data collection and dependency change pattern extraction.
 Breaking change detection was done manually in docker environments which are not included in this repository. All the data 
-outcome and scripts here are intended to answer research question 1. Three sub-projects were included in this project. 
-The first project is phase1_data_selection which includes all the scripts for extracting Python dependencies and dependent 
-packages by consuming Libraries.io APIs. phase2_extract_diffs1 project includes all the scripts to extract file-level changes 
-between the benchmark and target versions of dependencies. Also, extracted functions change, class change, and module change 
+outcome and scripts here are intended to answer research question 1.     
+
+Three sub-projects were included in this project: The first project is phase1_data_selection which includes all the scripts for extracting Python dependencies and dependent 
+packages by consuming Libraries.io APIs. The phase2_extract_diffs1 project includes all the scripts to extract file-level changes between the benchmark and target versions of dependencies. 
+Also, extracted functions change, class change, and module change 
 from changed Python files and output file diffs for unchanged Python files. phase3_extract_diffs2 based on the output of 
-unchanged Python files diffs, extracted all function, class, and module changes. (unchanged Python files here means the 
-Python file that remained the same file name and relative path in the benchmark and target version).
+unchanged Python files diffs, extracted all function, class, and module changes.     
+*PS: unchanged Python files here means the Python file that remained the same file name and relative path in the benchmark and target version*.
 
 
 ## Project structure
